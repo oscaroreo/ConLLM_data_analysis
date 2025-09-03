@@ -1,0 +1,1802 @@
+[
+    {
+        "index": 1,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 2,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 3,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 4,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 5,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 6,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 7,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 8,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 9,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 10,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 11,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 12,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 13,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 14,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 15,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 16,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 17,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 18,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 19,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 20,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 21,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 22,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 23,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 24,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 25,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 26,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 27,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 28,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 29,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 30,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 31,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 32,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 33,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": true,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 34,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 35,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 36,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 37,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 38,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 39,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 40,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 41,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 42,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 43,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 44,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 45,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 46,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 47,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 48,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 49,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 50,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 51,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 52,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 53,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 54,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 55,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 56,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 57,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 58,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 59,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 60,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 61,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 62,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 63,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 64,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 65,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 66,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 67,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 68,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 69,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 70,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 71,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 72,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 73,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 74,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 75,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 76,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 77,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 78,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 79,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 80,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 81,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 82,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 83,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 84,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 85,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 86,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 87,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 88,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 89,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 90,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 91,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 92,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 93,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 94,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 95,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 96,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 97,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 98,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 99,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 100,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 101,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 102,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 103,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 104,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 105,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 106,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 107,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 108,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 109,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 110,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 111,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 112,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 113,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 114,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 115,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 116,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 117,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 118,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 119,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 120,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 121,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 122,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 123,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 124,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 125,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 126,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 127,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 128,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 129,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 130,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 131,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 132,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 133,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 134,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 135,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 136,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 137,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 138,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 139,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 140,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 141,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 142,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 143,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 144,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 145,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 146,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 147,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 148,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 149,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 150,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 151,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 152,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 153,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 154,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 155,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 156,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 157,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 158,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 159,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 160,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 161,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 162,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 163,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 164,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 165,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 166,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 167,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 168,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 169,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 170,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 171,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 172,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 173,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 174,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 175,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 176,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 177,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 178,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 179,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 180,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 181,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 182,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 183,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 184,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 185,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 186,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 187,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 188,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 189,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": true
+    },
+    {
+        "index": 190,
+        "FinanceBusiness": false,
+        "Politics": true,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 191,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 192,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 193,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": true,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 194,
+        "FinanceBusiness": true,
+        "Politics": false,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 195,
+        "FinanceBusiness": true,
+        "Politics": true,
+        "Entertainment": true,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 196,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 197,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 198,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 199,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    },
+    {
+        "index": 200,
+        "FinanceBusiness": false,
+        "Politics": false,
+        "Entertainment": false,
+        "EmergencyEvents": false,
+        "SciTech": false,
+        "OngoingNewsStory": false
+    }
+]
