@@ -1,0 +1,721 @@
+participant_name,post_index,winner,community_helpfulness_raw,llm_helpfulness_raw,community_helpfulness_score,llm_helpfulness_score,score_difference,note_mapping
+197,2,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+197,3,Community,helpful,helpful,1.0,1.0,0.0,community_first
+197,12,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+197,16,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+197,21,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+197,23,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+197,24,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+197,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+197,30,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+197,32,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+197,34,LLMnote,not helpful,not helpful,0.0,0.0,0.0,llm_first
+197,59,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+197,74,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+197,76,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+197,79,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+197,85,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+197,101,Community,not helpful,not helpful,0.0,0.0,0.0,community_first
+197,111,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+197,122,Community,helpful,helpful,1.0,1.0,0.0,community_first
+197,124,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,7,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+123,12,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+123,28,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+123,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+123,35,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,36,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+123,52,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+123,65,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,68,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+123,69,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,77,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+123,81,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+123,86,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+123,92,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+123,98,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,109,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+123,110,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+123,111,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+123,122,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+123,142,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+160,3,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,7,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+160,21,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,23,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,24,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,32,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,35,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,46,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,49,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,70,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,82,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,93,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,94,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,99,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,110,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+160,111,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+160,142,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,3,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,12,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,23,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+194,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,31,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,36,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+194,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,62,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,68,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+194,72,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,81,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,83,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,85,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,92,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+194,106,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+194,107,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+194,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+王奥琪,1,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+王奥琪,2,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+王奥琪,3,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+王奥琪,16,Community,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+王奥琪,23,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+王奥琪,24,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+王奥琪,28,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+王奥琪,29,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+王奥琪,35,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+王奥琪,36,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+王奥琪,50,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+王奥琪,57,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+王奥琪,60,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+王奥琪,62,Community,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+王奥琪,70,Community,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+王奥琪,74,Community,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+王奥琪,93,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+王奥琪,94,LLMnote,helpful,not helpful,1.0,0.0,-1.0,llm_first
+王奥琪,107,Community,helpful,helpful,1.0,1.0,0.0,community_first
+王奥琪,109,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+164,1,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+164,2,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+164,12,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+164,16,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+164,19,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+164,29,Community,helpful,helpful,1.0,1.0,0.0,community_first
+164,30,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+164,31,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+164,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+164,72,Community,helpful,helpful,1.0,1.0,0.0,community_first
+164,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+164,77,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+164,79,Community,helpful,helpful,1.0,1.0,0.0,community_first
+164,81,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+164,83,Community,helpful,helpful,1.0,1.0,0.0,community_first
+164,85,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+164,86,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+164,107,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+164,114,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+164,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,12,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,46,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,62,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+126,68,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,72,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,74,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+126,75,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,77,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,79,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,94,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+126,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,107,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,110,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,111,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+126,112,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+126,114,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+126,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+140,30,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+140,35,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+140,46,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+140,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+140,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+140,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+140,65,LLMnote,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+140,69,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+140,72,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+140,77,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+140,81,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+140,82,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+140,86,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+140,93,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+140,98,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+140,102,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+140,109,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+140,111,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+140,123,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+140,142,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+130,3,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+130,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+130,24,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+130,49,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+130,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+130,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+130,62,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+130,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+130,81,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+130,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+130,86,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+130,91,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+130,93,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+130,94,Community,not helpful,helpful,0.0,1.0,1.0,community_first
+130,106,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+130,107,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+130,109,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+130,110,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+130,114,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+130,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+132,68,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+132,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+132,72,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+132,75,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+132,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+132,77,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+132,81,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+132,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+132,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+132,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+132,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+132,101,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+132,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+132,106,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+132,110,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+132,111,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+132,112,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+132,114,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+132,123,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+132,124,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+162,1,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,2,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,3,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,16,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,23,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+162,24,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,28,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,46,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,57,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+162,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+162,72,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,74,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,77,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,92,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,94,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+162,107,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,109,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+162,110,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,
+162,114,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+162,122,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+464,28,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+464,34,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+464,36,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+464,52,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+464,57,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+464,62,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+464,65,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+464,68,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+464,74,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+464,75,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+464,91,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+464,92,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+464,98,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+464,101,Community,helpful,helpful,1.0,1.0,0.0,community_first
+464,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+464,106,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+464,109,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+464,112,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+464,122,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+464,124,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+曾淑婧,29,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,32,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,34,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,36,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+曾淑婧,46,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+曾淑婧,57,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+曾淑婧,68,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+曾淑婧,70,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+曾淑婧,72,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+曾淑婧,74,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,77,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,79,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+曾淑婧,82,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+曾淑婧,92,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+曾淑婧,98,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,102,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,112,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+曾淑婧,124,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+曾淑婧,142,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+147,7,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+147,12,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+147,16,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+147,19,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+147,23,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+147,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+147,30,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+147,32,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+147,34,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+147,36,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+147,74,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+147,76,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+147,82,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+147,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+147,91,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+147,94,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+147,98,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+147,99,Community,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+147,109,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+147,122,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+101,21,Community,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+101,29,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+101,36,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+101,50,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+101,52,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+101,57,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+101,68,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+101,69,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+101,70,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+101,74,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+101,75,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+101,79,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+101,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+101,86,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+101,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+101,94,Community,helpful,helpful,1.0,1.0,0.0,community_first
+101,106,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+101,107,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+101,112,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+101,123,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+114,1,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+114,3,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,7,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,12,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+114,19,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,46,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+114,57,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+114,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+114,62,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+114,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,81,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,83,Community,helpful,helpful,1.0,1.0,0.0,community_first
+114,86,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+114,93,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+114,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+114,110,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+114,111,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+114,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+114,142,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,2,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+142,7,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+142,21,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+142,28,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,32,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+142,34,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+142,36,Community,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,49,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+142,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,62,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+142,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+142,77,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+142,91,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,93,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+142,94,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+142,98,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+142,102,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+142,110,Community,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+142,111,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+142,114,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+145,7,Community,helpful,helpful,1.0,1.0,0.0,community_first
+145,12,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+145,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,21,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+145,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,31,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,32,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+145,34,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,46,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,49,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,79,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,85,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,86,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+145,91,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+145,98,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,122,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+145,142,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+段梦迪.,24,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+段梦迪.,29,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+段梦迪.,50,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+段梦迪.,65,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+段梦迪.,68,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+段梦迪.,70,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+段梦迪.,76,Community,helpful,helpful,1.0,1.0,0.0,community_first
+段梦迪.,82,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+段梦迪.,85,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+段梦迪.,86,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+段梦迪.,91,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+段梦迪.,94,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+段梦迪.,101,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+段梦迪.,102,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+段梦迪.,106,Community,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+段梦迪.,110,Community,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+段梦迪.,112,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+段梦迪.,114,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+段梦迪.,122,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+段梦迪.,142,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+110,12,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+110,35,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,49,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+110,50,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+110,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+110,59,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+110,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,68,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+110,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,74,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,77,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,81,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,86,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+110,92,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,106,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+110,109,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+110,112,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+110,114,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+110,124,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+492,1,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+492,2,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+492,7,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+492,12,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+492,23,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+492,24,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+492,29,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+492,30,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+492,32,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+492,35,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+492,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+492,59,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+492,68,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+492,72,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+492,75,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+492,92,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+492,99,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+492,106,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+492,114,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+492,124,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+198,2,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+198,3,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+198,23,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+198,24,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+198,28,Community,helpful,helpful,1.0,1.0,0.0,community_first
+198,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+198,32,Community,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+198,34,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+198,36,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+198,46,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+198,57,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+198,76,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+198,82,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+198,91,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+198,93,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+198,99,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+198,101,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+198,107,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+198,110,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+198,142,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+137,7,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+137,16,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+137,21,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+137,23,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+137,31,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+137,32,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+137,34,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+137,49,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+137,50,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+137,62,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+137,68,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+137,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+137,79,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+137,83,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+137,91,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+137,101,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+137,106,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+137,107,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+137,112,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+137,122,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+108,1,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+108,16,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+108,19,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+108,31,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+108,34,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+108,52,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+108,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+108,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+108,74,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+108,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+108,85,Community,helpful,helpful,1.0,1.0,0.0,community_first
+108,86,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+108,91,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+108,98,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+108,106,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+108,109,Community,helpful,helpful,1.0,1.0,0.0,community_first
+108,112,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+108,114,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+108,122,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+108,124,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+135,2,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+135,3,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+135,7,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+135,16,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+135,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+135,24,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+135,28,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+135,46,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+135,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+135,65,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+135,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+135,74,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+135,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+135,82,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+135,86,Community,helpful,helpful,1.0,1.0,0.0,community_first
+135,94,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+135,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+135,101,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+135,123,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+135,142,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+143,1,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+143,2,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+143,7,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+143,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+143,21,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+143,28,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+143,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+143,32,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+143,36,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+143,50,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+143,59,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+143,77,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+143,86,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+143,91,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+143,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+143,94,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+143,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+143,107,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+143,110,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+143,122,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+199,1,Community,helpful,helpful,1.0,1.0,0.0,community_first
+199,2,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+199,12,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+199,19,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+199,21,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+199,23,Community,helpful,helpful,1.0,1.0,0.0,community_first
+199,28,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+199,31,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+199,34,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+199,35,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+199,49,Community,helpful,helpful,1.0,1.0,0.0,community_first
+199,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+199,52,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+199,59,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+199,70,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+199,81,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+199,85,Community,helpful,helpful,1.0,1.0,0.0,community_first
+199,86,Community,helpful,helpful,1.0,1.0,0.0,community_first
+199,98,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+199,107,LLMnote,helpful,helpful,1.0,1.0,0.0,community_first
+117,7,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+117,12,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+117,23,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+117,24,Community,helpful,helpful,1.0,1.0,0.0,community_first
+117,28,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+117,32,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+117,46,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+117,50,Community,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+117,59,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+117,69,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+117,72,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+117,81,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+117,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+117,93,LLMnote,not helpful,not helpful,0.0,0.0,0.0,llm_first
+117,94,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+117,101,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+117,102,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+117,107,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+117,123,LLMnote,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+117,142,Community,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,60,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+154,65,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+154,68,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,72,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+154,74,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+154,75,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,76,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+154,79,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+154,81,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+154,82,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,83,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+154,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+154,106,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+154,109,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+154,111,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,112,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,114,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+154,123,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+154,142,LLMnote,not helpful,not helpful,0.0,0.0,0.0,llm_first
+141,1,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+141,2,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+141,12,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+141,16,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+141,19,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+141,28,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+141,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+141,31,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+141,59,Community,helpful,not helpful,1.0,0.0,-1.0,llm_first
+141,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+141,72,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+141,76,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+141,77,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+141,91,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+141,93,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+141,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+141,109,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+141,110,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+141,122,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+141,124,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+193,60,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+193,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+193,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+193,74,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+193,75,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+193,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+193,77,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+193,79,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+193,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+193,86,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+193,91,Community,helpful,helpful,1.0,1.0,0.0,community_first
+193,94,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+193,98,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+193,99,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+193,102,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+193,109,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+193,111,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+193,114,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+193,122,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+193,124,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+329,23,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,29,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,35,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,46,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,52,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,57,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,59,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,74,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,75,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+329,79,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,81,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+329,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,92,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,101,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,106,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+329,107,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,112,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+329,124,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,1,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,2,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,16,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,21,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+107,23,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+107,24,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,30,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,34,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+107,46,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,49,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+107,59,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,62,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+107,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,75,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+107,79,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,82,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,85,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,91,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+107,93,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+107,102,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+116,3,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+116,19,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+116,31,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+116,32,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+116,50,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+116,57,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+116,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+116,72,Community,helpful,not helpful,1.0,0.0,-1.0,llm_first
+116,74,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,community_first
+116,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+116,83,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+116,94,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+116,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+116,101,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+116,106,Community,helpful,not helpful,1.0,0.0,-1.0,llm_first
+116,107,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+116,112,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+116,114,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+116,123,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+116,124,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+112,30,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,60,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,65,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,69,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+112,72,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+112,76,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+112,77,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+112,79,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+112,82,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,83,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+112,91,Community,helpful,helpful,1.0,1.0,0.0,llm_first
+112,92,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,94,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+112,99,Community,helpful,somewhat helpful,1.0,0.5,-0.5,community_first
+112,102,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,110,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,
+112,114,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+112,122,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+112,123,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+112,142,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+138,30,Community,somewhat helpful,not helpful,0.5,0.0,-0.5,llm_first
+138,32,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+138,34,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+138,35,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+138,49,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+138,57,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+138,59,LLMnote,not helpful,helpful,0.0,1.0,1.0,llm_first
+138,60,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
+138,70,Community,helpful,somewhat helpful,1.0,0.5,-0.5,llm_first
+138,75,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+138,81,LLMnote,somewhat helpful,somewhat helpful,0.5,0.5,0.0,llm_first
+138,85,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,llm_first
+138,92,LLMnote,somewhat helpful,helpful,0.5,1.0,0.5,community_first
+138,93,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,community_first
+138,107,LLMnote,helpful,helpful,1.0,1.0,0.0,llm_first
+138,109,Community,helpful,not helpful,1.0,0.0,-1.0,community_first
+138,110,Community,somewhat helpful,somewhat helpful,0.5,0.5,0.0,community_first
+138,112,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+138,114,LLMnote,not helpful,somewhat helpful,0.0,0.5,0.5,llm_first
+138,124,LLMnote,not helpful,helpful,0.0,1.0,1.0,community_first
