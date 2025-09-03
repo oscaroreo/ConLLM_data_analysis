@@ -57,26 +57,30 @@ def create_numerical_comparison_plot(csv_file, output_file=None):
     community_scores = complete_pairs['Community'].values
     llm_scores = complete_pairs['LLMnote'].values
     
-    # 配对t检验
-    t_stat, p_value = stats.ttest_rel(llm_scores, community_scores)
+    # Wilcoxon符号秩检验（更适合序数数据）
+    wilcoxon_stat, p_value = stats.wilcoxon(llm_scores, community_scores)
     
-    print(f"\n配对t检验结果:")
-    print(f"t统计量: {t_stat:.4f}")
+    print(f"\nWilcoxon符号秩检验结果:")
+    print(f"W统计量: {wilcoxon_stat:.4f}")
     print(f"p值: {p_value:.6f}")
     print(f"结论: {'显著差异' if p_value < 0.05 else '无显著差异'} (α = 0.05)")
     
     # 创建图表 - 调整为更窄的比例，模仿参考图
     plt.rcParams['font.family'] = ['Arial', 'DejaVu Sans']  # 避免中文字体问题
-    fig, ax = plt.subplots(figsize=(6, 3))
+    plt.rcParams['font.size'] = 16  # 设置基础字体大小
+    fig, ax = plt.subplots(figsize=(8, 4))
     
     # 设置y轴位置和标签
     y_positions = [1, 0]  # LLMnote在上，Community在下
-    labels = ['LLMnote', 'Community']
+    labels = ['LLM note', 'Community note']  # 使用完整名称
     
     # 绘制点和置信区间
     colors = ['#2E86AB', '#A23B72']  # 蓝色和紫红色
+    # 创建label到原始key的映射
+    label_mapping = {'LLM note': 'LLMnote', 'Community note': 'Community'}
     for i, (label, color) in enumerate(zip(labels, colors)):
-        ci_data = confidence_intervals[label]
+        original_key = label_mapping[label]
+        ci_data = confidence_intervals[original_key]
         mean_val = ci_data['mean']
         ci_lower = ci_data['ci_lower']
         ci_upper = ci_data['ci_upper']
@@ -95,22 +99,22 @@ def create_numerical_comparison_plot(csv_file, output_file=None):
         
         # 在点的左侧添加标签 - 调整位置适应新的x轴范围
         ax.text(0.33, y_positions[i], label, ha='right', va='center', 
-               fontsize=11, fontweight='medium')
+               fontsize=16, fontweight='medium')
         
-        # 在点的右侧显示具体数值 - 调整位置
-        ax.text(mean_val + 0.02, y_positions[i], f'{mean_val:.3f}', 
-               ha='left', va='center', fontsize=9, fontweight='medium')
+        # 在点的右侧显示具体数值 - 调整位置避免与置信区间重叠
+        ax.text(mean_val + 0.04, y_positions[i], f'{mean_val:.3f}', 
+               ha='left', va='center', fontsize=14, fontweight='medium')
     
     # 设置x轴 - 调整范围使图表更紧凑
     ax.set_xlim(0.35, 0.85)  # 聚焦在实际数据范围
     ax.set_xticks([0.4, 0.5, 0.6, 0.7, 0.8])
-    ax.set_xticklabels(['0.4', '0.5', '0.6', '0.7', '0.8'])
-    ax.set_xlabel('Helpfulness score', fontsize=11)
+    ax.set_xticklabels(['0.4', '0.5', '0.6', '0.7', '0.8'], fontsize=14)
+    ax.set_xlabel('Helpfulness score', fontsize=16)
     
     # 在x轴上方添加语义标签
-    ax.text(0.4, 1.4, 'Not helpful', ha='center', va='center', fontsize=9, alpha=0.7)
-    ax.text(0.6, 1.4, 'Somewhat helpful', ha='center', va='center', fontsize=9, alpha=0.7)
-    ax.text(0.8, 1.4, 'Helpful', ha='center', va='center', fontsize=9, alpha=0.7)
+    ax.text(0.4, 1.4, 'Not helpful', ha='center', va='center', fontsize=14, alpha=0.7)
+    ax.text(0.6, 1.4, 'Somewhat helpful', ha='center', va='center', fontsize=14, alpha=0.7)
+    ax.text(0.8, 1.4, 'Helpful', ha='center', va='center', fontsize=14, alpha=0.7)
     
     # 设置y轴 - 调整范围使更紧凑
     ax.set_ylim(-0.3, 1.3)
@@ -127,9 +131,19 @@ def create_numerical_comparison_plot(csv_file, output_file=None):
     # 不添加标题，保持简洁
     
     # 在图表下方添加统计信息
-    stats_text = f't = {t_stat:.3f}, p = {p_value:.3f}'
+    # 格式化p值显示
+    if p_value < 0.001:
+        p_text = 'p < 0.001'
+    elif p_value < 0.01:
+        p_text = 'p < 0.01'
+    elif p_value < 0.05:
+        p_text = 'p < 0.05'
+    else:
+        p_text = f'p = {p_value:.3f}'
+    
+    stats_text = f'W = {int(wilcoxon_stat)}, {p_text}'
     ax.text(0.6, -0.2, stats_text, ha='center', va='center', 
-           fontsize=9, style='italic', color='gray')
+           fontsize=13, style='italic', color='gray')
     
     # 置信区间数值已在上面的循环中添加，这里移除重复代码
     
@@ -148,7 +162,7 @@ def create_numerical_comparison_plot(csv_file, output_file=None):
         'difference': confidence_intervals['LLMnote']['mean'] - confidence_intervals['Community']['mean'],
         'llm_ci': [confidence_intervals['LLMnote']['ci_lower'], confidence_intervals['LLMnote']['ci_upper']],
         'community_ci': [confidence_intervals['Community']['ci_lower'], confidence_intervals['Community']['ci_upper']],
-        't_statistic': t_stat,
+        'wilcoxon_statistic': wilcoxon_stat,
         'p_value': p_value,
         'n_pairs': len(complete_pairs)
     }
@@ -168,7 +182,7 @@ def generate_numerical_analysis_summary(results):
     print("  • 'somewhat helpful' → 0.5") 
     print("  • 'helpful' → 1")
     print("- 比较两种笔记类型的平均分")
-    print("- 使用配对t检验检验显著性差异")
+    print("- 使用Wilcoxon符号秩检验检验显著性差异（适合序数数据）")
     
     print(f"\n主要发现:")
     print(f"- LLMnote: 均值={results['llm_mean']:.3f}, 95%CI=[{results['llm_ci'][0]:.3f}, {results['llm_ci'][1]:.3f}]")
@@ -177,7 +191,7 @@ def generate_numerical_analysis_summary(results):
     print(f"- 样本量: {results['n_pairs']}对")
     
     print(f"\n统计检验结果:")
-    print(f"- t统计量: {results['t_statistic']:.4f}")
+    print(f"- W统计量: {results['wilcoxon_statistic']:.4f}")
     print(f"- p值: {results['p_value']:.6f}")
     
     if results['p_value'] < 0.05:
@@ -191,16 +205,35 @@ def generate_numerical_analysis_summary(results):
         print("- 两种笔记类型在数值化评分上表现相当")
 
 if __name__ == "__main__":
-    # 设置文件路径
-    input_file = "helpfulness_extracted.csv"
-    output_file = "numerical_helpfulness_comparison.png"
+    import os
     
-    print("开始数值化分析...")
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # 创建图表
-    results = create_numerical_comparison_plot(input_file, output_file)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 生成总结
-    generate_numerical_analysis_summary(results)
-    
-    print("\n分析完成！")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(script_dir, f"{model}_helpfulness", f"helpfulness_extracted_829_{model}.csv")
+        output_file = os.path.join(script_dir, f"{model}_helpfulness", f"numerical_helpfulness_comparison_{model}.png")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("开始数值化分析...")
+            
+            # 创建图表
+            results = create_numerical_comparison_plot(input_file, output_file)
+            
+            # 生成总结
+            generate_numerical_analysis_summary(results)
+            
+            print("\n分析完成！")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print(f"请先运行 extract_helpfulness.py 生成 {model} 的数据")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

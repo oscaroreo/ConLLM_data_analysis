@@ -4,13 +4,14 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-def consolidate_json_to_csv(json_dir, output_csv):
+def consolidate_json_to_csv(json_dir, output_csv, max_files=None):
     """
     将多个JSON文件合并为一个CSV文件
     
     Args:
         json_dir: 包含JSON文件的目录路径
         output_csv: 输出CSV文件的路径
+        max_files: 每个文件夹处理的最大文件数，None表示处理所有文件
     """
     
     # 准备CSV的列名
@@ -44,7 +45,12 @@ def consolidate_json_to_csv(json_dir, output_csv):
     # 遍历目录中的所有JSON文件
     json_files = [f for f in os.listdir(json_dir) if f.endswith('.json')]
     
-    print(f"找到 {len(json_files)} 个JSON文件")
+    # 如果设置了最大文件数限制，只处理前max_files个文件
+    if max_files is not None and max_files > 0:
+        json_files = json_files[:max_files]
+        print(f"找到 {len([f for f in os.listdir(json_dir) if f.endswith('.json')])} 个JSON文件，限制处理 {len(json_files)} 个文件")
+    else:
+        print(f"找到 {len(json_files)} 个JSON文件")
     
     for filename in json_files:
         file_path = os.path.join(json_dir, filename)
@@ -105,9 +111,31 @@ def consolidate_json_to_csv(json_dir, output_csv):
     print("完成！")
 
 if __name__ == "__main__":
-    # 设置路径
-    json_directory = "/Users/shidaidemac/Documents/CHI_25/Data_Analysis/results"
-    output_file = "/Users/shidaidemac/Documents/CHI_25/Data_Analysis/consolidated_results.csv"
+    # 设置基础路径
+    base_path = "/Users/shidaidemac/Documents/CHI_25/Data_Analysis_829"
+    result_dir = os.path.join(base_path, "829_result")
     
-    # 执行转换
-    consolidate_json_to_csv(json_directory, output_file)
+    # 设置每个文件夹处理的最大文件数
+    # 设置为None处理所有文件，或设置具体数字限制文件数
+    MAX_FILES_PER_FOLDER = 36  # 可以根据需要修改这个值
+    
+    # 获取所有子文件夹
+    subfolders = [f for f in os.listdir(result_dir) if os.path.isdir(os.path.join(result_dir, f))]
+    
+    print(f"找到 {len(subfolders)} 个子文件夹: {subfolders}")
+    print(f"每个文件夹最多处理 {MAX_FILES_PER_FOLDER} 个文件" if MAX_FILES_PER_FOLDER else "处理每个文件夹中的所有文件")
+    
+    # 为每个子文件夹生成对应的CSV文件
+    for folder in subfolders:
+        json_directory = os.path.join(result_dir, folder)
+        
+        # 从文件夹名称提取模型名称
+        # v0_claude -> claude, v1_gpt4o -> gpt4o, etc.
+        model_name = folder.split('_')[1] if '_' in folder else folder
+        output_file = os.path.join(base_path, f"{model_name}_results_829.csv")
+        
+        print(f"\n处理文件夹: {folder}")
+        print(f"输出文件: {output_file}")
+        
+        # 执行转换
+        consolidate_json_to_csv(json_directory, output_file, max_files=MAX_FILES_PER_FOLDER)

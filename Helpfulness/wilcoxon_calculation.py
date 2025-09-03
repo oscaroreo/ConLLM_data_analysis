@@ -54,8 +54,8 @@ def wilcoxon_calculation_process(csv_file):
     _, p_greater = stats.wilcoxon(community_scores, llm_scores, alternative='greater')
     _, p_less = stats.wilcoxon(community_scores, llm_scores, alternative='less')
     
-    results['p_value_greater'] = p_greater  # H1: LLMnote > Community
-    results['p_value_less'] = p_less        # H1: LLMnote < Community
+    results['p_value_greater'] = p_greater  # H1: Community > LLMnote
+    results['p_value_less'] = p_less        # H1: Community < LLMnote
     
     # 效应大小 (rank-biserial correlation)
     n = len(differences)
@@ -107,6 +107,27 @@ def generate_markdown_report(results, differences, complete_pairs):
     is_significant = results['p_value'] < alpha
     significance_conclusion = "显著差异" if is_significant else "无显著差异"
     
+    # 判断哪个更优（基于单侧检验）
+    community_better = results['p_value_greater'] < alpha
+    llm_better = results['p_value_less'] < alpha
+    
+    # 确定优势方向
+    if community_better:
+        winner = "Community Note"
+        winner_mean = results['community_mean']
+        loser = "LLM Note"
+        loser_mean = results['llm_mean']
+        direction_text = "Community Note 显著优于 LLM Note"
+    elif llm_better:
+        winner = "LLM Note"
+        winner_mean = results['llm_mean']
+        loser = "Community Note"
+        loser_mean = results['community_mean']
+        direction_text = "LLM Note 显著优于 Community Note"
+    else:
+        winner = None
+        direction_text = "两种笔记类型表现无显著差异"
+    
     markdown_content = f"""# Wilcoxon符号秩检验计算过程
 
 ## 1. 数据概述
@@ -154,8 +175,8 @@ def generate_markdown_report(results, differences, complete_pairs):
 
 | 检验方向 | p值 | 解释 |
 |----------|-----|------|
-| H₁: LLM Note > Community Note | {results['p_value_greater']:.6f} | LLM Note显著优于Community Note |
-| H₁: LLM Note < Community Note | {results['p_value_less']:.6f} | Community Note显著优于LLM Note |
+| H₁: Community Note > LLM Note | {results['p_value_greater']:.6f} | Community Note显著优于LLM Note |
+| H₁: Community Note < LLM Note | {results['p_value_less']:.6f} | LLM Note显著优于Community Note |
 
 ### 3.4 效应大小
 
@@ -174,9 +195,28 @@ def generate_markdown_report(results, differences, complete_pairs):
 ### 4.2 实际意义
 
 基于统计检验结果：
-- Community Note和LLM Note在用户感知的helpfulness方面**表现相当**
-- 虽然LLM Note的平均评分略高({results['llm_mean']:.3f} vs {results['community_mean']:.3f})，但差异不具有统计学意义
-- 用户对两种笔记类型的偏好**没有显著倾向**
+"""
+    
+    if is_significant:
+        if community_better:
+            practical_text = f"""- Community Note的平均评分显著高于LLM Note ({results['community_mean']:.3f} vs {results['llm_mean']:.3f})
+- 效应大小为 {abs(results['effect_size']):.3f} ({effect_interpretation})，表明这种差异在实践中是重要的
+- 在 {n_pairs} 个配对比较中，Community Note 在 {negative_pct:.1f}% 的情况下优于 LLM Note"""
+        elif llm_better:
+            practical_text = f"""- LLM Note的平均评分显著高于Community Note ({results['llm_mean']:.3f} vs {results['community_mean']:.3f})
+- 效应大小为 {abs(results['effect_size']):.3f} ({effect_interpretation})，表明这种差异在实践中是重要的
+- 在 {n_pairs} 个配对比较中，LLM Note 在 {positive_pct:.1f}% 的情况下优于 Community Note"""
+        else:
+            practical_text = f"""- 虽然存在统计学显著差异 (p = {results['p_value']:.6f})，但单侧检验未能确定明确的优势方向
+- Community Note 均值: {results['community_mean']:.3f}, LLM Note 均值: {results['llm_mean']:.3f}
+- 效应大小为 {abs(results['effect_size']):.3f} ({effect_interpretation})"""
+    else:
+        practical_text = f"""- Community Note和LLM Note在用户感知的helpfulness方面表现相当
+- Community Note 均值: {results['community_mean']:.3f}, LLM Note 均值: {results['llm_mean']:.3f}
+- 差异未达到统计显著性 (p = {results['p_value']:.6f})
+- 效应大小为 {abs(results['effect_size']):.3f} ({effect_interpretation})"""
+    
+    markdown_content += practical_text + f"""
 
 ## 5. 方法学验证
 
@@ -203,16 +243,48 @@ def generate_markdown_report(results, differences, complete_pairs):
 ## 6. 结论与建议
 
 ### 6.1 主要发现
-
-1. **统计学结论**: Community Note和LLM Note在helpfulness评分上无显著差异
-2. **效应大小**: 虽然存在{effect_interpretation}的效应大小，但未达到统计显著性
+"""
+    
+    if is_significant:
+        if winner:
+            findings_text = f"""1. **统计学结论**: {winner} 在 helpfulness 评分上显著优于 {loser} (p = {results['p_value']:.6f})
+2. **效应大小**: {effect_interpretation}效应 (r = {abs(results['effect_size']):.3f})，表明这种差异具有实际重要性
+3. **实用价值**: {winner} 的平均评分为 {winner_mean:.3f}，显著高于 {loser} 的 {loser_mean:.3f}
+4. **用户偏好**: 在配对比较中，用户更倾向于认为 {winner} 更有帮助"""
+        else:
+            findings_text = f"""1. **统计学结论**: 两种笔记类型存在显著差异 (p = {results['p_value']:.6f})，但优势方向不明确
+2. **效应大小**: {effect_interpretation}效应 (r = {abs(results['effect_size']):.3f})
+3. **实用价值**: Community Note ({results['community_mean']:.3f}) vs LLM Note ({results['llm_mean']:.3f})
+4. **用户偏好**: 需要进一步分析以确定优势方向"""
+    else:
+        findings_text = f"""1. **统计学结论**: Community Note 和 LLM Note 在 helpfulness 评分上无显著差异 (p = {results['p_value']:.6f})
+2. **效应大小**: {effect_interpretation}效应 (r = {abs(results['effect_size']):.3f})，但未达到统计显著性
 3. **实用价值**: 两种笔记类型在用户体验方面表现相当
+4. **用户偏好**: 用户对两种笔记类型没有明显偏好"""
+    
+    markdown_content += findings_text + f"""
 
 ### 6.2 研究意义
-
-- 验证了LLM生成的笔记在用户感知有用性方面能够**媲美社区生成的笔记**
+"""
+    
+    if is_significant and winner:
+        if winner == "LLM Note":
+            implications_text = """- 验证了LLM生成的笔记在用户感知有用性方面**优于**社区生成的笔记
+- 为使用AI替代或增强社区内容审核提供了强有力的实证支持
+- 表明自动化系统在信息标注任务上可能已超越人类表现
+- 建议可以更多地依赖AI系统进行内容标注，以提高效率和质量"""
+        else:  # Community Note wins
+            implications_text = """- 社区生成的笔记在用户感知有用性方面仍然**优于**LLM生成的笔记
+- 强调了人类判断和集体智慧在内容审核中的不可替代性
+- 表明尽管AI技术进步显著，但在理解复杂语境和用户需求方面仍有提升空间
+- 建议将AI作为辅助工具而非完全替代人类审核"""
+    else:
+        implications_text = """- 验证了LLM生成的笔记在用户感知有用性方面能够**媲美**社区生成的笔记
 - 为使用AI辅助内容审核和信息标注提供了实证支持
 - 表明自动化系统在某些任务上已接近人类表现水准
+- 建议可以将AI和社区审核结合，实现优势互补"""
+    
+    markdown_content += implications_text + f"""
 
 ### 6.3 局限性
 
@@ -230,22 +302,42 @@ def generate_markdown_report(results, differences, complete_pairs):
     return markdown_content
 
 if __name__ == "__main__":
-    csv_file = "helpfulness_extracted.csv"
+    import os
     
-    print("正在计算Wilcoxon符号秩检验...")
-    results, differences, complete_pairs = wilcoxon_calculation_process(csv_file)
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    print("生成Markdown报告...")
-    markdown_content = generate_markdown_report(results, differences, complete_pairs)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 保存Markdown文件
-    output_file = "wilcoxon_test_report.md"
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(markdown_content)
-    
-    print(f"Wilcoxon符号秩检验报告已保存到: {output_file}")
-    print(f"\n主要结果:")
-    print(f"- 配对观测数: {results['n_pairs']}")
-    print(f"- Wilcoxon统计量: {results['wilcoxon_statistic']:.0f}")
-    print(f"- p值: {results['p_value']:.6f}")
-    print(f"- 结论: {'显著差异' if results['p_value'] < 0.05 else '无显著差异'}")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        csv_file = os.path.join(script_dir, f"{model}_helpfulness", f"helpfulness_extracted_829_{model}.csv")
+        output_file = os.path.join(script_dir, f"{model}_helpfulness", f"wilcoxon_test_report_{model}.md")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("正在计算Wilcoxon符号秩检验...")
+            results, differences, complete_pairs = wilcoxon_calculation_process(csv_file)
+            
+            print("生成Markdown报告...")
+            markdown_content = generate_markdown_report(results, differences, complete_pairs)
+            
+            # 保存Markdown文件
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(markdown_content)
+            
+            print(f"Wilcoxon符号秩检验报告已保存到: {output_file}")
+            print(f"\n主要结果:")
+            print(f"- 配对观测数: {results['n_pairs']}")
+            print(f"- Wilcoxon统计量: {results['wilcoxon_statistic']:.0f}")
+            print(f"- p值: {results['p_value']:.6f}")
+            print(f"- 结论: {'显著差异' if results['p_value'] < 0.05 else '无显著差异'}")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {csv_file}")
+            print(f"请先运行 extract_helpfulness.py 生成 {model} 的数据")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

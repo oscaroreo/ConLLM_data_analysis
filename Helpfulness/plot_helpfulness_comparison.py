@@ -28,7 +28,7 @@ def create_helpfulness_comparison_plot(csv_file, output_file=None):
     print(note_type_percentages.round(1))
     
     # 设置图表样式
-    plt.rcParams['font.size'] = 11
+    plt.rcParams['font.size'] = 14
     fig, ax = plt.subplots(figsize=(12, 5))
     
     # 定义颜色：红色系为负面，橙色为中性，蓝色系为正面
@@ -41,7 +41,7 @@ def create_helpfulness_comparison_plot(csv_file, output_file=None):
     community_data = note_type_percentages.loc['Community']
     
     # 创建水平条形图的数据
-    categories = ['LLMnote', 'Community']
+    categories = ['LLM note', 'Community note']
     
     # 获取原始数据
     not_helpful_data = [llm_data['not helpful'], community_data['not helpful']]
@@ -65,28 +65,28 @@ def create_helpfulness_comparison_plot(csv_file, output_file=None):
     y_pos = np.arange(len(categories))
     
     # 绘制not helpful（从somewhat helpful的左边界开始向左延伸）
-    ax.barh(y_pos, not_helpful_left, left=not_helpful_start, height=0.5, 
+    ax.barh(y_pos, not_helpful_left, left=not_helpful_start, height=0.6, 
             color=colors[0], label='Not helpful', alpha=0.9)
     
     # 绘制中间左半部分的条形图（somewhat helpful左半）
-    ax.barh(y_pos, somewhat_left, height=0.5, color=colors[1], alpha=0.9)
+    ax.barh(y_pos, somewhat_left, height=0.6, color=colors[1], alpha=0.9)
     
     # 绘制中间右半部分的条形图（somewhat helpful右半）
-    ax.barh(y_pos, somewhat_right, height=0.5, color=colors[1], 
+    ax.barh(y_pos, somewhat_right, height=0.6, color=colors[1], 
             label='Somewhat helpful', alpha=0.9)
     
     # 绘制helpful（从somewhat helpful的右边界开始向右延伸）
-    ax.barh(y_pos, helpful_right, left=helpful_start, height=0.5, 
+    ax.barh(y_pos, helpful_right, left=helpful_start, height=0.6, 
             color=colors[2], label='Helpful', alpha=0.9)
     
     # 设置标签和标题
     ax.set_yticks(y_pos)
     ax.set_yticklabels(categories)
     ax.set_xlabel('% of responses')
-    ax.set_title('Is this note helpful?', fontsize=14, fontweight='bold', pad=20)
+    # ax.set_title('Is this note helpful?', fontsize=14, fontweight='bold', pad=20)
     
     # 设置x轴范围和刻度
-    ax.set_xlim(-60, 100)
+    ax.set_xlim(-60, 120)  # 扩展右边界为图例留出空间
     ax.set_xticks(range(-50, 101, 25))
     ax.set_xticklabels([str(abs(x)) for x in range(-50, 101, 25)])
     
@@ -98,7 +98,7 @@ def create_helpfulness_comparison_plot(csv_file, output_file=None):
     # 重新排序图例，确保顺序为：Not helpful, Somewhat helpful, Helpful
     legend_order = [0, 1, 2]  # 对应绘制的顺序
     ax.legend([handles[i] for i in legend_order], [labels[i] for i in legend_order], 
-             loc='upper right', bbox_to_anchor=(1, 1), frameon=True)
+             loc='upper left', bbox_to_anchor=(0.72, 0.99), frameon=True)
     
     # 添加网格
     ax.grid(True, alpha=0.3, axis='x')
@@ -106,28 +106,37 @@ def create_helpfulness_comparison_plot(csv_file, output_file=None):
     
     # 调整布局
     plt.tight_layout()
+    plt.subplots_adjust(left=0.15)
     
     # 在条形图上添加百分比标签
     for i, y in enumerate(y_pos):
-        # Not helpful标签（左边红色区域，用白色文字）
+        # Not helpful标签（左边红色区域）
         not_helpful_value = not_helpful_data[i]
-        if not_helpful_value > 5:  # 只有当值足够大时才显示标签
+        if not_helpful_value > 0:  # 显示所有非零值的标签
             # 标签位置在not helpful条形图的中心
             center_x = not_helpful_start[i] + not_helpful_left[i]/2
-            ax.text(center_x, y, f'{not_helpful_value:.1f}%', 
-                   ha='center', va='center', fontweight='bold', color='white', fontsize=10)
+            
+            # 如果区域太小（小于8%），使用黑色文字
+            if not_helpful_value < 8:
+                ax.text(center_x, y, f'{not_helpful_value:.1f}%', 
+                       ha='center', va='center', fontweight='bold', color='black', 
+                       fontsize=14)
+            else:
+                # 区域足够大时使用白色文字
+                ax.text(center_x, y, f'{not_helpful_value:.1f}%', 
+                       ha='center', va='center', fontweight='bold', color='white', fontsize=14)
         
         # Somewhat helpful标签（居中显示在0点，用白色背景黑色文字）
         if somewhat_helpful_data[i] > 10:  # 只有当值足够大时才显示标签
             ax.text(0, y, f'{somewhat_helpful_data[i]:.1f}%', 
                    ha='center', va='center', fontweight='bold', color='black', 
-                   fontsize=10, bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.9, edgecolor='none'))
+                   fontsize=14, bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.9, edgecolor='none'))
         
         # Helpful标签（右边蓝色区域，用白色文字）
         if helpful_data[i] > 5:
             center_x = helpful_start[i] + helpful_right[i]/2
             ax.text(center_x, y, f'{helpful_data[i]:.1f}%', 
-                   ha='center', va='center', fontweight='bold', color='white', fontsize=10)
+                   ha='center', va='center', fontweight='bold', color='white', fontsize=14)
     
     # 保存或显示图表
     if output_file:
@@ -166,15 +175,34 @@ def print_summary_statistics(csv_file):
     print(user_avg.round(3))
 
 if __name__ == "__main__":
-    # 设置文件路径
-    input_file = "helpfulness_extracted.csv"
-    output_file = "helpfulness_comparison_chart.png"
+    import os
     
-    # 打印统计信息
-    print_summary_statistics(input_file)
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    print("\n" + "="*50)
-    print("创建helpfulness对比图表...")
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 创建图表
-    create_helpfulness_comparison_plot(input_file, output_file)
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(script_dir, f"{model}_helpfulness", f"helpfulness_extracted_829_{model}.csv")
+        output_file = os.path.join(script_dir, f"{model}_helpfulness", f"helpfulness_comparison_chart_{model}.png")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            # 打印统计信息
+            print_summary_statistics(input_file)
+            
+            print("\n" + "="*50)
+            print(f"创建 {model} helpfulness对比图表...")
+            
+            # 创建图表
+            create_helpfulness_comparison_plot(input_file, output_file)
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print(f"请先运行 extract_helpfulness.py 生成 {model} 的数据")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

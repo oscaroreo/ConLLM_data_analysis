@@ -189,19 +189,40 @@ def save_winning_rate_data(winning_df, participant_stats, output_file):
     return output_file, participant_file
 
 if __name__ == "__main__":
-    # 文件路径
-    input_file = "../consolidated_results.csv"
-    output_file = "winning_rate_data.csv"
+    import os
     
-    print("开始提取获胜率数据...")
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
     
-    # 提取数据
-    winning_df, participant_stats = extract_winning_rate_data(input_file)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 生成汇总报告
-    summary = generate_winning_rate_summary(winning_df, participant_stats)
-    
-    # 保存数据
-    save_winning_rate_data(winning_df, participant_stats, output_file)
-    
-    print("\n获胜率数据提取完成！")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(parent_dir, f"{model}_results_829.csv")
+        output_dir = os.path.join(script_dir, f"{model}_winning_rate")
+        output_file = os.path.join(output_dir, f"winning_rate_data_{model}.csv")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("开始提取获胜率数据...")
+            
+            # 提取数据
+            winning_df, participant_stats = extract_winning_rate_data(input_file)
+            
+            # 生成汇总报告
+            summary = generate_winning_rate_summary(winning_df, participant_stats)
+            
+            # 保存数据
+            save_winning_rate_data(winning_df, participant_stats, output_file)
+            
+            print("\n获胜率数据提取完成！")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print("请确认文件路径是否正确")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

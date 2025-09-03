@@ -268,32 +268,78 @@ def generate_markdown_report(results, output_file):
     else:
         markdown_content += "- **无数据**: 没有两条笔记都被评为'helpful'的情况\n"
     
+    # 需要计算统计显著性检验
+    try:
+        from scipy.stats import binomtest
+        test_result = binomtest(results['overall']['wins'], results['overall']['n'], p=0.5, alternative='two-sided')
+        p_value = test_result.pvalue
+    except (ImportError, AttributeError):
+        p_value = stats.binom_test(results['overall']['wins'], results['overall']['n'], p=0.5, alternative='two-sided')
+    
     markdown_content += f"""
 ## 4. 统计推断
 
 ### 4.1 假设检验
 - **原假设 (H₀)**: LLMnote被选择的概率 = 50%
 - **备择假设 (H₁)**: LLMnote被选择的概率 ≠ 50%
+- **统计量**: {results['overall']['wins']}/{results['overall']['n']} = {results['overall']['rate']:.1%}
+- **p值**: {p_value:.4f}
 
 ### 4.2 结果解释
 """
     
-    if results['overall']['ci_lower'] > 0.5:
-        interpretation = "LLMnote的胜率显著高于50%，表明用户更倾向于选择LLMnote"
-    elif results['overall']['ci_upper'] < 0.5:
-        interpretation = "LLMnote的胜率显著低于50%，表明用户更倾向于选择Community Note"
+    # 基于置信区间和p值的动态解释
+    ci_excludes_50 = results['overall']['ci_lower'] > 0.5 or results['overall']['ci_upper'] < 0.5
+    significantly_different = p_value < 0.05
+    
+    if significantly_different and results['overall']['rate'] > 0.5:
+        interpretation = f"LLMnote的胜率({results['overall']['rate']:.1%})显著高于50% (p = {p_value:.4f})，表明用户明显更倾向于选择LLMnote"
+        ci_interpretation = "置信区间完全位于50%以上，强烈支持LLMnote优势的结论"
+    elif significantly_different and results['overall']['rate'] < 0.5:
+        interpretation = f"LLMnote的胜率({results['overall']['rate']:.1%})显著低于50% (p = {p_value:.4f})，表明用户明显更倾向于选择Community Note"
+        ci_interpretation = "置信区间完全位于50%以下，强烈支持Community Note优势的结论"
     else:
-        interpretation = "LLMnote的胜率与50%无显著差异，表明两种笔记类型表现相当"
+        interpretation = f"LLMnote的胜率({results['overall']['rate']:.1%})与50%无显著差异 (p = {p_value:.4f})，表明两种笔记类型表现相当"
+        ci_interpretation = "置信区间包含50%，不支持存在明显偏好的结论"
     
     markdown_content += f"""- {interpretation}
-- 置信区间{'不' if results['overall']['ci_lower'] <= 0.5 <= results['overall']['ci_upper'] else ''}包含50%，{'不' if results['overall']['ci_lower'] <= 0.5 <= results['overall']['ci_upper'] else ''}支持存在偏好的结论
+- {ci_interpretation}
 
 ## 5. 结论
 
-基于胜率分析：
-1. LLMnote在二选一任务中的整体表现为{results['overall']['rate']:.1%}
-2. {'这一结果表明LLMnote和Community Note在用户感知的帮助性方面表现相当' if 0.45 <= results['overall']['rate'] <= 0.55 else 'LLMnote表现' + ('优于' if results['overall']['rate'] > 0.55 else '劣于') + 'Community Note'}
-3. {'当控制笔记质量（都被评为helpful）时，差异' + ('依然存在' if results['both_helpful']['n'] > 0 and not (0.45 <= results['both_helpful']['rate'] <= 0.55) else '不明显') if results['both_helpful']['n'] > 0 else '需要更多高质量笔记的比较数据'}
+### 5.1 主要发现
+"""
+    
+    # 基于实际结果的动态结论
+    if significantly_different:
+        if results['overall']['rate'] > 0.5:
+            conclusion_text = f"""1. **显著优势**: LLMnote在二选一比较中获得了{results['overall']['rate']:.1%}的胜率，显著优于Community Note
+2. **统计确信度**: 基于{results['overall']['n']}次比较的统计检验(p = {p_value:.4f})，这种优势具有统计学意义
+3. **实用意义**: 用户在实际使用中明显偏好LLMnote生成的内容"""
+        else:
+            conclusion_text = f"""1. **显著劣势**: LLMnote在二选一比较中仅获得了{results['overall']['rate']:.1%}的胜率，显著劣于Community Note  
+2. **统计确信度**: 基于{results['overall']['n']}次比较的统计检验(p = {p_value:.4f})，这种劣势具有统计学意义
+3. **实用意义**: 用户在实际使用中明显偏好Community Note"""
+    else:
+        conclusion_text = f"""1. **势均力敌**: LLMnote获得了{results['overall']['rate']:.1%}的胜率，与理论预期的50%无显著差异
+2. **统计确信度**: 基于{results['overall']['n']}次比较的统计检验(p = {p_value:.4f})，差异不具有统计学意义  
+3. **实用意义**: 两种笔记类型在用户感知的帮助性方面表现相当，无明显偏好"""
+    
+    # 添加分层分析结论
+    if results['both_helpful']['n'] > 0:
+        both_helpful_significant = (results['both_helpful']['ci_lower'] > 0.5 or 
+                                   results['both_helpful']['ci_upper'] < 0.5)
+        if both_helpful_significant:
+            if results['both_helpful']['rate'] > 0.5:
+                quality_conclusion = f"即使在控制笔记质量的情况下（都被评为helpful），LLMnote仍保持{results['both_helpful']['rate']:.1%}的胜率，说明其优势不仅来源于绝对质量，还体现在相对比较中"
+            else:
+                quality_conclusion = f"在控制笔记质量的情况下（都被评为helpful），LLMnote的胜率降至{results['both_helpful']['rate']:.1%}，说明当质量相当时用户倾向于选择Community Note"
+        else:
+            quality_conclusion = f"在控制笔记质量的情况下（都被评为helpful），LLMnote的胜率为{results['both_helpful']['rate']:.1%}，与50%无显著差异，说明质量相当时无明显偏好"
+        
+        conclusion_text += f"\n4. **质量控制分析**: {quality_conclusion}"
+    
+    markdown_content += conclusion_text + f"""
 
 ---
 
@@ -308,24 +354,44 @@ def generate_markdown_report(results, output_file):
     print(f"\n分析报告已保存到: {output_file}")
 
 if __name__ == "__main__":
-    # 文件路径
-    input_file = "winning_rate_data.csv"
-    plot_output = "winning_rate_analysis_plot.png"
-    report_output = "winning_rate_analysis_report.md"
+    import os
     
-    print("开始胜率分析...")
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # 执行分析
-    results = analyze_winning_rates(input_file)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 创建可视化
-    create_winning_rate_plot(results, plot_output)
-    
-    # 尝试混合效应模型
-    df = pd.read_csv(input_file)
-    perform_mixed_effects_analysis(df)
-    
-    # 生成报告
-    generate_markdown_report(results, report_output)
-    
-    print("\n胜率分析完成！")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(script_dir, f"{model}_winning_rate", f"winning_rate_data_{model}.csv")
+        output_dir = os.path.join(script_dir, f"{model}_winning_rate")
+        plot_output = os.path.join(output_dir, f"winning_rate_analysis_plot_{model}.png")
+        report_output = os.path.join(output_dir, f"winning_rate_analysis_report_{model}.md")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("开始胜率分析...")
+            
+            # 执行分析
+            results = analyze_winning_rates(input_file)
+            
+            # 创建可视化
+            create_winning_rate_plot(results, plot_output)
+            
+            # 尝试混合效应模型
+            df = pd.read_csv(input_file)
+            perform_mixed_effects_analysis(df)
+            
+            # 生成报告
+            generate_markdown_report(results, report_output)
+            
+            print("\n胜率分析完成！")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print(f"请先运行 extract_winning_rate.py 生成 {model} 的数据")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

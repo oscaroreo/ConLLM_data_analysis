@@ -110,9 +110,9 @@ def create_diverging_bar_chart(diverging_data, test_results, output_file=None):
     
     # 设置图表样式
     plt.rcParams['font.family'] = ['DejaVu Sans', 'Arial Unicode MS']
-    plt.rcParams['font.size'] = 10
+    plt.rcParams['font.size'] = 18
     
-    fig, ax = plt.subplots(figsize=(12, 8))
+    fig, ax = plt.subplots(figsize=(18, 12))
     
     # 准备数据
     dimensions = ['source_quality', 'clarity', 'coverage', 'context', 'impartiality']
@@ -139,8 +139,8 @@ def create_diverging_bar_chart(diverging_data, test_results, output_file=None):
     # 为每个维度创建两行（LLMnote和Community）
     for i, dimension in enumerate(dimensions):
         # 添加维度标题
-        y_positions.extend([i * 3 + 1, i * 3])
-        y_labels.extend(['LLMnote', 'Community Note'])
+        y_positions.extend([i * 4 + 1, i * 4])
+        y_labels.extend(['LLM note', 'Community Note'])
     
     # 绘制条形图
     bar_height = 0.35
@@ -152,7 +152,7 @@ def create_diverging_bar_chart(diverging_data, test_results, output_file=None):
                                        (diverging_data['note_type'] == 'Community')].iloc[0]
         
         # 计算累积位置 - 确保neutral完全居中于0%
-        for j, (data, y_pos) in enumerate([(llm_data, i * 3 + 1), (community_data, i * 3)]):
+        for j, (data, y_pos) in enumerate([(llm_data, i * 4 + 1), (community_data, i * 4)]):
             # 中立区域以0为中心对称分布
             neutral_half = data['neutral'] / 2
             
@@ -194,17 +194,17 @@ def create_diverging_bar_chart(diverging_data, test_results, output_file=None):
             dimension_text = dimension_labels[dimension]
         
         # 添加维度描述（在每组上方作为小标题）
-        ax.text(0, i * 3 + 1.8, dimension_text, ha='center', va='center', 
-                fontsize=10, fontweight='normal')
+        ax.text(0, i * 4 + 2.2, dimension_text, ha='center', va='center', 
+                fontsize=24, fontweight='normal')
     
     # 设置轴
     ax.set_xlim(-100, 100)
-    ax.set_ylim(-1, len(dimensions) * 3 + 0.5)  # 增加上边距给标题留空间
-    ax.set_xlabel('% of responses', fontsize=11)
+    ax.set_ylim(-1, len(dimensions) * 4 + 0.5)  # 增加上边距给标题留空间
+    ax.set_xlabel('% of responses', fontsize=20)
     
     # 设置y轴标签
     ax.set_yticks(y_positions)
-    ax.set_yticklabels(y_labels)
+    ax.set_yticklabels(y_labels, fontsize=20)
     
     # 添加中心线（强调0%位置）
     ax.axvline(0, color='black', linewidth=1, alpha=0.8)
@@ -225,11 +225,11 @@ def create_diverging_bar_chart(diverging_data, test_results, output_file=None):
     # 添加图例
     handles, labels = ax.get_legend_handles_labels()
     ax.legend(handles, labels, loc='lower center', bbox_to_anchor=(0.5, -0.15), 
-              ncol=5, frameon=False, fontsize=9)
+              ncol=5, frameon=False, fontsize=18)
     
-    # 添加标题
-    plt.title('Feature Rating Comparison: LLMnote vs Community Note', 
-              fontsize=14, fontweight='bold', pad=20)
+    # 添加标题 - 注释掉
+    # plt.title('Feature Rating Comparison: LLMnote vs Community Note', 
+    #           fontsize=14, fontweight='bold', pad=20)
     
     plt.tight_layout()
     
@@ -252,37 +252,98 @@ def generate_wilcoxon_report(test_results, output_file):
         'impartiality': '中立性'
     }
     
+    dimension_descriptions = {
+        'source_quality': 'Sources on note are high-quality and relevant',
+        'clarity': 'Note is written in clear language',
+        'coverage': 'Note addresses all key claims in the post',
+        'context': 'Note provides important context',
+        'impartiality': 'Note is NOT argumentative, speculative or biased'
+    }
+    
     report = []
     report.append("# 笔记特征评分Wilcoxon符号秩检验报告\n")
     report.append("## 统计方法")
-    report.append("使用Wilcoxon符号秩检验比较LLMnote与Community Note在各维度的评分差异\n")
+    report.append("使用Wilcoxon符号秩检验比较LLMnote与Community Note在各维度的评分差异")
+    report.append("评分量表：1-5分 (1=强烈反对, 3=中立, 5=强烈同意)\n")
     
     report.append("## 检验结果\n")
-    report.append("| 评分维度 | 统计量(W) | p值 | 样本量 | 平均差异 | 显著性 |")
-    report.append("|---------|-----------|-----|--------|---------|--------|")
+    report.append("| 评分维度 | 统计量(W) | p值 | 样本量 | 平均差异 | 效应大小 | 显著性 |")
+    report.append("|---------|-----------|-----|--------|---------|----------|--------|")
     
     for dimension, result in test_results.items():
         if result:
             cn_name = dimension_names[dimension]
             sig = '***' if result['p_value'] < 0.001 else '**' if result['p_value'] < 0.01 else '*' if result['p_value'] < 0.05 else 'ns'
-            report.append(f"| {cn_name} | {result['statistic']:.0f} | {result['p_value']:.4f} | {result['n_pairs']} | {result['mean_diff']:+.3f} | {sig} |")
+            effect_size = result['effect_size']
+            report.append(f"| {cn_name} | {result['statistic']:.0f} | {result['p_value']:.4f} | {result['n_pairs']} | {result['mean_diff']:+.3f} | {effect_size:.3f} | {sig} |")
     
     report.append("\n*注: *** p<0.001, ** p<0.01, * p<0.05, ns = 不显著*")
     
     report.append("\n## 结果解释")
     
-    significant_dims = [d for d, r in test_results.items() if r and r['p_value'] < 0.05]
-    if significant_dims:
-        report.append(f"\n在 {len(significant_dims)} 个维度上发现显著差异：")
-        for dim in significant_dims:
-            cn_name = dimension_names[dim]
-            diff = test_results[dim]['mean_diff']
-            if diff > 0:
-                report.append(f"- **{cn_name}**: LLMnote显著高于Community Note")
-            else:
-                report.append(f"- **{cn_name}**: Community Note显著高于LLMnote")
+    # 分析整体结果
+    significant_dims = [(d, r) for d, r in test_results.items() if r and r['p_value'] < 0.05]
+    non_significant_dims = [(d, r) for d, r in test_results.items() if r and r['p_value'] >= 0.05]
+    
+    if len(significant_dims) == 0:
+        report.append("\n### 主要发现")
+        report.append("在所有五个评价维度上，LLMnote与Community Note的评分均无显著差异，表明两种笔记类型在用户评价中表现相当。")
     else:
-        report.append("\n在所有维度上均未发现显著差异。")
+        report.append("\n### 主要发现")
+        report.append(f"\n在 {len(test_results)} 个评价维度中，有 {len(significant_dims)} 个维度存在显著差异：\n")
+        
+        # 按效应大小排序显著结果
+        significant_dims.sort(key=lambda x: abs(x[1]['effect_size']), reverse=True)
+        
+        for dim, result in significant_dims:
+            cn_name = dimension_names[dim]
+            en_desc = dimension_descriptions[dim]
+            diff = result['mean_diff']
+            effect = result['effect_size']
+            p_val = result['p_value']
+            
+            # 判断效应大小
+            if effect < 0.1:
+                effect_desc = "极小"
+            elif effect < 0.3:
+                effect_desc = "小"
+            elif effect < 0.5:
+                effect_desc = "中等"
+            else:
+                effect_desc = "大"
+            
+            if diff > 0:
+                report.append(f"- **{cn_name}** ({en_desc}):")
+                report.append(f"  - LLMnote评分显著高于Community Note (平均差异: {diff:+.3f}, p = {p_val:.4f})")
+                report.append(f"  - 效应大小为{effect_desc} (r = {effect:.3f})")
+            else:
+                report.append(f"- **{cn_name}** ({en_desc}):")
+                report.append(f"  - Community Note评分显著高于LLMnote (平均差异: {diff:+.3f}, p = {p_val:.4f})")
+                report.append(f"  - 效应大小为{effect_desc} (r = {effect:.3f})")
+        
+        if non_significant_dims:
+            report.append(f"\n在以下 {len(non_significant_dims)} 个维度上未发现显著差异：")
+            for dim, result in non_significant_dims:
+                cn_name = dimension_names[dim]
+                report.append(f"- {cn_name} (p = {result['p_value']:.4f})")
+    
+    # 添加总结
+    report.append("\n### 总体评价")
+    
+    # 计算各类别的数量
+    llm_better = sum(1 for d, r in test_results.items() if r and r['p_value'] < 0.05 and r['mean_diff'] > 0)
+    community_better = sum(1 for d, r in test_results.items() if r and r['p_value'] < 0.05 and r['mean_diff'] < 0)
+    no_diff = len(test_results) - llm_better - community_better
+    
+    if llm_better > community_better:
+        report.append(f"LLMnote在 {llm_better} 个维度上表现更好，Community Note在 {community_better} 个维度上表现更好，")
+        report.append(f"{no_diff} 个维度无显著差异。总体而言，LLMnote在多数评价维度上获得了更高的用户评分。")
+    elif community_better > llm_better:
+        report.append(f"Community Note在 {community_better} 个维度上表现更好，LLMnote在 {llm_better} 个维度上表现更好，")
+        report.append(f"{no_diff} 个维度无显著差异。总体而言，Community Note在多数评价维度上获得了更高的用户评分。")
+    else:
+        report.append(f"两种笔记类型表现相当：各有 {llm_better} 个维度表现更好，{no_diff} 个维度无显著差异。")
+        report.append("这表明LLMnote和Community Note在整体质量上旗鼓相当。")
     
     # 保存报告
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -291,30 +352,54 @@ def generate_wilcoxon_report(test_results, output_file):
     print(f"Wilcoxon检验报告已保存到: {output_file}")
 
 if __name__ == "__main__":
-    # 读取数据
-    print("开始特征评分可视化分析...")
+    import os
     
-    # 读取宽格式数据
-    feature_df = pd.read_csv("feature_ratings_wide.csv")
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # 准备分歧条形图数据
-    diverging_data = prepare_diverging_data(feature_df)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 进行Wilcoxon检验
-    print("\n进行Wilcoxon符号秩检验...")
-    test_results = perform_wilcoxon_tests(feature_df)
-    
-    # 打印检验结果
-    print("\nWilcoxon检验结果:")
-    for dimension, result in test_results.items():
-        if result:
-            print(f"{dimension}: p={result['p_value']:.4f}, 平均差异={result['mean_diff']:+.3f}")
-    
-    # 创建可视化
-    print("\n创建分歧条形图...")
-    create_diverging_bar_chart(diverging_data, test_results, "feature_rating_diverging_chart.png")
-    
-    # 生成报告
-    generate_wilcoxon_report(test_results, "wilcoxon_test_feature_report.md")
-    
-    print("\n特征评分可视化分析完成！")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(script_dir, f"{model}_feature_rating", f"feature_ratings_wide_{model}.csv")
+        output_dir = os.path.join(script_dir, f"{model}_feature_rating")
+        chart_output = os.path.join(output_dir, f"feature_rating_diverging_chart_{model}.png")
+        report_output = os.path.join(output_dir, f"wilcoxon_test_feature_report_{model}.md")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("开始特征评分可视化分析...")
+            
+            # 读取宽格式数据
+            feature_df = pd.read_csv(input_file)
+            
+            # 准备分歧条形图数据
+            diverging_data = prepare_diverging_data(feature_df)
+            
+            # 进行Wilcoxon检验
+            print("\n进行Wilcoxon符号秩检验...")
+            test_results = perform_wilcoxon_tests(feature_df)
+            
+            # 打印检验结果
+            print("\nWilcoxon检验结果:")
+            for dimension, result in test_results.items():
+                if result:
+                    print(f"{dimension}: p={result['p_value']:.4f}, 平均差异={result['mean_diff']:+.3f}")
+            
+            # 创建可视化
+            print("\n创建分歧条形图...")
+            create_diverging_bar_chart(diverging_data, test_results, chart_output)
+            
+            # 生成报告
+            generate_wilcoxon_report(test_results, report_output)
+            
+            print("\n特征评分可视化分析完成！")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print(f"请先运行 extract_feature_ratings.py 生成 {model} 的数据")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")

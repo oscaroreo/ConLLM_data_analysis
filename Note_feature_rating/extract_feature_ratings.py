@@ -135,19 +135,41 @@ def calculate_feature_statistics(feature_df):
     return stats_by_type, overall_stats
 
 if __name__ == "__main__":
-    # 文件路径
-    input_file = "../consolidated_results.csv"
+    import os
     
-    print("开始提取笔记特征评分数据...")
+    # 获取脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
     
-    # 提取数据
-    feature_df = extract_feature_ratings(input_file)
+    # 要处理的模型列表
+    models = ['claude', 'gpt4o', 'grok', 'qwen']
     
-    # 计算统计信息
-    stats_by_type, overall_stats = calculate_feature_statistics(feature_df)
-    
-    # 保存数据
-    feature_df.to_csv("feature_ratings_wide.csv", index=False, encoding='utf-8')
-    print(f"\n宽格式数据已保存到: feature_ratings_wide.csv")
-    
-    print("\n特征评分数据提取完成！")
+    for model in models:
+        # 设置输入输出路径（使用绝对路径）
+        input_file = os.path.join(parent_dir, f"{model}_results_829.csv")
+        output_dir = os.path.join(script_dir, f"{model}_feature_rating")
+        output_file = os.path.join(output_dir, f"feature_ratings_wide_{model}.csv")
+        
+        print(f"\n{'='*50}")
+        print(f"处理 {model.upper()} 模型数据")
+        print(f"{'='*50}")
+        
+        try:
+            print("开始提取笔记特征评分数据...")
+            
+            # 提取数据
+            feature_df = extract_feature_ratings(input_file)
+            
+            # 计算统计信息
+            stats_by_type, overall_stats = calculate_feature_statistics(feature_df)
+            
+            # 保存数据
+            feature_df.to_csv(output_file, index=False, encoding='utf-8')
+            print(f"\n宽格式数据已保存到: {output_file}")
+            
+            print("\n特征评分数据提取完成！")
+        except FileNotFoundError:
+            print(f"错误: 找不到文件 {input_file}")
+            print("请确认文件路径是否正确")
+        except Exception as e:
+            print(f"处理 {model} 过程中出现错误: {str(e)}")
