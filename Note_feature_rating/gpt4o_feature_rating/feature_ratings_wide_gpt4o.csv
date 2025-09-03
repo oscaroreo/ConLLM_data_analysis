@@ -1,0 +1,1441 @@
+participant_name,participant_id,post_index,note_mapping,response_timestamp,note_type,helpfulness,source_quality,clarity,coverage,context,impartiality,winner,overall_score
+225,mewwjjmzc8a9auve0zp,1,llm_first,2025-08-29T16:08:42.475Z,Community,helpful,4,5,5,5,5,1,4.8
+225,mewwjjmzc8a9auve0zp,1,llm_first,2025-08-29T16:08:42.475Z,LLMnote,somewhat helpful,4,5,4,3,5,0,4.2
+225,mewwjjmzc8a9auve0zp,2,community_first,2025-08-29T15:49:51.910Z,Community,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,2,community_first,2025-08-29T15:49:51.910Z,LLMnote,not helpful,2,2,2,2,3,0,2.2
+225,mewwjjmzc8a9auve0zp,7,community_first,2025-08-29T15:58:06.781Z,Community,helpful,4,4,5,5,5,1,4.6
+225,mewwjjmzc8a9auve0zp,7,community_first,2025-08-29T15:58:06.781Z,LLMnote,helpful,5,5,5,4,5,0,4.8
+225,mewwjjmzc8a9auve0zp,12,llm_first,2025-08-29T15:48:20.128Z,Community,helpful,5,5,5,5,5,0,5.0
+225,mewwjjmzc8a9auve0zp,12,llm_first,2025-08-29T15:48:20.128Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,16,community_first,2025-08-29T15:38:22.814Z,Community,helpful,4,4,4,5,5,0,4.4
+225,mewwjjmzc8a9auve0zp,16,community_first,2025-08-29T15:38:22.814Z,LLMnote,helpful,5,5,4,2,4,1,4.0
+225,mewwjjmzc8a9auve0zp,23,community_first,2025-08-29T15:51:32.458Z,Community,helpful,5,5,5,5,5,0,5.0
+225,mewwjjmzc8a9auve0zp,23,community_first,2025-08-29T15:51:32.458Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,24,community_first,2025-08-29T16:04:20.926Z,Community,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,24,community_first,2025-08-29T16:04:20.926Z,LLMnote,helpful,5,5,4,5,5,0,4.8
+225,mewwjjmzc8a9auve0zp,28,llm_first,2025-08-29T15:43:12.987Z,Community,somewhat helpful,4,4,3,3,5,0,3.8
+225,mewwjjmzc8a9auve0zp,28,llm_first,2025-08-29T15:43:12.987Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,31,community_first,2025-08-29T15:40:44.833Z,Community,helpful,5,4,3,3,4,0,3.8
+225,mewwjjmzc8a9auve0zp,31,community_first,2025-08-29T15:40:44.833Z,LLMnote,helpful,5,4,3,3,3,1,3.6
+225,mewwjjmzc8a9auve0zp,46,llm_first,2025-08-29T15:52:53.322Z,Community,helpful,5,5,4,5,5,0,4.8
+225,mewwjjmzc8a9auve0zp,46,llm_first,2025-08-29T15:52:53.322Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,49,llm_first,2025-08-29T16:03:22.156Z,Community,helpful,4,5,3,5,5,0,4.4
+225,mewwjjmzc8a9auve0zp,49,llm_first,2025-08-29T16:03:22.156Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,50,community_first,2025-08-29T16:07:14.122Z,Community,somewhat helpful,4,4,4,4,5,0,4.2
+225,mewwjjmzc8a9auve0zp,50,community_first,2025-08-29T16:07:14.122Z,LLMnote,helpful,5,5,5,5,4,1,4.8
+225,mewwjjmzc8a9auve0zp,62,community_first,2025-08-29T16:05:49.802Z,Community,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,62,community_first,2025-08-29T16:05:49.802Z,LLMnote,helpful,5,5,5,5,5,0,5.0
+225,mewwjjmzc8a9auve0zp,72,community_first,2025-08-29T16:02:22.085Z,Community,somewhat helpful,4,4,4,5,5,0,4.4
+225,mewwjjmzc8a9auve0zp,72,community_first,2025-08-29T16:02:22.085Z,LLMnote,helpful,5,5,5,3,5,1,4.6
+225,mewwjjmzc8a9auve0zp,76,llm_first,2025-08-29T15:55:46.274Z,Community,helpful,5,5,4,5,5,0,4.8
+225,mewwjjmzc8a9auve0zp,76,llm_first,2025-08-29T15:55:46.274Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,91,llm_first,2025-08-29T15:44:53.579Z,Community,helpful,5,5,5,5,5,0,5.0
+225,mewwjjmzc8a9auve0zp,91,llm_first,2025-08-29T15:44:53.579Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,99,llm_first,2025-08-29T15:54:34.641Z,Community,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,99,llm_first,2025-08-29T15:54:34.641Z,LLMnote,helpful,5,5,4,5,4,0,4.6
+225,mewwjjmzc8a9auve0zp,110,llm_first,2025-08-29T15:57:09.381Z,Community,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,110,llm_first,2025-08-29T15:57:09.381Z,LLMnote,somewhat helpful,4,4,3,4,5,0,4.0
+225,mewwjjmzc8a9auve0zp,123,community_first,2025-08-29T16:00:00.253Z,Community,helpful,4,4,4,5,5,0,4.4
+225,mewwjjmzc8a9auve0zp,123,community_first,2025-08-29T16:00:00.253Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+225,mewwjjmzc8a9auve0zp,142,community_first,2025-08-29T15:47:41.982Z,Community,somewhat helpful,4,4,3,3,5,0,3.8
+225,mewwjjmzc8a9auve0zp,142,community_first,2025-08-29T15:47:41.982Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+235,meyctiu01vb64f761v5,16,community_first,2025-08-30T15:21:31.938Z,Community,not helpful,2,4,2,2,2,0,2.4
+235,meyctiu01vb64f761v5,16,community_first,2025-08-30T15:21:31.938Z,LLMnote,somewhat helpful,4,4,4,4,3,1,3.8
+235,meyctiu01vb64f761v5,21,community_first,2025-08-30T15:08:01.738Z,Community,not helpful,1,4,2,2,2,0,2.2
+235,meyctiu01vb64f761v5,21,community_first,2025-08-30T15:08:01.738Z,LLMnote,somewhat helpful,4,4,4,4,4,1,4.0
+235,meyctiu01vb64f761v5,29,community_first,2025-08-30T14:29:09.200Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+235,meyctiu01vb64f761v5,29,community_first,2025-08-30T14:29:09.200Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+235,meyctiu01vb64f761v5,30,community_first,2025-08-30T14:51:31.122Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+235,meyctiu01vb64f761v5,30,community_first,2025-08-30T14:51:31.122Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+235,meyctiu01vb64f761v5,34,community_first,2025-08-30T15:27:41.561Z,Community,not helpful,2,4,4,4,1,0,3.0
+235,meyctiu01vb64f761v5,34,community_first,2025-08-30T15:27:41.561Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+235,meyctiu01vb64f761v5,36,community_first,2025-08-30T15:25:17.983Z,Community,not helpful,2,4,2,2,2,1,2.4
+235,meyctiu01vb64f761v5,36,community_first,2025-08-30T15:25:17.983Z,LLMnote,not helpful,2,4,3,3,2,0,2.8
+235,meyctiu01vb64f761v5,46,community_first,2025-08-30T15:05:07.458Z,Community,helpful,4,4,4,5,4,1,4.2
+235,meyctiu01vb64f761v5,46,community_first,2025-08-30T15:05:07.458Z,LLMnote,somewhat helpful,3,4,3,4,3,0,3.4
+235,meyctiu01vb64f761v5,50,llm_first,2025-08-30T14:53:41.247Z,Community,somewhat helpful,3,4,2,3,4,0,3.2
+235,meyctiu01vb64f761v5,50,llm_first,2025-08-30T14:53:41.247Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+235,meyctiu01vb64f761v5,74,community_first,2025-08-30T14:36:09.730Z,Community,helpful,4,4,5,5,3,0,4.2
+235,meyctiu01vb64f761v5,74,community_first,2025-08-30T14:36:09.730Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+235,meyctiu01vb64f761v5,76,community_first,2025-08-30T15:01:01.084Z,Community,not helpful,1,4,1,1,1,0,1.6
+235,meyctiu01vb64f761v5,76,community_first,2025-08-30T15:01:01.084Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+235,meyctiu01vb64f761v5,77,community_first,2025-08-30T14:49:25.298Z,Community,somewhat helpful,4,4,5,4,4,0,4.2
+235,meyctiu01vb64f761v5,77,community_first,2025-08-30T14:49:25.298Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+235,meyctiu01vb64f761v5,79,llm_first,2025-08-30T15:14:05.411Z,Community,not helpful,2,4,3,2,3,0,2.8
+235,meyctiu01vb64f761v5,79,llm_first,2025-08-30T15:14:05.411Z,LLMnote,helpful,4,5,5,4,4,1,4.4
+235,meyctiu01vb64f761v5,82,community_first,2025-08-30T15:18:19.548Z,Community,somewhat helpful,4,4,4,3,3,0,3.6
+235,meyctiu01vb64f761v5,82,community_first,2025-08-30T15:18:19.548Z,LLMnote,somewhat helpful,5,5,4,4,3,1,4.2
+235,meyctiu01vb64f761v5,83,llm_first,2025-08-30T14:45:28.458Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+235,meyctiu01vb64f761v5,83,llm_first,2025-08-30T14:45:28.458Z,LLMnote,helpful,5,5,4,4,4,1,4.4
+235,meyctiu01vb64f761v5,91,community_first,2025-08-30T15:11:19.159Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+235,meyctiu01vb64f761v5,91,community_first,2025-08-30T15:11:19.159Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+235,meyctiu01vb64f761v5,93,llm_first,2025-08-30T14:40:17.547Z,Community,not helpful,3,4,2,2,2,0,2.6
+235,meyctiu01vb64f761v5,93,llm_first,2025-08-30T14:40:17.547Z,LLMnote,helpful,4,5,5,5,3,1,4.4
+235,meyctiu01vb64f761v5,98,llm_first,2025-08-30T14:43:08.810Z,Community,helpful,4,4,4,4,4,1,4.0
+235,meyctiu01vb64f761v5,98,llm_first,2025-08-30T14:43:08.810Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+235,meyctiu01vb64f761v5,106,community_first,2025-08-30T14:58:23.738Z,Community,not helpful,2,4,2,2,2,1,2.4
+235,meyctiu01vb64f761v5,106,community_first,2025-08-30T14:58:23.738Z,LLMnote,not helpful,2,4,2,3,2,0,2.6
+235,meyctiu01vb64f761v5,123,llm_first,2025-08-30T14:31:33.748Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+235,meyctiu01vb64f761v5,123,llm_first,2025-08-30T14:31:33.748Z,LLMnote,helpful,4,4,5,5,3,1,4.2
+235,meyctiu01vb64f761v5,142,community_first,2025-08-30T14:55:06.958Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+235,meyctiu01vb64f761v5,142,community_first,2025-08-30T14:55:06.958Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+238,mez79hdhtht29d9utih,1,community_first,2025-08-31T04:46:14.140Z,Community,helpful,4,3,5,4,4,1,4.0
+238,mez79hdhtht29d9utih,1,community_first,2025-08-31T04:46:14.140Z,LLMnote,not helpful,2,4,3,2,3,0,2.8
+238,mez79hdhtht29d9utih,2,llm_first,2025-08-31T04:52:14.196Z,Community,helpful,4,5,5,3,4,1,4.2
+238,mez79hdhtht29d9utih,2,llm_first,2025-08-31T04:52:14.196Z,LLMnote,not helpful,2,1,3,2,2,0,2.0
+238,mez79hdhtht29d9utih,16,community_first,2025-08-31T04:51:00.086Z,Community,helpful,4,4,5,5,3,1,4.2
+238,mez79hdhtht29d9utih,16,community_first,2025-08-31T04:51:00.086Z,LLMnote,not helpful,4,2,5,4,3,0,3.6
+238,mez79hdhtht29d9utih,23,community_first,2025-08-31T04:42:12.737Z,Community,somewhat helpful,4,5,4,5,4,1,4.4
+238,mez79hdhtht29d9utih,23,community_first,2025-08-31T04:42:12.737Z,LLMnote,somewhat helpful,3,2,4,3,2,0,2.8
+238,mez79hdhtht29d9utih,28,community_first,2025-08-31T04:55:04.237Z,Community,not helpful,2,3,1,2,3,0,2.2
+238,mez79hdhtht29d9utih,28,community_first,2025-08-31T04:55:04.237Z,LLMnote,somewhat helpful,4,5,5,3,1,1,3.6
+238,mez79hdhtht29d9utih,35,community_first,2025-08-31T04:51:41.395Z,Community,helpful,3,4,4,3,3,1,3.4
+238,mez79hdhtht29d9utih,35,community_first,2025-08-31T04:51:41.395Z,LLMnote,somewhat helpful,3,2,4,4,3,0,3.2
+238,mez79hdhtht29d9utih,36,llm_first,2025-08-31T04:52:53.456Z,Community,helpful,4,5,4,4,3,1,4.0
+238,mez79hdhtht29d9utih,36,llm_first,2025-08-31T04:52:53.456Z,LLMnote,somewhat helpful,2,1,2,4,2,0,2.2
+238,mez79hdhtht29d9utih,46,community_first,2025-08-31T05:04:47.211Z,Community,not helpful,2,2,4,2,3,0,2.6
+238,mez79hdhtht29d9utih,46,community_first,2025-08-31T05:04:47.211Z,LLMnote,somewhat helpful,4,5,4,3,4,1,4.0
+238,mez79hdhtht29d9utih,60,community_first,2025-08-31T05:06:52.681Z,Community,helpful,4,4,5,5,3,1,4.2
+238,mez79hdhtht29d9utih,60,community_first,2025-08-31T05:06:52.681Z,LLMnote,somewhat helpful,4,5,3,4,4,0,4.0
+238,mez79hdhtht29d9utih,70,llm_first,2025-08-31T04:40:20.251Z,Community,helpful,5,4,4,3,5,1,4.2
+238,mez79hdhtht29d9utih,70,llm_first,2025-08-31T04:40:20.251Z,LLMnote,somewhat helpful,4,3,5,4,3,0,3.8
+238,mez79hdhtht29d9utih,72,llm_first,2025-08-31T05:03:01.623Z,Community,somewhat helpful,4,4,2,3,4,0,3.4
+238,mez79hdhtht29d9utih,72,llm_first,2025-08-31T05:03:01.623Z,LLMnote,helpful,4,3,4,5,4,1,4.0
+238,mez79hdhtht29d9utih,74,community_first,2025-08-31T04:38:31.390Z,Community,somewhat helpful,5,4,3,4,4,1,4.0
+238,mez79hdhtht29d9utih,74,community_first,2025-08-31T04:38:31.390Z,LLMnote,not helpful,3,2,4,1,2,0,2.4
+238,mez79hdhtht29d9utih,77,community_first,2025-08-31T05:07:23.331Z,Community,not helpful,2,1,2,4,2,0,2.2
+238,mez79hdhtht29d9utih,77,community_first,2025-08-31T05:07:23.331Z,LLMnote,somewhat helpful,5,4,4,2,4,1,3.8
+238,mez79hdhtht29d9utih,79,llm_first,2025-08-31T05:04:01.326Z,Community,helpful,5,4,4,3,5,1,4.2
+238,mez79hdhtht29d9utih,79,llm_first,2025-08-31T05:04:01.326Z,LLMnote,somewhat helpful,3,5,4,2,3,0,3.4
+238,mez79hdhtht29d9utih,91,community_first,2025-08-31T05:05:56.007Z,Community,helpful,4,5,3,4,3,0,3.8
+238,mez79hdhtht29d9utih,91,community_first,2025-08-31T05:05:56.007Z,LLMnote,somewhat helpful,4,5,3,4,4,1,4.0
+238,mez79hdhtht29d9utih,92,llm_first,2025-08-31T05:15:09.974Z,Community,helpful,5,4,4,5,3,1,4.2
+238,mez79hdhtht29d9utih,92,llm_first,2025-08-31T05:15:09.974Z,LLMnote,somewhat helpful,4,2,4,4,4,0,3.6
+238,mez79hdhtht29d9utih,101,llm_first,2025-08-31T04:50:28.008Z,Community,helpful,4,4,5,5,3,1,4.2
+238,mez79hdhtht29d9utih,101,llm_first,2025-08-31T04:50:28.008Z,LLMnote,somewhat helpful,4,5,4,3,5,0,4.2
+238,mez79hdhtht29d9utih,122,llm_first,2025-08-31T04:45:46.747Z,Community,somewhat helpful,2,4,3,4,4,0,3.4
+238,mez79hdhtht29d9utih,122,llm_first,2025-08-31T04:45:46.747Z,LLMnote,helpful,4,3,5,4,4,1,4.0
+238,mez79hdhtht29d9utih,123,llm_first,2025-08-31T05:18:41.969Z,Community,somewhat helpful,5,4,4,5,4,1,4.4
+238,mez79hdhtht29d9utih,123,llm_first,2025-08-31T05:18:41.969Z,LLMnote,somewhat helpful,4,5,4,3,1,0,3.4
+238,mez79hdhtht29d9utih,124,community_first,2025-08-31T04:42:51.910Z,Community,helpful,5,4,4,5,3,1,4.2
+238,mez79hdhtht29d9utih,124,community_first,2025-08-31T04:42:51.910Z,LLMnote,not helpful,1,2,2,4,2,0,2.2
+212,mewsonc5mqwmdvh3lho,1,community_first,2025-08-29T12:32:56.696Z,Community,somewhat helpful,5,4,4,5,4,0,4.4
+212,mewsonc5mqwmdvh3lho,1,community_first,2025-08-29T12:32:56.696Z,LLMnote,somewhat helpful,4,5,4,4,5,1,4.4
+212,mewsonc5mqwmdvh3lho,2,community_first,2025-08-29T12:30:38.750Z,Community,somewhat helpful,4,5,4,4,5,1,4.4
+212,mewsonc5mqwmdvh3lho,2,community_first,2025-08-29T12:30:38.750Z,LLMnote,somewhat helpful,4,4,5,5,4,0,4.4
+212,mewsonc5mqwmdvh3lho,12,llm_first,2025-08-29T12:34:54.614Z,Community,somewhat helpful,4,5,5,4,4,1,4.4
+212,mewsonc5mqwmdvh3lho,12,llm_first,2025-08-29T12:34:54.614Z,LLMnote,somewhat helpful,5,4,4,5,5,0,4.6
+212,mewsonc5mqwmdvh3lho,16,llm_first,2025-08-29T12:41:39.782Z,Community,helpful,5,4,5,4,4,0,4.4
+212,mewsonc5mqwmdvh3lho,16,llm_first,2025-08-29T12:41:39.782Z,LLMnote,helpful,5,4,5,4,4,1,4.4
+212,mewsonc5mqwmdvh3lho,19,community_first,2025-08-29T12:27:10.609Z,Community,somewhat helpful,4,5,5,4,4,0,4.4
+212,mewsonc5mqwmdvh3lho,19,community_first,2025-08-29T12:27:10.609Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+212,mewsonc5mqwmdvh3lho,21,llm_first,2025-08-29T12:24:51.502Z,Community,not helpful,4,5,4,4,5,0,4.4
+212,mewsonc5mqwmdvh3lho,21,llm_first,2025-08-29T12:24:51.502Z,LLMnote,somewhat helpful,4,5,4,4,5,1,4.4
+212,mewsonc5mqwmdvh3lho,24,community_first,2025-08-29T12:27:54.173Z,Community,somewhat helpful,4,4,5,5,4,0,4.4
+212,mewsonc5mqwmdvh3lho,24,community_first,2025-08-29T12:27:54.173Z,LLMnote,somewhat helpful,4,4,5,5,5,1,4.6
+212,mewsonc5mqwmdvh3lho,29,community_first,2025-08-29T12:43:08.897Z,Community,somewhat helpful,4,5,5,4,4,1,4.4
+212,mewsonc5mqwmdvh3lho,29,community_first,2025-08-29T12:43:08.897Z,LLMnote,helpful,5,5,4,4,5,0,4.6
+212,mewsonc5mqwmdvh3lho,30,llm_first,2025-08-29T12:36:15.383Z,Community,somewhat helpful,5,4,4,5,4,1,4.4
+212,mewsonc5mqwmdvh3lho,30,llm_first,2025-08-29T12:36:15.383Z,LLMnote,somewhat helpful,4,5,4,4,4,0,4.2
+212,mewsonc5mqwmdvh3lho,36,community_first,2025-08-29T12:40:00.855Z,Community,helpful,4,5,5,4,5,1,4.6
+212,mewsonc5mqwmdvh3lho,36,community_first,2025-08-29T12:40:00.855Z,LLMnote,somewhat helpful,5,5,4,5,5,0,4.8
+212,mewsonc5mqwmdvh3lho,52,llm_first,2025-08-29T12:25:36.390Z,Community,somewhat helpful,4,5,5,4,4,0,4.4
+212,mewsonc5mqwmdvh3lho,52,llm_first,2025-08-29T12:25:36.390Z,LLMnote,somewhat helpful,4,5,4,4,5,1,4.4
+212,mewsonc5mqwmdvh3lho,59,llm_first,2025-08-29T12:32:07.332Z,Community,somewhat helpful,4,5,5,4,5,0,4.6
+212,mewsonc5mqwmdvh3lho,59,llm_first,2025-08-29T12:32:07.332Z,LLMnote,somewhat helpful,4,5,5,4,5,1,4.6
+212,mewsonc5mqwmdvh3lho,68,llm_first,2025-08-29T12:39:15.558Z,Community,somewhat helpful,4,4,5,5,4,1,4.4
+212,mewsonc5mqwmdvh3lho,68,llm_first,2025-08-29T12:39:15.558Z,LLMnote,helpful,5,5,4,4,5,0,4.6
+212,mewsonc5mqwmdvh3lho,75,llm_first,2025-08-29T12:23:19.564Z,Community,somewhat helpful,4,4,5,5,4,1,4.4
+212,mewsonc5mqwmdvh3lho,75,llm_first,2025-08-29T12:23:19.564Z,LLMnote,not helpful,4,5,4,4,5,0,4.4
+212,mewsonc5mqwmdvh3lho,76,llm_first,2025-08-29T12:29:51.513Z,Community,somewhat helpful,5,4,4,5,5,1,4.6
+212,mewsonc5mqwmdvh3lho,76,llm_first,2025-08-29T12:29:51.513Z,LLMnote,somewhat helpful,4,5,4,4,5,0,4.4
+212,mewsonc5mqwmdvh3lho,77,llm_first,2025-08-29T12:38:25.192Z,Community,somewhat helpful,4,5,5,4,4,1,4.4
+212,mewsonc5mqwmdvh3lho,77,llm_first,2025-08-29T12:38:25.192Z,LLMnote,somewhat helpful,5,4,4,5,5,0,4.6
+212,mewsonc5mqwmdvh3lho,79,community_first,2025-08-29T12:37:05.718Z,Community,helpful,4,4,5,5,4,1,4.4
+212,mewsonc5mqwmdvh3lho,79,community_first,2025-08-29T12:37:05.718Z,LLMnote,somewhat helpful,4,4,5,5,4,0,4.4
+212,mewsonc5mqwmdvh3lho,93,community_first,2025-08-29T12:28:46.136Z,Community,helpful,5,4,4,5,5,1,4.6
+212,mewsonc5mqwmdvh3lho,93,community_first,2025-08-29T12:28:46.136Z,LLMnote,somewhat helpful,4,5,5,4,4,0,4.4
+212,mewsonc5mqwmdvh3lho,102,llm_first,2025-08-29T12:26:27.610Z,Community,somewhat helpful,4,4,5,4,4,0,4.2
+212,mewsonc5mqwmdvh3lho,102,llm_first,2025-08-29T12:26:27.610Z,LLMnote,somewhat helpful,4,4,5,5,4,1,4.4
+212,mewsonc5mqwmdvh3lho,110,community_first,2025-08-29T12:40:53.979Z,Community,somewhat helpful,4,5,5,4,5,1,4.6
+212,mewsonc5mqwmdvh3lho,110,community_first,2025-08-29T12:40:53.979Z,LLMnote,somewhat helpful,4,4,5,4,4,0,4.2
+尚燕军,mezgcywbfrju98nsnxo,1,community_first,2025-08-31T09:02:59.978Z,Community,somewhat helpful,4,3,4,5,3,0,3.8
+尚燕军,mezgcywbfrju98nsnxo,1,community_first,2025-08-31T09:02:59.978Z,LLMnote,helpful,4,4,5,5,3,1,4.2
+尚燕军,mezgcywbfrju98nsnxo,2,community_first,2025-08-31T09:14:03.387Z,Community,helpful,4,5,4,5,4,0,4.4
+尚燕军,mezgcywbfrju98nsnxo,2,community_first,2025-08-31T09:14:03.387Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,3,llm_first,2025-08-31T09:12:31.420Z,Community,helpful,4,5,4,5,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,3,llm_first,2025-08-31T09:12:31.420Z,LLMnote,helpful,4,1,4,5,4,0,3.6
+尚燕军,mezgcywbfrju98nsnxo,7,community_first,2025-08-31T09:20:26.624Z,Community,somewhat helpful,4,3,4,5,4,0,4.0
+尚燕军,mezgcywbfrju98nsnxo,7,community_first,2025-08-31T09:20:26.624Z,LLMnote,helpful,3,4,4,3,2,1,3.2
+尚燕军,mezgcywbfrju98nsnxo,19,llm_first,2025-08-31T09:01:17.284Z,Community,helpful,5,4,5,5,4,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,19,llm_first,2025-08-31T09:01:17.284Z,LLMnote,helpful,4,5,4,5,2,0,4.0
+尚燕军,mezgcywbfrju98nsnxo,24,community_first,2025-08-31T09:24:05.289Z,Community,not helpful,1,2,1,2,1,0,1.4
+尚燕军,mezgcywbfrju98nsnxo,24,community_first,2025-08-31T09:24:05.289Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,32,llm_first,2025-08-31T09:21:48.454Z,Community,helpful,4,4,5,4,4,1,4.2
+尚燕军,mezgcywbfrju98nsnxo,32,llm_first,2025-08-31T09:21:48.454Z,LLMnote,somewhat helpful,2,2,3,4,2,0,2.6
+尚燕军,mezgcywbfrju98nsnxo,49,llm_first,2025-08-31T09:09:33.510Z,Community,helpful,5,4,4,5,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,49,llm_first,2025-08-31T09:09:33.510Z,LLMnote,somewhat helpful,3,2,4,4,5,0,3.6
+尚燕军,mezgcywbfrju98nsnxo,50,llm_first,2025-08-31T09:05:39.793Z,Community,helpful,4,3,5,4,4,1,4.0
+尚燕军,mezgcywbfrju98nsnxo,50,llm_first,2025-08-31T09:05:39.793Z,LLMnote,somewhat helpful,4,3,5,4,5,0,4.2
+尚燕军,mezgcywbfrju98nsnxo,59,community_first,2025-08-31T09:15:37.529Z,Community,somewhat helpful,4,2,2,3,1,0,2.4
+尚燕军,mezgcywbfrju98nsnxo,59,community_first,2025-08-31T09:15:37.529Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,62,community_first,2025-08-31T09:07:00.429Z,Community,helpful,5,4,5,5,4,0,4.6
+尚燕军,mezgcywbfrju98nsnxo,62,community_first,2025-08-31T09:07:00.429Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,69,llm_first,2025-08-31T08:59:25.949Z,Community,somewhat helpful,2,1,4,3,2,0,2.4
+尚燕军,mezgcywbfrju98nsnxo,69,llm_first,2025-08-31T08:59:25.949Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,72,community_first,2025-08-31T09:18:52.939Z,Community,somewhat helpful,2,3,4,3,2,0,2.8
+尚燕军,mezgcywbfrju98nsnxo,72,community_first,2025-08-31T09:18:52.939Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,79,llm_first,2025-08-31T08:56:03.055Z,Community,helpful,5,5,4,4,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,79,llm_first,2025-08-31T08:56:03.055Z,LLMnote,not helpful,2,4,4,4,2,0,3.2
+尚燕军,mezgcywbfrju98nsnxo,91,community_first,2025-08-31T08:57:43.375Z,Community,somewhat helpful,4,4,5,4,3,0,4.0
+尚燕军,mezgcywbfrju98nsnxo,91,community_first,2025-08-31T08:57:43.375Z,LLMnote,helpful,4,5,4,5,3,1,4.2
+尚燕军,mezgcywbfrju98nsnxo,98,llm_first,2025-08-31T09:08:03.952Z,Community,somewhat helpful,5,4,4,5,4,0,4.4
+尚燕军,mezgcywbfrju98nsnxo,98,llm_first,2025-08-31T09:08:03.952Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,99,llm_first,2025-08-31T09:17:25.800Z,Community,helpful,4,5,4,5,4,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,99,llm_first,2025-08-31T09:17:25.800Z,LLMnote,helpful,1,2,5,2,1,0,2.2
+尚燕军,mezgcywbfrju98nsnxo,109,community_first,2025-08-31T09:10:51.791Z,Community,helpful,4,5,4,5,4,0,4.4
+尚燕军,mezgcywbfrju98nsnxo,109,community_first,2025-08-31T09:10:51.791Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+尚燕军,mezgcywbfrju98nsnxo,110,llm_first,2025-08-31T09:22:51.797Z,Community,helpful,4,5,4,4,5,1,4.4
+尚燕军,mezgcywbfrju98nsnxo,110,llm_first,2025-08-31T09:22:51.797Z,LLMnote,helpful,4,4,4,5,4,0,4.2
+尚燕军,mezgcywbfrju98nsnxo,123,llm_first,2025-08-31T09:04:34.306Z,Community,helpful,5,4,4,5,5,1,4.6
+尚燕军,mezgcywbfrju98nsnxo,123,llm_first,2025-08-31T09:04:34.306Z,LLMnote,helpful,5,4,3,4,5,0,4.2
+232,mey9sc0b9zisikvyetf,16,community_first,2025-08-30T13:11:33.658Z,Community,somewhat helpful,2,4,2,3,3,0,2.8
+232,mey9sc0b9zisikvyetf,16,community_first,2025-08-30T13:11:33.658Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+232,mey9sc0b9zisikvyetf,21,llm_first,2025-08-30T13:32:12.194Z,Community,helpful,4,5,3,4,4,1,4.0
+232,mey9sc0b9zisikvyetf,21,llm_first,2025-08-30T13:32:12.194Z,LLMnote,somewhat helpful,4,3,4,4,3,0,3.6
+232,mey9sc0b9zisikvyetf,36,community_first,2025-08-30T13:21:19.555Z,Community,somewhat helpful,3,3,2,2,3,0,2.6
+232,mey9sc0b9zisikvyetf,36,community_first,2025-08-30T13:21:19.555Z,LLMnote,helpful,4,5,4,4,3,1,4.0
+232,mey9sc0b9zisikvyetf,46,community_first,2025-08-30T13:35:30.915Z,Community,somewhat helpful,4,4,3,3,2,0,3.2
+232,mey9sc0b9zisikvyetf,46,community_first,2025-08-30T13:35:30.915Z,LLMnote,helpful,4,5,4,4,3,1,4.0
+232,mey9sc0b9zisikvyetf,49,llm_first,2025-08-30T13:29:16.210Z,Community,not helpful,2,1,1,1,2,0,1.4
+232,mey9sc0b9zisikvyetf,49,llm_first,2025-08-30T13:29:16.210Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+232,mey9sc0b9zisikvyetf,65,llm_first,2025-08-30T13:27:22.146Z,Community,not helpful,1,1,2,1,1,0,1.2
+232,mey9sc0b9zisikvyetf,65,llm_first,2025-08-30T13:27:22.146Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+232,mey9sc0b9zisikvyetf,68,llm_first,2025-08-30T13:12:56.978Z,Community,not helpful,1,1,2,1,1,0,1.2
+232,mey9sc0b9zisikvyetf,68,llm_first,2025-08-30T13:12:56.978Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+232,mey9sc0b9zisikvyetf,70,llm_first,2025-08-30T13:39:19.282Z,Community,not helpful,2,1,2,1,2,0,1.6
+232,mey9sc0b9zisikvyetf,70,llm_first,2025-08-30T13:39:19.282Z,LLMnote,helpful,4,4,3,3,4,1,3.6
+232,mey9sc0b9zisikvyetf,75,llm_first,2025-08-30T13:28:26.082Z,Community,not helpful,2,2,1,1,2,0,1.6
+232,mey9sc0b9zisikvyetf,75,llm_first,2025-08-30T13:28:26.082Z,LLMnote,helpful,4,5,4,4,3,1,4.0
+232,mey9sc0b9zisikvyetf,77,llm_first,2025-08-30T13:23:04.426Z,Community,somewhat helpful,2,2,1,1,2,0,1.6
+232,mey9sc0b9zisikvyetf,77,llm_first,2025-08-30T13:23:04.426Z,LLMnote,somewhat helpful,4,3,4,4,3,1,3.6
+232,mey9sc0b9zisikvyetf,79,community_first,2025-08-30T13:40:51.555Z,Community,somewhat helpful,2,2,3,2,3,0,2.4
+232,mey9sc0b9zisikvyetf,79,community_first,2025-08-30T13:40:51.555Z,LLMnote,helpful,3,4,4,3,4,1,3.6
+232,mey9sc0b9zisikvyetf,82,llm_first,2025-08-30T13:15:59.754Z,Community,not helpful,1,2,1,2,2,0,1.6
+232,mey9sc0b9zisikvyetf,82,llm_first,2025-08-30T13:15:59.754Z,LLMnote,helpful,5,4,4,5,5,1,4.6
+232,mey9sc0b9zisikvyetf,85,community_first,2025-08-30T13:36:32.451Z,Community,not helpful,2,1,2,2,1,0,1.6
+232,mey9sc0b9zisikvyetf,85,community_first,2025-08-30T13:36:32.451Z,LLMnote,helpful,4,4,3,4,3,1,3.6
+232,mey9sc0b9zisikvyetf,86,llm_first,2025-08-30T13:30:38.940Z,Community,not helpful,2,2,3,2,3,0,2.4
+232,mey9sc0b9zisikvyetf,86,llm_first,2025-08-30T13:30:38.940Z,LLMnote,helpful,4,3,4,4,3,1,3.6
+232,mey9sc0b9zisikvyetf,94,community_first,2025-08-30T13:16:49.874Z,Community,not helpful,1,1,2,1,1,0,1.2
+232,mey9sc0b9zisikvyetf,94,community_first,2025-08-30T13:16:49.874Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+232,mey9sc0b9zisikvyetf,98,community_first,2025-08-30T13:08:46.922Z,Community,not helpful,2,2,1,4,2,0,2.2
+232,mey9sc0b9zisikvyetf,98,community_first,2025-08-30T13:08:46.922Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+232,mey9sc0b9zisikvyetf,102,community_first,2025-08-30T13:18:37.834Z,Community,somewhat helpful,4,3,2,3,3,0,3.0
+232,mey9sc0b9zisikvyetf,102,community_first,2025-08-30T13:18:37.834Z,LLMnote,helpful,4,5,4,4,3,1,4.0
+232,mey9sc0b9zisikvyetf,114,llm_first,2025-08-30T13:26:14.866Z,Community,not helpful,1,1,1,2,2,0,1.4
+232,mey9sc0b9zisikvyetf,114,llm_first,2025-08-30T13:26:14.866Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+232,mey9sc0b9zisikvyetf,123,llm_first,2025-08-30T13:37:32.658Z,Community,not helpful,2,1,2,2,1,0,1.6
+232,mey9sc0b9zisikvyetf,123,llm_first,2025-08-30T13:37:32.658Z,LLMnote,helpful,4,4,3,4,3,1,3.6
+232,mey9sc0b9zisikvyetf,142,llm_first,2025-08-30T13:24:57.906Z,Community,somewhat helpful,4,3,3,4,3,0,3.4
+232,mey9sc0b9zisikvyetf,142,llm_first,2025-08-30T13:24:57.906Z,LLMnote,helpful,4,4,5,4,3,1,4.0
+201,mexq3botd3u178vsjzw,1,llm_first,2025-08-30T04:00:37.036Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,1,llm_first,2025-08-30T04:00:37.036Z,LLMnote,somewhat helpful,3,3,3,4,3,0,3.2
+201,mexq3botd3u178vsjzw,7,community_first,2025-08-30T03:59:53.707Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,7,community_first,2025-08-30T03:59:53.707Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,12,community_first,2025-08-30T03:55:25.158Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,12,community_first,2025-08-30T03:55:25.158Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,30,llm_first,2025-08-30T04:06:14.907Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,30,llm_first,2025-08-30T04:06:14.907Z,LLMnote,helpful,3,3,3,4,2,0,3.0
+201,mexq3botd3u178vsjzw,31,llm_first,2025-08-30T04:07:41.883Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,31,llm_first,2025-08-30T04:07:41.883Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,35,llm_first,2025-08-30T04:05:21.948Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,35,llm_first,2025-08-30T04:05:21.948Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,36,llm_first,2025-08-30T03:54:08.897Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,36,llm_first,2025-08-30T03:54:08.897Z,LLMnote,somewhat helpful,2,3,3,3,2,0,2.6
+201,mexq3botd3u178vsjzw,52,community_first,2025-08-30T04:02:20.390Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,52,community_first,2025-08-30T04:02:20.390Z,LLMnote,helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,57,llm_first,2025-08-30T04:04:16.876Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,57,llm_first,2025-08-30T04:04:16.876Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,60,llm_first,2025-08-30T03:56:05.798Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,60,llm_first,2025-08-30T03:56:05.798Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,69,llm_first,2025-08-30T03:57:05.983Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,69,llm_first,2025-08-30T03:57:05.983Z,LLMnote,somewhat helpful,2,3,3,3,3,0,2.8
+201,mexq3botd3u178vsjzw,77,llm_first,2025-08-30T04:08:28.435Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,77,llm_first,2025-08-30T04:08:28.435Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+201,mexq3botd3u178vsjzw,79,community_first,2025-08-30T04:04:42.851Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,79,community_first,2025-08-30T04:04:42.851Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+201,mexq3botd3u178vsjzw,83,llm_first,2025-08-30T04:03:07.757Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,83,llm_first,2025-08-30T04:03:07.757Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+201,mexq3botd3u178vsjzw,91,community_first,2025-08-30T04:03:52.084Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,91,community_first,2025-08-30T04:03:52.084Z,LLMnote,somewhat helpful,4,3,3,4,4,0,3.6
+201,mexq3botd3u178vsjzw,93,llm_first,2025-08-30T03:52:55.545Z,Community,helpful,4,4,5,5,4,1,4.4
+201,mexq3botd3u178vsjzw,93,llm_first,2025-08-30T03:52:55.545Z,LLMnote,not helpful,2,3,2,2,2,0,2.2
+201,mexq3botd3u178vsjzw,94,llm_first,2025-08-30T03:58:13.389Z,Community,somewhat helpful,4,4,2,4,2,1,3.2
+201,mexq3botd3u178vsjzw,94,llm_first,2025-08-30T03:58:13.389Z,LLMnote,somewhat helpful,4,3,3,4,2,0,3.2
+201,mexq3botd3u178vsjzw,99,community_first,2025-08-30T04:06:54.453Z,Community,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,99,community_first,2025-08-30T04:06:54.453Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+201,mexq3botd3u178vsjzw,102,llm_first,2025-08-30T03:59:18.973Z,Community,somewhat helpful,3,3,3,4,4,0,3.4
+201,mexq3botd3u178vsjzw,102,llm_first,2025-08-30T03:59:18.973Z,LLMnote,helpful,4,4,4,4,4,1,4.0
+201,mexq3botd3u178vsjzw,124,community_first,2025-08-30T04:01:34.875Z,Community,somewhat helpful,3,4,3,4,3,1,3.4
+201,mexq3botd3u178vsjzw,124,community_first,2025-08-30T04:01:34.875Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+245,mezfc7smc08ubdedvo,12,community_first,2025-08-31T08:37:01.327Z,Community,somewhat helpful,4,5,4,5,5,0,4.6
+245,mezfc7smc08ubdedvo,12,community_first,2025-08-31T08:37:01.327Z,LLMnote,helpful,4,5,3,4,5,1,4.2
+245,mezfc7smc08ubdedvo,16,community_first,2025-08-31T08:38:54.504Z,Community,somewhat helpful,4,4,3,4,5,0,4.0
+245,mezfc7smc08ubdedvo,16,community_first,2025-08-31T08:38:54.504Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+245,mezfc7smc08ubdedvo,28,community_first,2025-08-31T08:35:24.840Z,Community,somewhat helpful,5,4,5,4,5,0,4.6
+245,mezfc7smc08ubdedvo,28,community_first,2025-08-31T08:35:24.840Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+245,mezfc7smc08ubdedvo,31,llm_first,2025-08-31T08:44:37.003Z,Community,not helpful,1,3,2,1,3,0,2.0
+245,mezfc7smc08ubdedvo,31,llm_first,2025-08-31T08:44:37.003Z,LLMnote,somewhat helpful,4,5,4,3,4,1,4.0
+245,mezfc7smc08ubdedvo,35,llm_first,2025-08-31T08:39:38.439Z,Community,somewhat helpful,4,5,4,3,3,0,3.8
+245,mezfc7smc08ubdedvo,35,llm_first,2025-08-31T08:39:38.439Z,LLMnote,somewhat helpful,4,3,4,5,4,1,4.0
+245,mezfc7smc08ubdedvo,36,community_first,2025-08-31T08:53:13.071Z,Community,somewhat helpful,4,3,2,1,3,0,2.6
+245,mezfc7smc08ubdedvo,36,community_first,2025-08-31T08:53:13.071Z,LLMnote,helpful,4,5,4,5,3,1,4.2
+245,mezfc7smc08ubdedvo,46,community_first,2025-08-31T08:25:53.443Z,Community,helpful,4,5,4,5,3,1,4.2
+245,mezfc7smc08ubdedvo,46,community_first,2025-08-31T08:25:53.443Z,LLMnote,somewhat helpful,5,4,5,4,5,0,4.6
+245,mezfc7smc08ubdedvo,52,llm_first,2025-08-31T08:47:25.992Z,Community,not helpful,2,3,1,2,2,0,2.0
+245,mezfc7smc08ubdedvo,52,llm_first,2025-08-31T08:47:25.992Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+245,mezfc7smc08ubdedvo,57,llm_first,2025-08-31T08:41:01.017Z,Community,somewhat helpful,4,3,2,1,3,0,2.6
+245,mezfc7smc08ubdedvo,57,llm_first,2025-08-31T08:41:01.017Z,LLMnote,somewhat helpful,5,4,5,3,4,1,4.2
+245,mezfc7smc08ubdedvo,70,llm_first,2025-08-31T08:34:01.376Z,Community,somewhat helpful,5,4,5,4,5,1,4.6
+245,mezfc7smc08ubdedvo,70,llm_first,2025-08-31T08:34:01.376Z,LLMnote,somewhat helpful,4,5,4,5,4,0,4.4
+245,mezfc7smc08ubdedvo,75,community_first,2025-08-31T08:50:49.717Z,Community,somewhat helpful,3,2,2,1,3,0,2.2
+245,mezfc7smc08ubdedvo,75,community_first,2025-08-31T08:50:49.717Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+245,mezfc7smc08ubdedvo,77,llm_first,2025-08-31T08:51:59.548Z,Community,not helpful,3,2,1,2,3,0,2.2
+245,mezfc7smc08ubdedvo,77,llm_first,2025-08-31T08:51:59.548Z,LLMnote,somewhat helpful,5,4,5,4,3,1,4.2
+245,mezfc7smc08ubdedvo,81,community_first,2025-08-31T08:27:30.327Z,Community,somewhat helpful,5,4,3,4,5,0,4.2
+245,mezfc7smc08ubdedvo,81,community_first,2025-08-31T08:27:30.327Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+245,mezfc7smc08ubdedvo,82,community_first,2025-08-31T08:32:30.923Z,Community,somewhat helpful,5,4,3,4,5,1,4.2
+245,mezfc7smc08ubdedvo,82,community_first,2025-08-31T08:32:30.923Z,LLMnote,somewhat helpful,4,5,4,5,4,0,4.4
+245,mezfc7smc08ubdedvo,86,community_first,2025-08-31T08:30:20.373Z,Community,somewhat helpful,2,3,2,1,4,0,2.4
+245,mezfc7smc08ubdedvo,86,community_first,2025-08-31T08:30:20.373Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+245,mezfc7smc08ubdedvo,92,llm_first,2025-08-31T08:46:11.138Z,Community,helpful,4,5,4,5,4,1,4.4
+245,mezfc7smc08ubdedvo,92,llm_first,2025-08-31T08:46:11.138Z,LLMnote,somewhat helpful,4,5,4,5,4,0,4.4
+245,mezfc7smc08ubdedvo,93,community_first,2025-08-31T08:28:56.396Z,Community,somewhat helpful,4,5,3,4,5,0,4.2
+245,mezfc7smc08ubdedvo,93,community_first,2025-08-31T08:28:56.396Z,LLMnote,helpful,4,5,4,5,3,1,4.2
+245,mezfc7smc08ubdedvo,94,community_first,2025-08-31T08:38:01.584Z,Community,not helpful,2,3,2,1,3,0,2.2
+245,mezfc7smc08ubdedvo,94,community_first,2025-08-31T08:38:01.584Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+245,mezfc7smc08ubdedvo,102,llm_first,2025-08-31T08:43:10.186Z,Community,not helpful,1,3,2,1,3,0,2.0
+245,mezfc7smc08ubdedvo,102,llm_first,2025-08-31T08:43:10.186Z,LLMnote,somewhat helpful,5,4,5,3,4,1,4.2
+245,mezfc7smc08ubdedvo,106,community_first,2025-08-31T08:49:10.018Z,Community,somewhat helpful,3,4,2,3,4,0,3.2
+245,mezfc7smc08ubdedvo,106,community_first,2025-08-31T08:49:10.018Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+233,mey9t3t30sc3tueu8w8,1,community_first,2025-08-30T13:17:46.447Z,Community,somewhat helpful,4,3,5,4,3,1,3.8
+233,mey9t3t30sc3tueu8w8,1,community_first,2025-08-30T13:17:46.447Z,LLMnote,somewhat helpful,3,2,3,4,2,0,2.8
+233,mey9t3t30sc3tueu8w8,2,llm_first,2025-08-30T13:18:18.863Z,Community,somewhat helpful,3,2,3,4,2,1,2.8
+233,mey9t3t30sc3tueu8w8,2,llm_first,2025-08-30T13:18:18.863Z,LLMnote,not helpful,2,3,2,3,2,0,2.4
+233,mey9t3t30sc3tueu8w8,3,community_first,2025-08-30T13:17:22.495Z,Community,somewhat helpful,4,3,4,5,3,1,3.8
+233,mey9t3t30sc3tueu8w8,3,community_first,2025-08-30T13:17:22.495Z,LLMnote,somewhat helpful,4,3,4,5,3,0,3.8
+233,mey9t3t30sc3tueu8w8,7,llm_first,2025-08-30T13:13:00.279Z,Community,somewhat helpful,4,3,5,4,3,0,3.8
+233,mey9t3t30sc3tueu8w8,7,llm_first,2025-08-30T13:13:00.279Z,LLMnote,helpful,3,5,4,5,2,1,3.8
+233,mey9t3t30sc3tueu8w8,23,community_first,2025-08-30T13:04:28.192Z,Community,somewhat helpful,4,3,5,4,5,0,4.2
+233,mey9t3t30sc3tueu8w8,23,community_first,2025-08-30T13:04:28.192Z,LLMnote,somewhat helpful,4,3,5,4,5,1,4.2
+233,mey9t3t30sc3tueu8w8,29,community_first,2025-08-30T13:16:33.073Z,Community,somewhat helpful,4,3,5,4,3,0,3.8
+233,mey9t3t30sc3tueu8w8,29,community_first,2025-08-30T13:16:33.073Z,LLMnote,somewhat helpful,4,3,4,5,3,1,3.8
+233,mey9t3t30sc3tueu8w8,30,llm_first,2025-08-30T13:05:59.401Z,Community,helpful,4,5,3,4,3,1,3.8
+233,mey9t3t30sc3tueu8w8,30,llm_first,2025-08-30T13:05:59.401Z,LLMnote,somewhat helpful,4,3,4,3,2,0,3.2
+233,mey9t3t30sc3tueu8w8,31,llm_first,2025-08-30T13:02:44.600Z,Community,helpful,5,3,4,3,4,1,3.8
+233,mey9t3t30sc3tueu8w8,31,llm_first,2025-08-30T13:02:44.600Z,LLMnote,somewhat helpful,4,5,3,4,3,0,3.8
+233,mey9t3t30sc3tueu8w8,34,llm_first,2025-08-30T13:02:09.857Z,Community,helpful,4,3,4,5,3,0,3.8
+233,mey9t3t30sc3tueu8w8,34,llm_first,2025-08-30T13:02:09.857Z,LLMnote,helpful,4,3,5,4,5,1,4.2
+233,mey9t3t30sc3tueu8w8,52,community_first,2025-08-30T13:06:35.280Z,Community,helpful,3,4,3,4,2,1,3.2
+233,mey9t3t30sc3tueu8w8,52,community_first,2025-08-30T13:06:35.280Z,LLMnote,somewhat helpful,3,4,2,3,2,0,2.8
+233,mey9t3t30sc3tueu8w8,60,community_first,2025-08-30T13:12:27.376Z,Community,helpful,4,5,3,4,2,1,3.6
+233,mey9t3t30sc3tueu8w8,60,community_first,2025-08-30T13:12:27.376Z,LLMnote,somewhat helpful,4,3,5,4,2,0,3.6
+233,mey9t3t30sc3tueu8w8,62,llm_first,2025-08-30T13:07:02.056Z,Community,helpful,3,4,3,4,2,1,3.2
+233,mey9t3t30sc3tueu8w8,62,llm_first,2025-08-30T13:07:02.056Z,LLMnote,helpful,4,5,3,4,3,0,3.8
+233,mey9t3t30sc3tueu8w8,72,community_first,2025-08-30T13:16:57.879Z,Community,somewhat helpful,3,4,3,4,3,0,3.4
+233,mey9t3t30sc3tueu8w8,72,community_first,2025-08-30T13:16:57.879Z,LLMnote,helpful,4,3,4,5,3,1,3.8
+233,mey9t3t30sc3tueu8w8,76,llm_first,2025-08-30T13:16:10.215Z,Community,somewhat helpful,4,3,4,2,3,1,3.2
+233,mey9t3t30sc3tueu8w8,76,llm_first,2025-08-30T13:16:10.215Z,LLMnote,not helpful,2,3,2,3,2,0,2.4
+233,mey9t3t30sc3tueu8w8,83,llm_first,2025-08-30T13:03:28.856Z,Community,somewhat helpful,3,4,3,5,4,0,3.8
+233,mey9t3t30sc3tueu8w8,83,llm_first,2025-08-30T13:03:28.856Z,LLMnote,helpful,4,5,3,4,3,1,3.8
+233,mey9t3t30sc3tueu8w8,91,community_first,2025-08-30T13:15:42.193Z,Community,helpful,4,5,3,4,3,1,3.8
+233,mey9t3t30sc3tueu8w8,91,community_first,2025-08-30T13:15:42.193Z,LLMnote,somewhat helpful,4,3,4,5,3,0,3.8
+233,mey9t3t30sc3tueu8w8,92,llm_first,2025-08-30T13:03:53.952Z,Community,somewhat helpful,5,4,5,3,4,0,4.2
+233,mey9t3t30sc3tueu8w8,92,llm_first,2025-08-30T13:03:53.952Z,LLMnote,somewhat helpful,4,3,5,4,3,1,3.8
+233,mey9t3t30sc3tueu8w8,106,llm_first,2025-08-30T13:13:26.536Z,Community,helpful,5,4,5,4,3,1,4.2
+233,mey9t3t30sc3tueu8w8,106,llm_first,2025-08-30T13:13:26.536Z,LLMnote,somewhat helpful,4,5,4,5,2,0,4.0
+233,mey9t3t30sc3tueu8w8,112,community_first,2025-08-30T13:07:27.840Z,Community,helpful,4,5,4,3,2,1,3.6
+233,mey9t3t30sc3tueu8w8,112,community_first,2025-08-30T13:07:27.840Z,LLMnote,somewhat helpful,4,3,5,4,2,0,3.6
+233,mey9t3t30sc3tueu8w8,122,llm_first,2025-08-30T13:07:54.384Z,Community,helpful,4,3,4,5,3,1,3.8
+233,mey9t3t30sc3tueu8w8,122,llm_first,2025-08-30T13:07:54.384Z,LLMnote,helpful,4,5,4,5,3,0,4.2
+邓石雪钰,mewhhlgpss9qig2rcaq,28,llm_first,2025-08-29T07:08:12.346Z,Community,somewhat helpful,4,3,3,4,3,0,3.4
+邓石雪钰,mewhhlgpss9qig2rcaq,28,llm_first,2025-08-29T07:08:12.346Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+邓石雪钰,mewhhlgpss9qig2rcaq,49,community_first,2025-08-29T07:17:48.586Z,Community,somewhat helpful,3,3,2,2,3,0,2.6
+邓石雪钰,mewhhlgpss9qig2rcaq,49,community_first,2025-08-29T07:17:48.586Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,57,community_first,2025-08-29T07:11:31.172Z,Community,somewhat helpful,3,3,4,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,57,community_first,2025-08-29T07:11:31.172Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,60,llm_first,2025-08-29T07:20:31.903Z,Community,somewhat helpful,3,3,2,3,3,0,2.8
+邓石雪钰,mewhhlgpss9qig2rcaq,60,llm_first,2025-08-29T07:20:31.903Z,LLMnote,helpful,5,5,5,4,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,68,community_first,2025-08-29T07:25:47.345Z,Community,somewhat helpful,3,3,2,3,2,0,2.6
+邓石雪钰,mewhhlgpss9qig2rcaq,68,community_first,2025-08-29T07:25:47.345Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,69,community_first,2025-08-29T07:13:47.499Z,Community,not helpful,3,3,2,2,3,0,2.6
+邓石雪钰,mewhhlgpss9qig2rcaq,69,community_first,2025-08-29T07:13:47.499Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,72,community_first,2025-08-29T07:27:15.732Z,Community,somewhat helpful,3,4,3,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,72,community_first,2025-08-29T07:27:15.732Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,76,community_first,2025-08-29T07:17:18.256Z,Community,not helpful,3,3,2,3,3,0,2.8
+邓石雪钰,mewhhlgpss9qig2rcaq,76,community_first,2025-08-29T07:17:18.256Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,79,community_first,2025-08-29T07:22:27.390Z,Community,somewhat helpful,3,4,4,3,3,0,3.4
+邓石雪钰,mewhhlgpss9qig2rcaq,79,community_first,2025-08-29T07:22:27.390Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,81,llm_first,2025-08-29T07:23:11.135Z,Community,somewhat helpful,3,3,2,3,3,0,2.8
+邓石雪钰,mewhhlgpss9qig2rcaq,81,llm_first,2025-08-29T07:23:11.135Z,LLMnote,helpful,5,5,5,4,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,85,community_first,2025-08-29T07:19:20.846Z,Community,somewhat helpful,3,2,2,3,3,0,2.6
+邓石雪钰,mewhhlgpss9qig2rcaq,85,community_first,2025-08-29T07:19:20.846Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,91,llm_first,2025-08-29T07:08:51.776Z,Community,somewhat helpful,3,3,4,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,91,llm_first,2025-08-29T07:08:51.776Z,LLMnote,helpful,4,4,5,5,5,1,4.6
+邓石雪钰,mewhhlgpss9qig2rcaq,99,,2025-08-29T07:03:40.502Z,Community,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,99,,2025-08-29T07:03:40.502Z,LLMnote,somewhat helpful,3,3,4,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,102,community_first,2025-08-29T07:32:17.201Z,Community,somewhat helpful,3,3,2,3,3,0,2.8
+邓石雪钰,mewhhlgpss9qig2rcaq,102,community_first,2025-08-29T07:32:17.201Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,107,community_first,2025-08-29T07:15:29.563Z,Community,somewhat helpful,2,2,3,3,2,0,2.4
+邓石雪钰,mewhhlgpss9qig2rcaq,107,community_first,2025-08-29T07:15:29.563Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+邓石雪钰,mewhhlgpss9qig2rcaq,111,llm_first,2025-08-29T07:28:13.825Z,Community,somewhat helpful,4,3,3,3,4,0,3.4
+邓石雪钰,mewhhlgpss9qig2rcaq,111,llm_first,2025-08-29T07:28:13.825Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,112,llm_first,2025-08-29T07:07:02.738Z,Community,somewhat helpful,3,3,4,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,112,llm_first,2025-08-29T07:07:02.738Z,LLMnote,helpful,5,4,5,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,122,llm_first,2025-08-29T07:21:35.795Z,Community,somewhat helpful,3,2,2,3,2,0,2.4
+邓石雪钰,mewhhlgpss9qig2rcaq,122,llm_first,2025-08-29T07:21:35.795Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+邓石雪钰,mewhhlgpss9qig2rcaq,123,llm_first,2025-08-29T07:30:21.614Z,Community,somewhat helpful,3,3,4,3,3,0,3.2
+邓石雪钰,mewhhlgpss9qig2rcaq,123,llm_first,2025-08-29T07:30:21.614Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+邓石雪钰,mewhhlgpss9qig2rcaq,124,llm_first,2025-08-29T07:05:01.405Z,Community,somewhat helpful,3,3,2,2,3,0,2.6
+邓石雪钰,mewhhlgpss9qig2rcaq,124,llm_first,2025-08-29T07:05:01.405Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+234,mey9uluj28x5238equa,12,llm_first,2025-08-30T13:47:08.663Z,Community,somewhat helpful,4,4,5,4,4,0,4.2
+234,mey9uluj28x5238equa,12,llm_first,2025-08-30T13:47:08.663Z,LLMnote,somewhat helpful,4,4,4,4,5,1,4.2
+234,mey9uluj28x5238equa,19,llm_first,2025-08-30T13:27:06.449Z,Community,helpful,4,4,3,4,3,1,3.6
+234,mey9uluj28x5238equa,19,llm_first,2025-08-30T13:27:06.449Z,LLMnote,somewhat helpful,3,4,2,4,2,0,3.0
+234,mey9uluj28x5238equa,24,llm_first,2025-08-30T13:32:10.222Z,Community,helpful,4,4,4,5,4,1,4.2
+234,mey9uluj28x5238equa,24,llm_first,2025-08-30T13:32:10.222Z,LLMnote,somewhat helpful,4,4,5,4,4,0,4.2
+234,mey9uluj28x5238equa,28,community_first,2025-08-30T13:07:31.011Z,Community,somewhat helpful,3,4,4,3,4,0,3.6
+234,mey9uluj28x5238equa,28,community_first,2025-08-30T13:07:31.011Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,32,llm_first,2025-08-30T13:36:14.842Z,Community,somewhat helpful,3,4,4,3,4,0,3.6
+234,mey9uluj28x5238equa,32,llm_first,2025-08-30T13:36:14.842Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+234,mey9uluj28x5238equa,35,llm_first,2025-08-30T13:41:21.933Z,Community,somewhat helpful,2,4,4,2,4,0,3.2
+234,mey9uluj28x5238equa,35,llm_first,2025-08-30T13:41:21.933Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+234,mey9uluj28x5238equa,50,community_first,2025-08-30T13:37:31.683Z,Community,not helpful,2,4,2,2,2,0,2.4
+234,mey9uluj28x5238equa,50,community_first,2025-08-30T13:37:31.683Z,LLMnote,somewhat helpful,4,5,4,4,4,1,4.2
+234,mey9uluj28x5238equa,57,community_first,2025-08-30T13:34:12.891Z,Community,somewhat helpful,3,4,4,4,4,0,3.8
+234,mey9uluj28x5238equa,57,community_first,2025-08-30T13:34:12.891Z,LLMnote,helpful,4,4,3,4,4,1,3.8
+234,mey9uluj28x5238equa,59,llm_first,2025-08-30T13:29:48.927Z,Community,not helpful,2,4,2,3,2,0,2.6
+234,mey9uluj28x5238equa,59,llm_first,2025-08-30T13:29:48.927Z,LLMnote,helpful,4,4,4,3,4,1,3.8
+234,mey9uluj28x5238equa,69,llm_first,2025-08-30T13:38:44.785Z,Community,not helpful,2,4,2,2,4,0,2.8
+234,mey9uluj28x5238equa,69,llm_first,2025-08-30T13:38:44.785Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,74,community_first,2025-08-30T13:43:01.677Z,Community,somewhat helpful,3,4,4,4,4,0,3.8
+234,mey9uluj28x5238equa,74,community_first,2025-08-30T13:43:01.677Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,81,community_first,2025-08-30T13:11:58.170Z,Community,somewhat helpful,2,3,3,4,2,0,2.8
+234,mey9uluj28x5238equa,81,community_first,2025-08-30T13:11:58.170Z,LLMnote,helpful,4,4,4,5,3,1,4.0
+234,mey9uluj28x5238equa,93,llm_first,2025-08-30T13:39:55.138Z,Community,not helpful,1,3,2,2,2,0,2.0
+234,mey9uluj28x5238equa,93,llm_first,2025-08-30T13:39:55.138Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+234,mey9uluj28x5238equa,99,llm_first,2025-08-30T13:22:19.427Z,Community,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,99,llm_first,2025-08-30T13:22:19.427Z,LLMnote,somewhat helpful,4,4,3,4,4,0,3.8
+234,mey9uluj28x5238equa,101,llm_first,2025-08-30T13:49:04.459Z,Community,not helpful,2,2,2,3,3,0,2.4
+234,mey9uluj28x5238equa,101,llm_first,2025-08-30T13:49:04.459Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+234,mey9uluj28x5238equa,107,llm_first,2025-08-30T13:44:09.605Z,Community,somewhat helpful,3,4,4,3,4,0,3.6
+234,mey9uluj28x5238equa,107,llm_first,2025-08-30T13:44:09.605Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+234,mey9uluj28x5238equa,109,llm_first,2025-08-30T13:19:03.867Z,Community,somewhat helpful,3,4,4,4,4,0,3.8
+234,mey9uluj28x5238equa,109,llm_first,2025-08-30T13:19:03.867Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,110,llm_first,2025-08-30T13:45:22.447Z,Community,not helpful,2,4,3,4,3,0,3.2
+234,mey9uluj28x5238equa,110,llm_first,2025-08-30T13:45:22.447Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+234,mey9uluj28x5238equa,111,llm_first,2025-08-30T13:17:16.197Z,Community,somewhat helpful,2,4,3,2,2,0,2.6
+234,mey9uluj28x5238equa,111,llm_first,2025-08-30T13:17:16.197Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+234,mey9uluj28x5238equa,124,llm_first,2025-08-30T13:14:28.915Z,Community,not helpful,2,2,2,1,3,0,2.0
+234,mey9uluj28x5238equa,124,llm_first,2025-08-30T13:14:28.915Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+276,mf0gwy8end758yorlhj,1,community_first,2025-09-01T02:28:06.325Z,Community,not helpful,3,3,3,3,3,0,3.0
+276,mf0gwy8end758yorlhj,1,community_first,2025-09-01T02:28:06.325Z,LLMnote,helpful,3,3,3,5,3,1,3.4
+276,mf0gwy8end758yorlhj,2,community_first,2025-09-01T02:39:21.253Z,Community,somewhat helpful,2,2,3,3,3,1,2.6
+276,mf0gwy8end758yorlhj,2,community_first,2025-09-01T02:39:21.253Z,LLMnote,not helpful,2,2,2,2,2,0,2.0
+276,mf0gwy8end758yorlhj,23,community_first,2025-09-01T02:36:29.521Z,Community,somewhat helpful,2,2,3,3,2,0,2.4
+276,mf0gwy8end758yorlhj,23,community_first,2025-09-01T02:36:29.521Z,LLMnote,helpful,2,2,4,4,2,1,2.8
+276,mf0gwy8end758yorlhj,24,community_first,2025-09-01T02:21:06.500Z,Community,somewhat helpful,1,1,3,3,2,0,2.0
+276,mf0gwy8end758yorlhj,24,community_first,2025-09-01T02:21:06.500Z,LLMnote,somewhat helpful,1,1,3,3,2,1,2.0
+276,mf0gwy8end758yorlhj,34,community_first,2025-09-01T02:25:13.194Z,Community,somewhat helpful,1,1,3,3,1,0,1.8
+276,mf0gwy8end758yorlhj,34,community_first,2025-09-01T02:25:13.194Z,LLMnote,helpful,1,1,4,4,1,1,2.2
+276,mf0gwy8end758yorlhj,49,community_first,2025-09-01T02:23:58.201Z,Community,not helpful,3,3,2,2,3,0,2.6
+276,mf0gwy8end758yorlhj,49,community_first,2025-09-01T02:23:58.201Z,LLMnote,helpful,3,3,4,4,3,1,3.4
+276,mf0gwy8end758yorlhj,57,llm_first,2025-09-01T02:22:43.163Z,Community,not helpful,2,2,2,2,2,0,2.0
+276,mf0gwy8end758yorlhj,57,llm_first,2025-09-01T02:22:43.163Z,LLMnote,helpful,2,2,5,5,1,1,3.0
+276,mf0gwy8end758yorlhj,60,community_first,2025-09-01T02:33:49.715Z,Community,somewhat helpful,3,3,3,3,3,0,3.0
+276,mf0gwy8end758yorlhj,60,community_first,2025-09-01T02:33:49.715Z,LLMnote,helpful,3,3,4,4,3,1,3.4
+276,mf0gwy8end758yorlhj,72,community_first,2025-09-01T02:18:51.268Z,Community,not helpful,3,3,2,2,3,0,2.6
+276,mf0gwy8end758yorlhj,72,community_first,2025-09-01T02:18:51.268Z,LLMnote,helpful,3,3,4,4,3,1,3.4
+276,mf0gwy8end758yorlhj,77,llm_first,2025-09-01T02:30:30.916Z,Community,somewhat helpful,1,1,3,3,1,0,1.8
+276,mf0gwy8end758yorlhj,77,llm_first,2025-09-01T02:30:30.916Z,LLMnote,somewhat helpful,1,1,3,3,1,1,1.8
+276,mf0gwy8end758yorlhj,79,llm_first,2025-09-01T02:31:48.566Z,Community,somewhat helpful,2,2,3,3,2,0,2.4
+276,mf0gwy8end758yorlhj,79,llm_first,2025-09-01T02:31:48.566Z,LLMnote,helpful,2,2,4,4,2,1,2.8
+276,mf0gwy8end758yorlhj,85,llm_first,2025-09-01T02:40:31.688Z,Community,helpful,3,3,4,4,3,1,3.4
+276,mf0gwy8end758yorlhj,85,llm_first,2025-09-01T02:40:31.688Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+276,mf0gwy8end758yorlhj,91,community_first,2025-09-01T02:26:21.244Z,Community,somewhat helpful,1,1,3,3,1,0,1.8
+276,mf0gwy8end758yorlhj,91,community_first,2025-09-01T02:26:21.244Z,LLMnote,helpful,1,1,4,4,1,1,2.2
+276,mf0gwy8end758yorlhj,92,llm_first,2025-09-01T02:11:48.111Z,Community,somewhat helpful,1,1,4,4,3,1,2.6
+276,mf0gwy8end758yorlhj,92,llm_first,2025-09-01T02:11:48.111Z,LLMnote,not helpful,1,1,1,1,3,0,1.4
+276,mf0gwy8end758yorlhj,98,community_first,2025-09-01T02:12:33.833Z,Community,not helpful,1,1,1,1,1,0,1.0
+276,mf0gwy8end758yorlhj,98,community_first,2025-09-01T02:12:33.833Z,LLMnote,helpful,1,1,5,5,1,1,2.6
+276,mf0gwy8end758yorlhj,99,community_first,2025-09-01T02:11:03.848Z,Community,helpful,1,1,4,4,1,1,2.2
+276,mf0gwy8end758yorlhj,99,community_first,2025-09-01T02:11:03.848Z,LLMnote,not helpful,1,1,1,1,1,0,1.0
+276,mf0gwy8end758yorlhj,110,llm_first,2025-09-01T02:15:23.528Z,Community,not helpful,2,2,2,2,3,0,2.2
+276,mf0gwy8end758yorlhj,110,llm_first,2025-09-01T02:15:23.528Z,LLMnote,helpful,2,2,5,5,3,1,3.4
+276,mf0gwy8end758yorlhj,111,llm_first,2025-09-01T02:29:16.587Z,Community,not helpful,3,3,3,3,3,0,3.0
+276,mf0gwy8end758yorlhj,111,llm_first,2025-09-01T02:29:16.587Z,LLMnote,helpful,3,3,3,3,3,1,3.0
+276,mf0gwy8end758yorlhj,122,llm_first,2025-09-01T02:32:47.295Z,Community,helpful,2,2,4,4,2,1,2.8
+276,mf0gwy8end758yorlhj,122,llm_first,2025-09-01T02:32:47.295Z,LLMnote,helpful,2,2,3,3,2,0,2.4
+276,mf0gwy8end758yorlhj,142,community_first,2025-09-01T02:34:33.842Z,Community,somewhat helpful,3,3,3,4,3,0,3.2
+276,mf0gwy8end758yorlhj,142,community_first,2025-09-01T02:34:33.842Z,LLMnote,helpful,3,3,3,4,3,1,3.2
+278,mf0n66vksh0d95uu3se,1,llm_first,2025-09-01T05:17:25.715Z,Community,helpful,4,3,5,5,4,1,4.2
+278,mf0n66vksh0d95uu3se,1,llm_first,2025-09-01T05:17:25.715Z,LLMnote,not helpful,2,3,1,1,2,0,1.8
+278,mf0n66vksh0d95uu3se,2,community_first,2025-09-01T05:18:27.950Z,Community,helpful,5,4,4,5,5,1,4.6
+278,mf0n66vksh0d95uu3se,2,community_first,2025-09-01T05:18:27.950Z,LLMnote,not helpful,1,2,1,1,1,0,1.2
+278,mf0n66vksh0d95uu3se,12,llm_first,2025-09-01T05:11:01.913Z,Community,helpful,5,5,5,5,5,1,5.0
+278,mf0n66vksh0d95uu3se,12,llm_first,2025-09-01T05:11:01.913Z,LLMnote,somewhat helpful,3,3,1,2,2,0,2.2
+278,mf0n66vksh0d95uu3se,19,community_first,2025-09-01T05:14:18.702Z,Community,helpful,5,5,4,4,5,1,4.6
+278,mf0n66vksh0d95uu3se,19,community_first,2025-09-01T05:14:18.702Z,LLMnote,not helpful,2,2,1,1,1,0,1.4
+278,mf0n66vksh0d95uu3se,21,llm_first,2025-09-01T05:13:23.075Z,Community,helpful,5,4,5,5,4,1,4.6
+278,mf0n66vksh0d95uu3se,21,llm_first,2025-09-01T05:13:23.075Z,LLMnote,somewhat helpful,4,2,3,1,2,0,2.4
+278,mf0n66vksh0d95uu3se,28,llm_first,2025-09-01T04:59:04.932Z,Community,helpful,3,4,2,5,4,1,3.6
+278,mf0n66vksh0d95uu3se,28,llm_first,2025-09-01T04:59:04.932Z,LLMnote,somewhat helpful,4,3,5,5,3,0,4.0
+278,mf0n66vksh0d95uu3se,31,community_first,2025-09-01T04:54:49.598Z,Community,somewhat helpful,3,4,4,5,4,1,4.0
+278,mf0n66vksh0d95uu3se,31,community_first,2025-09-01T04:54:49.598Z,LLMnote,not helpful,2,1,3,1,1,0,1.6
+278,mf0n66vksh0d95uu3se,35,community_first,2025-09-01T05:06:20.793Z,Community,helpful,5,5,5,5,4,1,4.8
+278,mf0n66vksh0d95uu3se,35,community_first,2025-09-01T05:06:20.793Z,LLMnote,somewhat helpful,4,4,3,5,4,0,4.0
+278,mf0n66vksh0d95uu3se,36,community_first,2025-09-01T05:06:58.503Z,Community,helpful,5,4,4,5,5,1,4.6
+278,mf0n66vksh0d95uu3se,36,community_first,2025-09-01T05:06:58.503Z,LLMnote,somewhat helpful,3,3,4,3,5,0,3.6
+278,mf0n66vksh0d95uu3se,50,llm_first,2025-09-01T05:05:12.117Z,Community,helpful,5,4,4,5,5,1,4.6
+278,mf0n66vksh0d95uu3se,50,llm_first,2025-09-01T05:05:12.117Z,LLMnote,somewhat helpful,4,3,5,4,4,0,4.0
+278,mf0n66vksh0d95uu3se,59,community_first,2025-09-01T04:53:49.207Z,Community,somewhat helpful,4,4,5,3,4,1,4.0
+278,mf0n66vksh0d95uu3se,59,community_first,2025-09-01T04:53:49.207Z,LLMnote,not helpful,2,1,1,3,1,0,1.6
+278,mf0n66vksh0d95uu3se,62,community_first,2025-09-01T05:12:35.966Z,Community,helpful,5,5,3,4,4,1,4.2
+278,mf0n66vksh0d95uu3se,62,community_first,2025-09-01T05:12:35.966Z,LLMnote,somewhat helpful,2,3,1,1,2,0,1.8
+278,mf0n66vksh0d95uu3se,68,community_first,2025-09-01T05:09:17.538Z,Community,helpful,5,5,3,5,4,1,4.4
+278,mf0n66vksh0d95uu3se,68,community_first,2025-09-01T05:09:17.538Z,LLMnote,somewhat helpful,4,3,5,3,3,0,3.6
+278,mf0n66vksh0d95uu3se,69,community_first,2025-09-01T04:57:10.961Z,Community,somewhat helpful,5,5,4,4,5,0,4.6
+278,mf0n66vksh0d95uu3se,69,community_first,2025-09-01T04:57:10.961Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+278,mf0n66vksh0d95uu3se,72,llm_first,2025-09-01T05:08:32.389Z,Community,helpful,5,5,3,4,5,1,4.4
+278,mf0n66vksh0d95uu3se,72,llm_first,2025-09-01T05:08:32.389Z,LLMnote,somewhat helpful,3,4,4,4,3,0,3.6
+278,mf0n66vksh0d95uu3se,79,community_first,2025-09-01T05:09:52.990Z,Community,somewhat helpful,4,3,5,4,4,0,4.0
+278,mf0n66vksh0d95uu3se,79,community_first,2025-09-01T05:09:52.990Z,LLMnote,helpful,5,3,5,4,4,1,4.2
+278,mf0n66vksh0d95uu3se,94,llm_first,2025-09-01T05:03:13.584Z,Community,helpful,5,5,4,5,4,1,4.6
+278,mf0n66vksh0d95uu3se,94,llm_first,2025-09-01T05:03:13.584Z,LLMnote,somewhat helpful,3,4,4,2,3,0,3.2
+278,mf0n66vksh0d95uu3se,101,llm_first,2025-09-01T05:16:58.807Z,Community,helpful,5,4,5,5,3,1,4.4
+278,mf0n66vksh0d95uu3se,101,llm_first,2025-09-01T05:16:58.807Z,LLMnote,not helpful,1,1,1,2,2,0,1.4
+278,mf0n66vksh0d95uu3se,102,llm_first,2025-09-01T04:55:51.616Z,Community,helpful,5,5,4,5,4,1,4.6
+278,mf0n66vksh0d95uu3se,102,llm_first,2025-09-01T04:55:51.616Z,LLMnote,not helpful,4,3,5,3,3,0,3.6
+278,mf0n66vksh0d95uu3se,123,llm_first,2025-09-01T05:04:30.129Z,Community,helpful,5,5,3,4,4,1,4.2
+278,mf0n66vksh0d95uu3se,123,llm_first,2025-09-01T05:04:30.129Z,LLMnote,somewhat helpful,5,3,4,4,5,0,4.2
+255,mezdynvd101n0sg56j3,2,llm_first,2025-08-31T08:13:18.609Z,Community,somewhat helpful,3,2,3,3,4,0,3.0
+255,mezdynvd101n0sg56j3,2,llm_first,2025-08-31T08:13:18.609Z,LLMnote,helpful,4,5,5,4,4,1,4.4
+255,mezdynvd101n0sg56j3,3,community_first,2025-08-31T08:07:43.342Z,Community,somewhat helpful,3,3,3,4,2,0,3.0
+255,mezdynvd101n0sg56j3,3,community_first,2025-08-31T08:07:43.342Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+255,mezdynvd101n0sg56j3,12,community_first,2025-08-31T08:22:43.022Z,Community,somewhat helpful,3,3,4,3,4,0,3.4
+255,mezdynvd101n0sg56j3,12,community_first,2025-08-31T08:22:43.022Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+255,mezdynvd101n0sg56j3,16,community_first,2025-08-31T08:30:35.291Z,Community,somewhat helpful,3,4,2,3,4,0,3.2
+255,mezdynvd101n0sg56j3,16,community_first,2025-08-31T08:30:35.291Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+255,mezdynvd101n0sg56j3,23,llm_first,2025-08-31T08:15:21.864Z,Community,somewhat helpful,2,4,4,4,5,0,3.8
+255,mezdynvd101n0sg56j3,23,llm_first,2025-08-31T08:15:21.864Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+255,mezdynvd101n0sg56j3,28,community_first,2025-08-31T08:19:30.961Z,Community,somewhat helpful,3,3,2,3,4,0,3.0
+255,mezdynvd101n0sg56j3,28,community_first,2025-08-31T08:19:30.961Z,LLMnote,helpful,5,5,5,4,4,1,4.6
+255,mezdynvd101n0sg56j3,29,llm_first,2025-08-31T08:09:47.189Z,Community,not helpful,3,3,2,3,4,0,3.0
+255,mezdynvd101n0sg56j3,29,llm_first,2025-08-31T08:09:47.189Z,LLMnote,somewhat helpful,4,4,5,5,3,1,4.2
+255,mezdynvd101n0sg56j3,30,llm_first,2025-08-31T08:11:52.661Z,Community,somewhat helpful,2,3,3,4,3,0,3.0
+255,mezdynvd101n0sg56j3,30,llm_first,2025-08-31T08:11:52.661Z,LLMnote,somewhat helpful,2,3,1,3,3,1,2.4
+255,mezdynvd101n0sg56j3,34,llm_first,2025-08-31T08:32:34.645Z,Community,somewhat helpful,2,2,1,1,4,0,2.0
+255,mezdynvd101n0sg56j3,34,llm_first,2025-08-31T08:32:34.645Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+255,mezdynvd101n0sg56j3,35,llm_first,2025-08-31T08:26:09.157Z,Community,somewhat helpful,2,3,2,3,3,0,2.6
+255,mezdynvd101n0sg56j3,35,llm_first,2025-08-31T08:26:09.157Z,LLMnote,helpful,4,5,5,4,4,1,4.4
+255,mezdynvd101n0sg56j3,49,community_first,2025-08-31T07:51:51.398Z,Community,not helpful,2,3,4,1,1,0,2.2
+255,mezdynvd101n0sg56j3,49,community_first,2025-08-31T07:51:51.398Z,LLMnote,somewhat helpful,2,4,4,4,4,1,3.6
+255,mezdynvd101n0sg56j3,57,llm_first,2025-08-31T08:01:31.605Z,Community,somewhat helpful,1,3,2,2,3,0,2.2
+255,mezdynvd101n0sg56j3,57,llm_first,2025-08-31T08:01:31.605Z,LLMnote,somewhat helpful,4,5,5,5,4,1,4.6
+255,mezdynvd101n0sg56j3,62,llm_first,2025-08-31T07:58:46.534Z,Community,not helpful,2,3,4,3,1,0,2.6
+255,mezdynvd101n0sg56j3,62,llm_first,2025-08-31T07:58:46.534Z,LLMnote,not helpful,3,4,5,3,4,1,3.8
+255,mezdynvd101n0sg56j3,75,llm_first,2025-08-31T08:24:36.443Z,Community,somewhat helpful,3,2,2,1,4,0,2.4
+255,mezdynvd101n0sg56j3,75,llm_first,2025-08-31T08:24:36.443Z,LLMnote,somewhat helpful,4,4,5,5,4,1,4.4
+255,mezdynvd101n0sg56j3,83,community_first,2025-08-31T08:31:32.869Z,Community,somewhat helpful,3,3,2,2,5,0,3.0
+255,mezdynvd101n0sg56j3,83,community_first,2025-08-31T08:31:32.869Z,LLMnote,helpful,5,4,5,4,4,1,4.4
+255,mezdynvd101n0sg56j3,91,community_first,2025-08-31T08:29:19.682Z,Community,somewhat helpful,3,3,2,3,3,0,2.8
+255,mezdynvd101n0sg56j3,91,community_first,2025-08-31T08:29:19.682Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+255,mezdynvd101n0sg56j3,92,community_first,2025-08-31T08:27:52.793Z,Community,not helpful,2,2,2,1,2,0,1.8
+255,mezdynvd101n0sg56j3,92,community_first,2025-08-31T08:27:52.793Z,LLMnote,helpful,4,4,5,4,3,1,4.0
+255,mezdynvd101n0sg56j3,98,llm_first,2025-08-31T08:21:11.261Z,Community,not helpful,2,2,1,2,2,0,1.8
+255,mezdynvd101n0sg56j3,98,llm_first,2025-08-31T08:21:11.261Z,LLMnote,helpful,5,4,4,3,4,1,4.0
+255,mezdynvd101n0sg56j3,102,llm_first,2025-08-31T07:55:22.881Z,Community,somewhat helpful,3,4,3,2,5,0,3.4
+255,mezdynvd101n0sg56j3,102,llm_first,2025-08-31T07:55:22.881Z,LLMnote,helpful,5,4,2,5,4,1,4.0
+255,mezdynvd101n0sg56j3,110,community_first,2025-08-31T08:17:26.913Z,Community,somewhat helpful,2,3,2,1,2,0,2.0
+255,mezdynvd101n0sg56j3,110,community_first,2025-08-31T08:17:26.913Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+122,mewwevd85z8i9v999sc,3,community_first,2025-08-29T14:55:00.812Z,Community,helpful,5,5,5,5,4,1,4.8
+122,mewwevd85z8i9v999sc,3,community_first,2025-08-29T14:55:00.812Z,LLMnote,somewhat helpful,4,4,3,4,4,0,3.8
+122,mewwevd85z8i9v999sc,19,community_first,2025-08-29T14:53:57.971Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+122,mewwevd85z8i9v999sc,19,community_first,2025-08-29T14:53:57.971Z,LLMnote,somewhat helpful,5,4,4,5,4,1,4.4
+122,mewwevd85z8i9v999sc,21,community_first,2025-08-29T14:42:52.369Z,Community,helpful,5,4,5,5,4,1,4.6
+122,mewwevd85z8i9v999sc,21,community_first,2025-08-29T14:42:52.369Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+122,mewwevd85z8i9v999sc,29,community_first,2025-08-29T14:43:57.044Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+122,mewwevd85z8i9v999sc,29,community_first,2025-08-29T14:43:57.044Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+122,mewwevd85z8i9v999sc,34,llm_first,2025-08-29T14:49:15.784Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+122,mewwevd85z8i9v999sc,34,llm_first,2025-08-29T14:49:15.784Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+122,mewwevd85z8i9v999sc,36,community_first,2025-08-29T14:50:43.531Z,Community,helpful,5,5,5,5,4,1,4.8
+122,mewwevd85z8i9v999sc,36,community_first,2025-08-29T14:50:43.531Z,LLMnote,somewhat helpful,4,4,4,5,3,0,4.0
+122,mewwevd85z8i9v999sc,57,llm_first,2025-08-29T14:47:15.310Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+122,mewwevd85z8i9v999sc,57,llm_first,2025-08-29T14:47:15.310Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+122,mewwevd85z8i9v999sc,59,community_first,2025-08-29T14:48:16.024Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+122,mewwevd85z8i9v999sc,59,community_first,2025-08-29T14:48:16.024Z,LLMnote,somewhat helpful,4,4,3,4,2,0,3.4
+122,mewwevd85z8i9v999sc,69,llm_first,2025-08-29T14:37:15.584Z,Community,somewhat helpful,3,4,3,4,4,0,3.6
+122,mewwevd85z8i9v999sc,69,llm_first,2025-08-29T14:37:15.584Z,LLMnote,helpful,4,4,4,4,3,1,3.8
+122,mewwevd85z8i9v999sc,75,llm_first,2025-08-29T14:44:55.073Z,Community,somewhat helpful,4,4,4,4,5,0,4.2
+122,mewwevd85z8i9v999sc,75,llm_first,2025-08-29T14:44:55.073Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+122,mewwevd85z8i9v999sc,79,community_first,2025-08-29T14:31:03.954Z,Community,somewhat helpful,5,4,4,4,4,1,4.2
+122,mewwevd85z8i9v999sc,79,community_first,2025-08-29T14:31:03.954Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+122,mewwevd85z8i9v999sc,81,llm_first,2025-08-29T14:46:03.923Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+122,mewwevd85z8i9v999sc,81,llm_first,2025-08-29T14:46:03.923Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+122,mewwevd85z8i9v999sc,85,llm_first,2025-08-29T14:39:47.281Z,Community,somewhat helpful,3,4,4,4,4,0,3.8
+122,mewwevd85z8i9v999sc,85,llm_first,2025-08-29T14:39:47.281Z,LLMnote,helpful,4,4,4,5,3,1,4.0
+122,mewwevd85z8i9v999sc,86,community_first,2025-08-29T14:51:56.697Z,Community,helpful,4,4,4,4,4,1,4.0
+122,mewwevd85z8i9v999sc,86,community_first,2025-08-29T14:51:56.697Z,LLMnote,somewhat helpful,4,4,3,4,4,0,3.8
+122,mewwevd85z8i9v999sc,92,community_first,2025-08-29T14:41:49.727Z,Community,somewhat helpful,4,4,4,5,5,1,4.4
+122,mewwevd85z8i9v999sc,92,community_first,2025-08-29T14:41:49.727Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+122,mewwevd85z8i9v999sc,98,community_first,2025-08-29T14:32:18.625Z,Community,somewhat helpful,3,4,3,4,3,0,3.4
+122,mewwevd85z8i9v999sc,98,community_first,2025-08-29T14:32:18.625Z,LLMnote,somewhat helpful,4,4,3,4,4,1,3.8
+122,mewwevd85z8i9v999sc,101,community_first,2025-08-29T14:34:34.755Z,Community,somewhat helpful,5,4,4,5,4,1,4.4
+122,mewwevd85z8i9v999sc,101,community_first,2025-08-29T14:34:34.755Z,LLMnote,somewhat helpful,5,4,4,4,3,0,4.0
+122,mewwevd85z8i9v999sc,106,llm_first,2025-08-29T14:35:54.795Z,Community,somewhat helpful,4,4,5,5,4,1,4.4
+122,mewwevd85z8i9v999sc,106,llm_first,2025-08-29T14:35:54.795Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+122,mewwevd85z8i9v999sc,109,llm_first,2025-08-29T14:52:53.539Z,Community,helpful,5,4,4,5,4,1,4.4
+122,mewwevd85z8i9v999sc,109,llm_first,2025-08-29T14:52:53.539Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+122,mewwevd85z8i9v999sc,124,llm_first,2025-08-29T14:33:29.832Z,Community,somewhat helpful,5,5,4,4,4,0,4.4
+122,mewwevd85z8i9v999sc,124,llm_first,2025-08-29T14:33:29.832Z,LLMnote,somewhat helpful,5,5,5,5,5,1,5.0
+217,mewp7d33j6je5k32vit,29,llm_first,2025-08-29T11:05:45.784Z,Community,somewhat helpful,4,3,4,3,1,1,3.0
+217,mewp7d33j6je5k32vit,29,llm_first,2025-08-29T11:05:45.784Z,LLMnote,not helpful,2,3,2,3,4,0,2.8
+217,mewp7d33j6je5k32vit,36,llm_first,2025-08-29T11:07:06.222Z,Community,helpful,5,4,5,4,5,1,4.6
+217,mewp7d33j6je5k32vit,36,llm_first,2025-08-29T11:07:06.222Z,LLMnote,helpful,4,5,4,5,4,0,4.4
+217,mewp7d33j6je5k32vit,46,community_first,2025-08-29T11:02:44.189Z,Community,somewhat helpful,4,5,4,3,4,0,4.0
+217,mewp7d33j6je5k32vit,46,community_first,2025-08-29T11:02:44.189Z,LLMnote,helpful,5,5,4,3,2,1,3.8
+217,mewp7d33j6je5k32vit,49,community_first,2025-08-29T10:53:20.742Z,Community,somewhat helpful,3,4,4,5,3,0,3.8
+217,mewp7d33j6je5k32vit,49,community_first,2025-08-29T10:53:20.742Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+217,mewp7d33j6je5k32vit,50,llm_first,2025-08-29T11:04:23.364Z,Community,somewhat helpful,3,3,2,4,1,1,2.6
+217,mewp7d33j6je5k32vit,50,llm_first,2025-08-29T11:04:23.364Z,LLMnote,not helpful,2,2,3,2,3,0,2.4
+217,mewp7d33j6je5k32vit,59,community_first,2025-08-29T11:08:30.289Z,Community,somewhat helpful,4,3,4,5,4,1,4.0
+217,mewp7d33j6je5k32vit,59,community_first,2025-08-29T11:08:30.289Z,LLMnote,helpful,4,5,4,5,4,0,4.4
+217,mewp7d33j6je5k32vit,69,llm_first,2025-08-29T10:49:12.995Z,Community,somewhat helpful,3,4,3,4,4,0,3.6
+217,mewp7d33j6je5k32vit,69,llm_first,2025-08-29T10:49:12.995Z,LLMnote,helpful,4,3,4,5,3,1,3.8
+217,mewp7d33j6je5k32vit,70,community_first,2025-08-29T10:59:53.126Z,Community,helpful,4,5,3,4,5,1,4.2
+217,mewp7d33j6je5k32vit,70,community_first,2025-08-29T10:59:53.126Z,LLMnote,not helpful,2,3,1,2,3,0,2.2
+217,mewp7d33j6je5k32vit,72,llm_first,2025-08-29T10:47:05.691Z,Community,somewhat helpful,3,3,4,3,2,0,3.0
+217,mewp7d33j6je5k32vit,72,llm_first,2025-08-29T10:47:05.691Z,LLMnote,not helpful,2,2,3,3,2,1,2.4
+217,mewp7d33j6je5k32vit,77,community_first,2025-08-29T10:43:20.482Z,Community,somewhat helpful,3,5,4,5,1,1,3.6
+217,mewp7d33j6je5k32vit,77,community_first,2025-08-29T10:43:20.482Z,LLMnote,helpful,4,3,4,3,1,0,3.0
+217,mewp7d33j6je5k32vit,81,community_first,2025-08-29T10:58:37.159Z,Community,not helpful,2,2,3,2,3,0,2.4
+217,mewp7d33j6je5k32vit,81,community_first,2025-08-29T10:58:37.159Z,LLMnote,helpful,4,3,5,4,2,1,3.6
+217,mewp7d33j6je5k32vit,85,community_first,2025-08-29T11:11:29.977Z,Community,not helpful,3,4,4,3,2,1,3.2
+217,mewp7d33j6je5k32vit,85,community_first,2025-08-29T11:11:29.977Z,LLMnote,somewhat helpful,5,4,5,4,2,0,4.0
+217,mewp7d33j6je5k32vit,86,llm_first,2025-08-29T10:52:03.146Z,Community,helpful,5,4,5,4,3,1,4.2
+217,mewp7d33j6je5k32vit,86,llm_first,2025-08-29T10:52:03.146Z,LLMnote,somewhat helpful,1,2,3,3,1,0,2.0
+217,mewp7d33j6je5k32vit,92,llm_first,2025-08-29T10:57:23.086Z,Community,helpful,4,5,4,5,4,1,4.4
+217,mewp7d33j6je5k32vit,92,llm_first,2025-08-29T10:57:23.086Z,LLMnote,somewhat helpful,4,3,4,3,4,0,3.6
+217,mewp7d33j6je5k32vit,98,llm_first,2025-08-29T10:45:02.843Z,Community,helpful,5,4,4,4,2,0,3.8
+217,mewp7d33j6je5k32vit,98,llm_first,2025-08-29T10:45:02.843Z,LLMnote,helpful,5,5,5,4,2,1,4.2
+217,mewp7d33j6je5k32vit,101,community_first,2025-08-29T11:01:13.214Z,Community,somewhat helpful,2,3,3,2,3,0,2.6
+217,mewp7d33j6je5k32vit,101,community_first,2025-08-29T11:01:13.214Z,LLMnote,helpful,4,5,3,4,2,1,3.6
+217,mewp7d33j6je5k32vit,102,community_first,2025-08-29T10:50:28.674Z,Community,helpful,5,5,5,4,2,1,4.2
+217,mewp7d33j6je5k32vit,102,community_first,2025-08-29T10:50:28.674Z,LLMnote,somewhat helpful,4,5,3,4,2,0,3.6
+217,mewp7d33j6je5k32vit,107,community_first,2025-08-29T11:10:10.913Z,Community,somewhat helpful,3,2,2,3,2,1,2.4
+217,mewp7d33j6je5k32vit,107,community_first,2025-08-29T11:10:10.913Z,LLMnote,somewhat helpful,3,4,4,3,5,0,3.8
+217,mewp7d33j6je5k32vit,122,community_first,2025-08-29T10:39:57.862Z,Community,somewhat helpful,3,3,5,5,2,0,3.6
+217,mewp7d33j6je5k32vit,122,community_first,2025-08-29T10:39:57.862Z,LLMnote,helpful,4,3,4,3,4,1,3.6
+217,mewp7d33j6je5k32vit,142,llm_first,2025-08-29T10:55:18.182Z,Community,not helpful,2,2,1,2,2,0,1.8
+217,mewp7d33j6je5k32vit,142,llm_first,2025-08-29T10:55:18.182Z,LLMnote,somewhat helpful,3,3,4,2,4,1,3.2
+224,mewrlqlb45kofc5wbri,2,community_first,2025-08-29T12:51:21.085Z,Community,helpful,4,4,4,5,5,1,4.4
+224,mewrlqlb45kofc5wbri,2,community_first,2025-08-29T12:51:21.085Z,LLMnote,somewhat helpful,3,1,2,2,2,0,2.0
+224,mewrlqlb45kofc5wbri,3,community_first,2025-08-29T12:36:25.016Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+224,mewrlqlb45kofc5wbri,3,community_first,2025-08-29T12:36:25.016Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+224,mewrlqlb45kofc5wbri,7,llm_first,2025-08-29T12:02:07.475Z,Community,helpful,5,5,5,5,5,1,5.0
+224,mewrlqlb45kofc5wbri,7,llm_first,2025-08-29T12:02:07.475Z,LLMnote,helpful,5,5,4,5,5,0,4.8
+224,mewrlqlb45kofc5wbri,12,community_first,2025-08-29T13:53:52.044Z,Community,helpful,4,4,5,4,5,0,4.4
+224,mewrlqlb45kofc5wbri,12,community_first,2025-08-29T13:53:52.044Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+224,mewrlqlb45kofc5wbri,19,llm_first,2025-08-29T12:06:58.111Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+224,mewrlqlb45kofc5wbri,19,llm_first,2025-08-29T12:06:58.111Z,LLMnote,somewhat helpful,3,4,2,2,4,0,3.0
+224,mewrlqlb45kofc5wbri,21,llm_first,2025-08-29T13:51:22.250Z,Community,somewhat helpful,4,4,4,3,5,0,4.0
+224,mewrlqlb45kofc5wbri,21,llm_first,2025-08-29T13:51:22.250Z,LLMnote,helpful,4,4,4,4,4,1,4.0
+224,mewrlqlb45kofc5wbri,24,llm_first,2025-08-29T11:57:42.042Z,Community,helpful,5,5,5,5,5,0,5.0
+224,mewrlqlb45kofc5wbri,24,llm_first,2025-08-29T11:57:42.042Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+224,mewrlqlb45kofc5wbri,29,llm_first,2025-08-29T13:56:53.026Z,Community,helpful,5,5,3,4,5,0,4.4
+224,mewrlqlb45kofc5wbri,29,llm_first,2025-08-29T13:56:53.026Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+224,mewrlqlb45kofc5wbri,30,community_first,2025-08-29T12:28:30.992Z,Community,not helpful,2,3,2,2,4,0,2.6
+224,mewrlqlb45kofc5wbri,30,community_first,2025-08-29T12:28:30.992Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+224,mewrlqlb45kofc5wbri,35,llm_first,2025-08-29T13:46:18.414Z,Community,helpful,5,5,5,5,5,0,5.0
+224,mewrlqlb45kofc5wbri,35,llm_first,2025-08-29T13:46:18.414Z,LLMnote,helpful,5,5,5,5,4,1,4.8
+224,mewrlqlb45kofc5wbri,46,community_first,2025-08-29T12:55:27.791Z,Community,helpful,4,4,4,4,5,0,4.2
+224,mewrlqlb45kofc5wbri,46,community_first,2025-08-29T12:55:27.791Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+224,mewrlqlb45kofc5wbri,49,community_first,2025-08-29T12:31:11.205Z,Community,somewhat helpful,3,4,3,2,4,0,3.2
+224,mewrlqlb45kofc5wbri,49,community_first,2025-08-29T12:31:11.205Z,LLMnote,helpful,5,4,4,4,4,1,4.2
+224,mewrlqlb45kofc5wbri,52,community_first,2025-08-29T12:38:09.053Z,Community,helpful,4,4,4,4,5,0,4.2
+224,mewrlqlb45kofc5wbri,52,community_first,2025-08-29T12:38:09.053Z,LLMnote,helpful,5,5,4,2,5,1,4.2
+224,mewrlqlb45kofc5wbri,60,llm_first,2025-08-29T13:48:50.814Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+224,mewrlqlb45kofc5wbri,60,llm_first,2025-08-29T13:48:50.814Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+224,mewrlqlb45kofc5wbri,70,community_first,2025-08-29T12:47:12.933Z,Community,somewhat helpful,4,4,3,4,5,1,4.0
+224,mewrlqlb45kofc5wbri,70,community_first,2025-08-29T12:47:12.933Z,LLMnote,somewhat helpful,4,4,2,2,4,0,3.2
+224,mewrlqlb45kofc5wbri,74,llm_first,2025-08-29T11:53:59.833Z,Community,helpful,5,5,4,5,5,1,4.8
+224,mewrlqlb45kofc5wbri,74,llm_first,2025-08-29T11:53:59.833Z,LLMnote,somewhat helpful,3,4,3,5,5,0,4.0
+224,mewrlqlb45kofc5wbri,79,llm_first,2025-08-29T13:39:09.247Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+224,mewrlqlb45kofc5wbri,79,llm_first,2025-08-29T13:39:09.247Z,LLMnote,helpful,5,4,4,4,4,1,4.2
+224,mewrlqlb45kofc5wbri,86,llm_first,2025-08-29T13:00:43.275Z,Community,helpful,5,5,5,5,5,1,5.0
+224,mewrlqlb45kofc5wbri,86,llm_first,2025-08-29T13:00:43.275Z,LLMnote,helpful,4,4,5,4,3,0,4.0
+224,mewrlqlb45kofc5wbri,114,community_first,2025-08-29T12:57:23.197Z,Community,helpful,4,4,5,4,4,1,4.2
+224,mewrlqlb45kofc5wbri,114,community_first,2025-08-29T12:57:23.197Z,LLMnote,helpful,5,5,5,3,5,0,4.6
+224,mewrlqlb45kofc5wbri,124,community_first,2025-08-29T13:41:04.141Z,Community,helpful,5,5,5,5,5,0,5.0
+224,mewrlqlb45kofc5wbri,124,community_first,2025-08-29T13:41:04.141Z,LLMnote,somewhat helpful,5,5,5,5,5,1,5.0
+218,mexshvkp2it9n4v3y3y,2,community_first,2025-08-30T06:10:01.071Z,Community,somewhat helpful,4,2,4,4,4,0,3.6
+218,mexshvkp2it9n4v3y3y,2,community_first,2025-08-30T06:10:01.071Z,LLMnote,somewhat helpful,4,4,5,5,5,1,4.6
+218,mexshvkp2it9n4v3y3y,3,llm_first,2025-08-30T05:20:18.782Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+218,mexshvkp2it9n4v3y3y,3,llm_first,2025-08-30T05:20:18.782Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+218,mexshvkp2it9n4v3y3y,16,community_first,2025-08-30T05:21:33.994Z,Community,not helpful,2,2,1,1,1,0,1.4
+218,mexshvkp2it9n4v3y3y,16,community_first,2025-08-30T05:21:33.994Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+218,mexshvkp2it9n4v3y3y,19,community_first,2025-08-30T06:13:36.481Z,Community,somewhat helpful,2,4,2,2,3,0,2.6
+218,mexshvkp2it9n4v3y3y,19,community_first,2025-08-30T06:13:36.481Z,LLMnote,somewhat helpful,4,4,4,4,4,1,4.0
+218,mexshvkp2it9n4v3y3y,23,community_first,2025-08-30T05:25:43.582Z,Community,helpful,4,4,5,5,5,1,4.6
+218,mexshvkp2it9n4v3y3y,23,community_first,2025-08-30T05:25:43.582Z,LLMnote,somewhat helpful,4,4,4,5,4,0,4.2
+218,mexshvkp2it9n4v3y3y,24,community_first,2025-08-30T06:11:03.361Z,Community,somewhat helpful,4,4,2,2,4,0,3.2
+218,mexshvkp2it9n4v3y3y,24,community_first,2025-08-30T06:11:03.361Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+218,mexshvkp2it9n4v3y3y,28,community_first,2025-08-30T05:19:09.182Z,Community,somewhat helpful,3,4,2,2,2,0,2.6
+218,mexshvkp2it9n4v3y3y,28,community_first,2025-08-30T05:19:09.182Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+218,mexshvkp2it9n4v3y3y,32,llm_first,2025-08-30T05:23:06.320Z,Community,somewhat helpful,4,4,4,4,3,0,3.8
+218,mexshvkp2it9n4v3y3y,32,llm_first,2025-08-30T05:23:06.320Z,LLMnote,helpful,4,4,5,5,5,1,4.6
+218,mexshvkp2it9n4v3y3y,34,llm_first,2025-08-30T06:17:01.354Z,Community,somewhat helpful,4,4,2,2,4,0,3.2
+218,mexshvkp2it9n4v3y3y,34,llm_first,2025-08-30T06:17:01.354Z,LLMnote,helpful,4,4,4,5,4,1,4.2
+218,mexshvkp2it9n4v3y3y,46,community_first,2025-08-30T05:30:45.035Z,Community,somewhat helpful,4,4,3,3,4,0,3.6
+218,mexshvkp2it9n4v3y3y,46,community_first,2025-08-30T05:30:45.035Z,LLMnote,helpful,5,5,5,5,4,1,4.8
+218,mexshvkp2it9n4v3y3y,49,llm_first,2025-08-30T05:27:01.676Z,Community,somewhat helpful,3,4,4,4,2,0,3.4
+218,mexshvkp2it9n4v3y3y,49,llm_first,2025-08-30T05:27:01.676Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+218,mexshvkp2it9n4v3y3y,50,community_first,2025-08-30T06:04:44.033Z,Community,not helpful,2,3,2,2,2,0,2.2
+218,mexshvkp2it9n4v3y3y,50,community_first,2025-08-30T06:04:44.033Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+218,mexshvkp2it9n4v3y3y,59,community_first,2025-08-30T06:06:07.635Z,Community,somewhat helpful,3,4,2,2,2,0,2.6
+218,mexshvkp2it9n4v3y3y,59,community_first,2025-08-30T06:06:07.635Z,LLMnote,somewhat helpful,4,4,4,5,4,1,4.2
+218,mexshvkp2it9n4v3y3y,74,community_first,2025-08-30T05:29:30.074Z,Community,somewhat helpful,4,3,4,4,4,0,3.8
+218,mexshvkp2it9n4v3y3y,74,community_first,2025-08-30T05:29:30.074Z,LLMnote,helpful,5,5,5,5,4,1,4.8
+218,mexshvkp2it9n4v3y3y,76,community_first,2025-08-30T06:08:04.321Z,Community,not helpful,2,4,2,2,2,0,2.4
+218,mexshvkp2it9n4v3y3y,76,community_first,2025-08-30T06:08:04.321Z,LLMnote,helpful,4,4,5,5,5,1,4.6
+218,mexshvkp2it9n4v3y3y,81,llm_first,2025-08-30T06:14:58.636Z,Community,somewhat helpful,4,4,5,5,4,0,4.4
+218,mexshvkp2it9n4v3y3y,81,llm_first,2025-08-30T06:14:58.636Z,LLMnote,helpful,5,5,5,5,4,1,4.8
+218,mexshvkp2it9n4v3y3y,85,community_first,2025-08-30T06:12:20.023Z,Community,somewhat helpful,4,4,4,2,4,0,3.6
+218,mexshvkp2it9n4v3y3y,85,community_first,2025-08-30T06:12:20.023Z,LLMnote,somewhat helpful,4,5,5,5,4,1,4.6
+218,mexshvkp2it9n4v3y3y,109,community_first,2025-08-30T05:16:27.431Z,Community,somewhat helpful,2,4,2,3,2,0,2.6
+218,mexshvkp2it9n4v3y3y,109,community_first,2025-08-30T05:16:27.431Z,LLMnote,helpful,5,4,5,5,5,1,4.8
+218,mexshvkp2it9n4v3y3y,114,llm_first,2025-08-30T05:18:04.844Z,Community,not helpful,2,3,2,2,1,0,2.0
+218,mexshvkp2it9n4v3y3y,114,llm_first,2025-08-30T05:18:04.844Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+218,mexshvkp2it9n4v3y3y,122,community_first,2025-08-30T06:15:54.827Z,Community,somewhat helpful,4,4,4,4,5,0,4.2
+218,mexshvkp2it9n4v3y3y,122,community_first,2025-08-30T06:15:54.827Z,LLMnote,helpful,4,5,5,5,5,1,4.8
+298,mewowsripnx8a9lnnre,3,community_first,2025-08-29T10:52:37.839Z,Community,helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,3,community_first,2025-08-29T10:52:37.839Z,LLMnote,somewhat helpful,4,5,4,4,4,0,4.2
+298,mewowsripnx8a9lnnre,7,community_first,2025-08-29T10:58:21.804Z,Community,helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,7,community_first,2025-08-29T10:58:21.804Z,LLMnote,somewhat helpful,4,4,5,4,4,0,4.2
+298,mewowsripnx8a9lnnre,16,community_first,2025-08-29T10:37:41.694Z,Community,helpful,4,4,5,4,4,1,4.2
+298,mewowsripnx8a9lnnre,16,community_first,2025-08-29T10:37:41.694Z,LLMnote,somewhat helpful,3,4,3,4,4,0,3.6
+298,mewowsripnx8a9lnnre,21,llm_first,2025-08-29T10:52:43.223Z,Community,helpful,4,3,4,4,5,1,4.0
+298,mewowsripnx8a9lnnre,21,llm_first,2025-08-29T10:52:43.223Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+298,mewowsripnx8a9lnnre,23,llm_first,2025-08-29T10:52:49.007Z,Community,helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,23,llm_first,2025-08-29T10:52:49.007Z,LLMnote,somewhat helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,30,community_first,2025-08-29T10:55:39.765Z,Community,somewhat helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,30,community_first,2025-08-29T10:55:39.765Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+298,mewowsripnx8a9lnnre,52,community_first,2025-08-29T10:52:46.135Z,Community,helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,52,community_first,2025-08-29T10:52:46.135Z,LLMnote,somewhat helpful,4,3,3,4,4,1,3.6
+298,mewowsripnx8a9lnnre,57,llm_first,2025-08-29T10:53:35.046Z,Community,helpful,4,5,5,4,5,1,4.6
+298,mewowsripnx8a9lnnre,57,llm_first,2025-08-29T10:53:35.046Z,LLMnote,somewhat helpful,4,4,5,4,4,0,4.2
+298,mewowsripnx8a9lnnre,60,llm_first,2025-08-29T10:35:37.743Z,Community,helpful,4,3,4,4,4,1,3.8
+298,mewowsripnx8a9lnnre,60,llm_first,2025-08-29T10:35:37.743Z,LLMnote,somewhat helpful,3,4,2,4,3,0,3.2
+298,mewowsripnx8a9lnnre,68,community_first,2025-08-29T10:45:29.098Z,Community,somewhat helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,68,community_first,2025-08-29T10:45:29.098Z,LLMnote,helpful,5,4,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,76,llm_first,2025-08-29T10:54:13.974Z,Community,somewhat helpful,4,4,5,4,4,0,4.2
+298,mewowsripnx8a9lnnre,76,llm_first,2025-08-29T10:54:13.974Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,79,community_first,2025-08-29T10:38:52.453Z,Community,somewhat helpful,4,3,4,4,5,1,4.0
+298,mewowsripnx8a9lnnre,79,community_first,2025-08-29T10:38:52.453Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+298,mewowsripnx8a9lnnre,83,community_first,2025-08-29T10:44:43.707Z,Community,somewhat helpful,4,3,3,4,4,0,3.6
+298,mewowsripnx8a9lnnre,83,community_first,2025-08-29T10:44:43.707Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,106,community_first,2025-08-29T10:54:51.798Z,Community,helpful,4,5,4,4,3,1,4.0
+298,mewowsripnx8a9lnnre,106,community_first,2025-08-29T10:54:51.798Z,LLMnote,somewhat helpful,4,5,4,4,3,0,4.0
+298,mewowsripnx8a9lnnre,109,llm_first,2025-08-29T10:52:53.687Z,Community,helpful,4,5,4,5,5,0,4.6
+298,mewowsripnx8a9lnnre,109,llm_first,2025-08-29T10:52:53.687Z,LLMnote,somewhat helpful,4,3,4,4,5,1,4.0
+298,mewowsripnx8a9lnnre,110,llm_first,2025-08-29T11:00:56.276Z,Community,not helpful,2,3,2,2,2,0,2.2
+298,mewowsripnx8a9lnnre,110,llm_first,2025-08-29T11:00:56.276Z,LLMnote,somewhat helpful,4,3,4,4,4,1,3.8
+298,mewowsripnx8a9lnnre,111,community_first,2025-08-29T10:50:06.424Z,Community,somewhat helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,111,community_first,2025-08-29T10:50:06.424Z,LLMnote,somewhat helpful,4,5,4,4,5,1,4.4
+298,mewowsripnx8a9lnnre,114,community_first,2025-08-29T10:32:12.737Z,Community,not helpful,4,3,4,4,3,0,3.6
+298,mewowsripnx8a9lnnre,114,community_first,2025-08-29T10:32:12.737Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+298,mewowsripnx8a9lnnre,123,llm_first,2025-08-29T10:45:04.650Z,Community,somewhat helpful,4,5,4,4,5,0,4.4
+298,mewowsripnx8a9lnnre,123,llm_first,2025-08-29T10:45:04.650Z,LLMnote,somewhat helpful,4,5,4,4,4,1,4.2
+298,mewowsripnx8a9lnnre,124,community_first,2025-08-29T10:57:46.852Z,Community,helpful,4,5,4,5,5,1,4.6
+298,mewowsripnx8a9lnnre,124,community_first,2025-08-29T10:57:46.852Z,LLMnote,helpful,4,5,4,4,5,0,4.4
+297,mey6oqt6p74y8wbppjf,1,llm_first,2025-08-30T11:45:43.264Z,Community,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,1,llm_first,2025-08-30T11:45:43.264Z,LLMnote,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,7,community_first,2025-08-30T12:03:40.222Z,Community,helpful,4,5,4,5,4,1,4.4
+297,mey6oqt6p74y8wbppjf,7,community_first,2025-08-30T12:03:40.222Z,LLMnote,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,12,llm_first,2025-08-30T11:38:23.777Z,Community,not helpful,2,1,2,2,1,0,1.6
+297,mey6oqt6p74y8wbppjf,12,llm_first,2025-08-30T11:38:23.777Z,LLMnote,helpful,5,4,5,4,4,1,4.4
+297,mey6oqt6p74y8wbppjf,31,llm_first,2025-08-30T11:52:26.207Z,Community,somewhat helpful,4,5,4,4,5,0,4.4
+297,mey6oqt6p74y8wbppjf,31,llm_first,2025-08-30T11:52:26.207Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+297,mey6oqt6p74y8wbppjf,35,llm_first,2025-08-30T12:07:39.853Z,Community,somewhat helpful,5,4,5,4,5,0,4.6
+297,mey6oqt6p74y8wbppjf,35,llm_first,2025-08-30T12:07:39.853Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,46,llm_first,2025-08-30T11:36:10.906Z,Community,not helpful,2,1,2,2,1,0,1.6
+297,mey6oqt6p74y8wbppjf,46,llm_first,2025-08-30T11:36:10.906Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+297,mey6oqt6p74y8wbppjf,59,llm_first,2025-08-30T12:00:22.271Z,Community,not helpful,2,1,2,2,1,0,1.6
+297,mey6oqt6p74y8wbppjf,59,llm_first,2025-08-30T12:00:22.271Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+297,mey6oqt6p74y8wbppjf,62,community_first,2025-08-30T12:12:27.549Z,Community,not helpful,1,2,1,2,1,0,1.4
+297,mey6oqt6p74y8wbppjf,62,community_first,2025-08-30T12:12:27.549Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+297,mey6oqt6p74y8wbppjf,65,community_first,2025-08-30T11:50:43.711Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,65,community_first,2025-08-30T11:50:43.711Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,68,community_first,2025-08-30T11:40:05.833Z,Community,not helpful,2,1,2,2,1,0,1.6
+297,mey6oqt6p74y8wbppjf,68,community_first,2025-08-30T11:40:05.833Z,LLMnote,somewhat helpful,5,4,5,4,4,1,4.4
+297,mey6oqt6p74y8wbppjf,72,llm_first,2025-08-30T11:54:14.391Z,Community,not helpful,2,1,2,1,2,0,1.6
+297,mey6oqt6p74y8wbppjf,72,llm_first,2025-08-30T11:54:14.391Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+297,mey6oqt6p74y8wbppjf,76,community_first,2025-08-30T12:10:35.061Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,76,community_first,2025-08-30T12:10:35.061Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,77,community_first,2025-08-30T11:49:10.392Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,77,community_first,2025-08-30T11:49:10.392Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+297,mey6oqt6p74y8wbppjf,83,community_first,2025-08-30T11:58:27.398Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,83,community_first,2025-08-30T11:58:27.398Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,94,community_first,2025-08-30T12:09:19.287Z,Community,not helpful,2,1,2,1,2,0,1.6
+297,mey6oqt6p74y8wbppjf,94,community_first,2025-08-30T12:09:19.287Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+297,mey6oqt6p74y8wbppjf,98,llm_first,2025-08-30T12:05:02.839Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,98,llm_first,2025-08-30T12:05:02.839Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+297,mey6oqt6p74y8wbppjf,99,llm_first,2025-08-30T11:57:03.751Z,Community,helpful,5,4,4,5,4,1,4.4
+297,mey6oqt6p74y8wbppjf,99,llm_first,2025-08-30T11:57:03.751Z,LLMnote,somewhat helpful,4,5,4,4,5,0,4.4
+297,mey6oqt6p74y8wbppjf,102,community_first,2025-08-30T11:42:52.689Z,Community,somewhat helpful,4,5,4,5,4,0,4.4
+297,mey6oqt6p74y8wbppjf,102,community_first,2025-08-30T11:42:52.689Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+297,mey6oqt6p74y8wbppjf,107,community_first,2025-08-30T11:44:08.944Z,Community,not helpful,1,1,2,2,1,0,1.4
+297,mey6oqt6p74y8wbppjf,107,community_first,2025-08-30T11:44:08.944Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+297,mey6oqt6p74y8wbppjf,110,community_first,2025-08-30T11:47:05.920Z,Community,not helpful,2,1,2,1,2,0,1.6
+297,mey6oqt6p74y8wbppjf,110,community_first,2025-08-30T11:47:05.920Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+274,mf0e7pu4xyf4dyw9nyo,16,llm_first,2025-09-01T00:54:41.583Z,Community,somewhat helpful,3,4,2,4,2,1,3.0
+274,mf0e7pu4xyf4dyw9nyo,16,llm_first,2025-09-01T00:54:41.583Z,LLMnote,somewhat helpful,4,4,3,3,1,0,3.0
+274,mf0e7pu4xyf4dyw9nyo,28,community_first,2025-09-01T00:58:00.076Z,Community,not helpful,1,4,2,4,4,0,3.0
+274,mf0e7pu4xyf4dyw9nyo,28,community_first,2025-09-01T00:58:00.076Z,LLMnote,somewhat helpful,4,3,4,3,4,1,3.6
+274,mf0e7pu4xyf4dyw9nyo,32,llm_first,2025-09-01T01:21:37.660Z,Community,somewhat helpful,2,4,2,2,2,0,2.4
+274,mf0e7pu4xyf4dyw9nyo,32,llm_first,2025-09-01T01:21:37.660Z,LLMnote,helpful,3,4,3,4,2,1,3.2
+274,mf0e7pu4xyf4dyw9nyo,36,llm_first,2025-09-01T00:55:34.628Z,Community,not helpful,2,3,2,2,2,0,2.2
+274,mf0e7pu4xyf4dyw9nyo,36,llm_first,2025-09-01T00:55:34.628Z,LLMnote,somewhat helpful,4,4,3,4,2,1,3.4
+274,mf0e7pu4xyf4dyw9nyo,46,llm_first,2025-09-01T01:05:23.907Z,Community,somewhat helpful,3,4,2,2,4,0,3.0
+274,mf0e7pu4xyf4dyw9nyo,46,llm_first,2025-09-01T01:05:23.907Z,LLMnote,helpful,4,4,3,4,4,1,3.8
+274,mf0e7pu4xyf4dyw9nyo,50,community_first,2025-09-01T01:18:18.533Z,Community,somewhat helpful,2,3,2,4,2,0,2.6
+274,mf0e7pu4xyf4dyw9nyo,50,community_first,2025-09-01T01:18:18.533Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+274,mf0e7pu4xyf4dyw9nyo,52,community_first,2025-09-01T01:09:14.692Z,Community,not helpful,2,4,2,2,4,0,2.8
+274,mf0e7pu4xyf4dyw9nyo,52,community_first,2025-09-01T01:09:14.692Z,LLMnote,somewhat helpful,4,4,4,2,4,1,3.6
+274,mf0e7pu4xyf4dyw9nyo,59,llm_first,2025-09-01T00:56:36.652Z,Community,helpful,4,4,5,5,3,1,4.2
+274,mf0e7pu4xyf4dyw9nyo,59,llm_first,2025-09-01T00:56:36.652Z,LLMnote,somewhat helpful,4,3,4,4,2,0,3.4
+274,mf0e7pu4xyf4dyw9nyo,62,community_first,2025-09-01T01:20:07.475Z,Community,somewhat helpful,2,3,3,2,4,0,2.8
+274,mf0e7pu4xyf4dyw9nyo,62,community_first,2025-09-01T01:20:07.475Z,LLMnote,helpful,4,4,4,4,2,1,3.6
+274,mf0e7pu4xyf4dyw9nyo,68,llm_first,2025-09-01T00:53:47.674Z,Community,somewhat helpful,4,3,2,4,4,1,3.4
+274,mf0e7pu4xyf4dyw9nyo,68,llm_first,2025-09-01T00:53:47.674Z,LLMnote,not helpful,2,4,2,3,1,0,2.4
+274,mf0e7pu4xyf4dyw9nyo,69,llm_first,2025-09-01T01:12:00.962Z,Community,somewhat helpful,2,3,4,2,2,0,2.6
+274,mf0e7pu4xyf4dyw9nyo,69,llm_first,2025-09-01T01:12:00.962Z,LLMnote,helpful,4,3,4,4,4,1,3.8
+274,mf0e7pu4xyf4dyw9nyo,70,community_first,2025-09-01T01:16:23.760Z,Community,somewhat helpful,2,4,3,2,2,0,2.6
+274,mf0e7pu4xyf4dyw9nyo,70,community_first,2025-09-01T01:16:23.760Z,LLMnote,helpful,4,4,5,4,3,1,4.0
+274,mf0e7pu4xyf4dyw9nyo,74,llm_first,2025-09-01T01:06:25.165Z,Community,helpful,4,4,4,4,4,1,4.0
+274,mf0e7pu4xyf4dyw9nyo,74,llm_first,2025-09-01T01:06:25.165Z,LLMnote,somewhat helpful,2,4,3,4,4,0,3.4
+274,mf0e7pu4xyf4dyw9nyo,81,llm_first,2025-09-01T01:23:09.954Z,Community,somewhat helpful,2,2,2,2,2,0,2.0
+274,mf0e7pu4xyf4dyw9nyo,81,llm_first,2025-09-01T01:23:09.954Z,LLMnote,helpful,4,4,4,4,4,1,4.0
+274,mf0e7pu4xyf4dyw9nyo,93,llm_first,2025-09-01T01:07:42.935Z,Community,somewhat helpful,4,3,2,2,4,0,3.0
+274,mf0e7pu4xyf4dyw9nyo,93,llm_first,2025-09-01T01:07:42.935Z,LLMnote,helpful,4,4,5,5,5,1,4.6
+274,mf0e7pu4xyf4dyw9nyo,94,community_first,2025-09-01T01:24:08.193Z,Community,not helpful,1,4,2,2,2,0,2.2
+274,mf0e7pu4xyf4dyw9nyo,94,community_first,2025-09-01T01:24:08.193Z,LLMnote,helpful,4,3,4,4,4,1,3.8
+274,mf0e7pu4xyf4dyw9nyo,102,community_first,2025-09-01T00:59:16.969Z,Community,not helpful,2,3,2,2,2,0,2.2
+274,mf0e7pu4xyf4dyw9nyo,102,community_first,2025-09-01T00:59:16.969Z,LLMnote,somewhat helpful,4,3,4,4,2,1,3.4
+274,mf0e7pu4xyf4dyw9nyo,106,llm_first,2025-09-01T01:15:02.444Z,Community,somewhat helpful,2,3,2,4,2,0,2.6
+274,mf0e7pu4xyf4dyw9nyo,106,llm_first,2025-09-01T01:15:02.444Z,LLMnote,helpful,4,4,3,4,4,1,3.8
+274,mf0e7pu4xyf4dyw9nyo,109,llm_first,2025-09-01T01:00:55.978Z,Community,not helpful,2,4,2,3,4,0,3.0
+274,mf0e7pu4xyf4dyw9nyo,109,llm_first,2025-09-01T01:00:55.978Z,LLMnote,helpful,5,4,4,4,4,1,4.2
+274,mf0e7pu4xyf4dyw9nyo,124,llm_first,2025-09-01T01:10:32.968Z,Community,somewhat helpful,2,4,2,2,4,0,2.8
+274,mf0e7pu4xyf4dyw9nyo,124,llm_first,2025-09-01T01:10:32.968Z,LLMnote,helpful,4,4,4,2,3,1,3.4
+236,meyahirgmybeae6abi8,2,llm_first,2025-08-30T13:24:03.232Z,Community,not helpful,2,3,1,3,2,0,2.2
+236,meyahirgmybeae6abi8,2,llm_first,2025-08-30T13:24:03.232Z,LLMnote,helpful,5,4,5,4,4,1,4.4
+236,meyahirgmybeae6abi8,7,community_first,2025-08-30T14:02:32.420Z,Community,not helpful,4,3,3,3,3,0,3.2
+236,meyahirgmybeae6abi8,7,community_first,2025-08-30T14:02:32.420Z,LLMnote,somewhat helpful,5,4,5,5,5,1,4.8
+236,meyahirgmybeae6abi8,12,community_first,2025-08-30T13:48:35.438Z,Community,helpful,5,4,4,5,5,0,4.6
+236,meyahirgmybeae6abi8,12,community_first,2025-08-30T13:48:35.438Z,LLMnote,helpful,5,4,5,4,4,1,4.4
+236,meyahirgmybeae6abi8,32,llm_first,2025-08-30T13:36:25.272Z,Community,helpful,4,5,4,5,3,1,4.2
+236,meyahirgmybeae6abi8,32,llm_first,2025-08-30T13:36:25.272Z,LLMnote,helpful,4,5,4,4,4,0,4.2
+236,meyahirgmybeae6abi8,36,llm_first,2025-08-30T13:41:49.302Z,Community,somewhat helpful,2,3,3,4,2,0,2.8
+236,meyahirgmybeae6abi8,36,llm_first,2025-08-30T13:41:49.302Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+236,meyahirgmybeae6abi8,69,community_first,2025-08-30T13:33:19.774Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+236,meyahirgmybeae6abi8,69,community_first,2025-08-30T13:33:19.774Z,LLMnote,helpful,4,4,4,4,5,1,4.2
+236,meyahirgmybeae6abi8,74,llm_first,2025-08-30T13:58:46.352Z,Community,somewhat helpful,3,4,4,3,4,0,3.6
+236,meyahirgmybeae6abi8,74,llm_first,2025-08-30T13:58:46.352Z,LLMnote,somewhat helpful,4,5,4,5,4,1,4.4
+236,meyahirgmybeae6abi8,75,community_first,2025-08-30T13:57:20.195Z,Community,not helpful,3,1,2,2,2,0,2.0
+236,meyahirgmybeae6abi8,75,community_first,2025-08-30T13:57:20.195Z,LLMnote,helpful,5,4,5,4,5,1,4.6
+236,meyahirgmybeae6abi8,76,llm_first,2025-08-30T13:44:50.853Z,Community,not helpful,1,4,2,1,2,0,2.0
+236,meyahirgmybeae6abi8,76,llm_first,2025-08-30T13:44:50.853Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+236,meyahirgmybeae6abi8,79,community_first,2025-08-30T14:05:01.575Z,Community,somewhat helpful,5,4,3,3,3,0,3.6
+236,meyahirgmybeae6abi8,79,community_first,2025-08-30T14:05:01.575Z,LLMnote,somewhat helpful,4,3,4,4,5,1,4.0
+236,meyahirgmybeae6abi8,85,community_first,2025-08-30T14:03:21.952Z,Community,helpful,5,4,5,5,4,0,4.6
+236,meyahirgmybeae6abi8,85,community_first,2025-08-30T14:03:21.952Z,LLMnote,helpful,5,5,4,5,5,1,4.8
+236,meyahirgmybeae6abi8,86,community_first,2025-08-30T13:46:20.367Z,Community,somewhat helpful,4,3,4,4,4,0,3.8
+236,meyahirgmybeae6abi8,86,community_first,2025-08-30T13:46:20.367Z,LLMnote,somewhat helpful,5,4,5,4,3,1,4.2
+236,meyahirgmybeae6abi8,91,llm_first,2025-08-30T14:00:38.254Z,Community,helpful,4,4,5,4,4,1,4.2
+236,meyahirgmybeae6abi8,91,llm_first,2025-08-30T14:00:38.254Z,LLMnote,helpful,4,4,5,4,4,0,4.2
+236,meyahirgmybeae6abi8,92,community_first,2025-08-30T13:54:18.955Z,Community,not helpful,3,3,2,2,2,0,2.4
+236,meyahirgmybeae6abi8,92,community_first,2025-08-30T13:54:18.955Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+236,meyahirgmybeae6abi8,93,llm_first,2025-08-30T13:39:22.374Z,Community,somewhat helpful,5,4,5,4,5,0,4.6
+236,meyahirgmybeae6abi8,93,llm_first,2025-08-30T13:39:22.374Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+236,meyahirgmybeae6abi8,99,community_first,2025-08-30T13:37:39.302Z,Community,somewhat helpful,4,4,4,2,3,0,3.4
+236,meyahirgmybeae6abi8,99,community_first,2025-08-30T13:37:39.302Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+236,meyahirgmybeae6abi8,101,community_first,2025-08-30T13:52:34.963Z,Community,somewhat helpful,4,4,5,4,4,0,4.2
+236,meyahirgmybeae6abi8,101,community_first,2025-08-30T13:52:34.963Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+236,meyahirgmybeae6abi8,102,llm_first,2025-08-30T14:06:29.721Z,Community,somewhat helpful,3,3,4,3,2,0,3.0
+236,meyahirgmybeae6abi8,102,llm_first,2025-08-30T14:06:29.721Z,LLMnote,helpful,4,4,5,4,5,1,4.4
+236,meyahirgmybeae6abi8,114,community_first,2025-08-30T13:25:34.341Z,Community,somewhat helpful,2,3,1,2,1,0,1.8
+236,meyahirgmybeae6abi8,114,community_first,2025-08-30T13:25:34.341Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+236,meyahirgmybeae6abi8,123,llm_first,2025-08-30T13:50:07.507Z,Community,somewhat helpful,3,4,2,3,2,0,2.8
+236,meyahirgmybeae6abi8,123,llm_first,2025-08-30T13:50:07.507Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+237,meycb7312s2faoy7222,21,community_first,2025-08-30T15:03:50.975Z,Community,helpful,4,4,4,5,4,1,4.2
+237,meycb7312s2faoy7222,21,community_first,2025-08-30T15:03:50.975Z,LLMnote,somewhat helpful,4,4,2,2,2,0,2.8
+237,meycb7312s2faoy7222,31,llm_first,2025-08-30T15:08:02.096Z,Community,helpful,4,3,4,4,4,1,3.8
+237,meycb7312s2faoy7222,31,llm_first,2025-08-30T15:08:02.096Z,LLMnote,somewhat helpful,3,4,3,2,2,0,2.8
+237,meycb7312s2faoy7222,46,community_first,2025-08-30T15:43:08.671Z,Community,somewhat helpful,3,4,2,4,4,0,3.4
+237,meycb7312s2faoy7222,46,community_first,2025-08-30T15:43:08.671Z,LLMnote,helpful,4,5,4,2,4,1,3.8
+237,meycb7312s2faoy7222,52,community_first,2025-08-30T15:21:23.497Z,Community,somewhat helpful,3,2,4,4,4,0,3.4
+237,meycb7312s2faoy7222,52,community_first,2025-08-30T15:21:23.497Z,LLMnote,helpful,4,4,4,2,3,1,3.4
+237,meycb7312s2faoy7222,65,llm_first,2025-08-30T15:24:02.962Z,Community,somewhat helpful,3,3,2,4,2,0,2.8
+237,meycb7312s2faoy7222,65,llm_first,2025-08-30T15:24:02.962Z,LLMnote,helpful,4,5,4,2,4,1,3.8
+237,meycb7312s2faoy7222,68,community_first,2025-08-30T15:27:11.576Z,Community,somewhat helpful,3,2,2,4,3,0,2.8
+237,meycb7312s2faoy7222,68,community_first,2025-08-30T15:27:11.576Z,LLMnote,helpful,4,4,4,3,4,1,3.8
+237,meycb7312s2faoy7222,70,community_first,2025-08-30T15:37:10.016Z,Community,somewhat helpful,3,4,4,5,4,1,4.0
+237,meycb7312s2faoy7222,70,community_first,2025-08-30T15:37:10.016Z,LLMnote,helpful,5,5,4,2,2,0,3.6
+237,meycb7312s2faoy7222,72,llm_first,2025-08-30T15:39:23.328Z,Community,somewhat helpful,3,3,2,4,4,0,3.2
+237,meycb7312s2faoy7222,72,llm_first,2025-08-30T15:39:23.328Z,LLMnote,helpful,4,4,4,2,4,1,3.6
+237,meycb7312s2faoy7222,77,llm_first,2025-08-30T15:29:03.624Z,Community,somewhat helpful,2,3,3,4,4,0,3.2
+237,meycb7312s2faoy7222,77,llm_first,2025-08-30T15:29:03.624Z,LLMnote,helpful,4,4,5,2,2,1,3.4
+237,meycb7312s2faoy7222,81,community_first,2025-08-30T15:22:32.176Z,Community,helpful,4,4,3,4,4,0,3.8
+237,meycb7312s2faoy7222,81,community_first,2025-08-30T15:22:32.176Z,LLMnote,helpful,4,5,4,2,2,1,3.4
+237,meycb7312s2faoy7222,82,llm_first,2025-08-30T15:22:12.305Z,Community,somewhat helpful,3,2,3,4,1,0,2.6
+237,meycb7312s2faoy7222,82,llm_first,2025-08-30T15:22:12.305Z,LLMnote,helpful,4,4,5,2,4,1,3.8
+237,meycb7312s2faoy7222,83,community_first,2025-08-30T15:35:21.680Z,Community,somewhat helpful,3,4,2,4,4,0,3.4
+237,meycb7312s2faoy7222,83,community_first,2025-08-30T15:35:21.680Z,LLMnote,helpful,5,5,4,2,4,1,4.0
+237,meycb7312s2faoy7222,94,llm_first,2025-08-30T15:41:26.648Z,Community,somewhat helpful,2,4,2,4,4,0,3.2
+237,meycb7312s2faoy7222,94,llm_first,2025-08-30T15:41:26.648Z,LLMnote,helpful,5,4,4,2,3,1,3.6
+237,meycb7312s2faoy7222,98,community_first,2025-08-30T15:32:55.775Z,Community,helpful,4,2,4,4,4,1,3.6
+237,meycb7312s2faoy7222,98,community_first,2025-08-30T15:32:55.775Z,LLMnote,somewhat helpful,3,4,2,2,2,0,2.6
+237,meycb7312s2faoy7222,106,community_first,2025-08-30T14:58:10.119Z,Community,helpful,4,4,3,4,2,1,3.4
+237,meycb7312s2faoy7222,106,community_first,2025-08-30T14:58:10.119Z,LLMnote,helpful,3,4,3,2,2,0,2.8
+237,meycb7312s2faoy7222,109,llm_first,2025-08-30T15:21:39.584Z,Community,somewhat helpful,2,3,2,4,4,0,3.0
+237,meycb7312s2faoy7222,109,llm_first,2025-08-30T15:21:39.584Z,LLMnote,helpful,4,4,5,2,2,1,3.4
+237,meycb7312s2faoy7222,110,llm_first,2025-08-30T15:44:59.456Z,Community,somewhat helpful,3,2,2,4,3,0,2.8
+237,meycb7312s2faoy7222,110,llm_first,2025-08-30T15:44:59.456Z,LLMnote,helpful,4,4,5,2,4,1,3.8
+237,meycb7312s2faoy7222,111,llm_first,2025-08-30T15:30:48.240Z,Community,somewhat helpful,3,2,2,4,3,0,2.8
+237,meycb7312s2faoy7222,111,llm_first,2025-08-30T15:30:48.240Z,LLMnote,helpful,4,4,4,3,4,1,3.8
+237,meycb7312s2faoy7222,112,llm_first,2025-08-30T15:23:22.937Z,Community,somewhat helpful,3,3,2,4,2,0,2.8
+237,meycb7312s2faoy7222,112,llm_first,2025-08-30T15:23:22.937Z,LLMnote,helpful,4,5,4,2,2,1,3.4
+237,meycb7312s2faoy7222,124,community_first,2025-08-30T15:23:48.497Z,Community,somewhat helpful,2,3,2,4,4,0,3.0
+237,meycb7312s2faoy7222,124,community_first,2025-08-30T15:23:48.497Z,LLMnote,helpful,4,5,4,2,2,1,3.4
+205,mexxsg220q5tmbtttozp,16,community_first,2025-08-30T10:27:55.710Z,Community,somewhat helpful,3,3,2,2,4,0,2.8
+205,mexxsg220q5tmbtttozp,16,community_first,2025-08-30T10:27:55.710Z,LLMnote,helpful,3,4,2,3,4,1,3.2
+205,mexxsg220q5tmbtttozp,19,community_first,2025-08-30T09:37:51.407Z,Community,helpful,4,5,3,4,5,0,4.2
+205,mexxsg220q5tmbtttozp,19,community_first,2025-08-30T09:37:51.407Z,LLMnote,helpful,5,5,5,4,4,1,4.6
+205,mexxsg220q5tmbtttozp,24,community_first,2025-08-30T09:38:41.433Z,Community,somewhat helpful,3,4,3,3,2,1,3.0
+205,mexxsg220q5tmbtttozp,24,community_first,2025-08-30T09:38:41.433Z,LLMnote,somewhat helpful,3,4,3,3,2,0,3.0
+205,mexxsg220q5tmbtttozp,28,llm_first,2025-08-30T09:38:03.827Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+205,mexxsg220q5tmbtttozp,28,llm_first,2025-08-30T09:38:03.827Z,LLMnote,helpful,5,4,4,5,4,1,4.4
+205,mexxsg220q5tmbtttozp,32,community_first,2025-08-30T09:37:01.807Z,Community,helpful,5,4,4,4,4,1,4.2
+205,mexxsg220q5tmbtttozp,32,community_first,2025-08-30T09:37:01.807Z,LLMnote,somewhat helpful,3,4,4,4,2,0,3.4
+205,mexxsg220q5tmbtttozp,34,llm_first,2025-08-30T09:36:27.756Z,Community,somewhat helpful,3,4,3,4,5,0,3.8
+205,mexxsg220q5tmbtttozp,34,llm_first,2025-08-30T09:36:27.756Z,LLMnote,somewhat helpful,3,4,4,4,2,1,3.4
+205,mexxsg220q5tmbtttozp,36,llm_first,2025-08-30T10:28:34.895Z,Community,somewhat helpful,3,4,3,4,5,0,3.8
+205,mexxsg220q5tmbtttozp,36,llm_first,2025-08-30T10:28:34.895Z,LLMnote,helpful,5,4,4,4,3,1,4.0
+205,mexxsg220q5tmbtttozp,49,llm_first,2025-08-30T09:37:43.622Z,Community,helpful,5,4,5,4,5,1,4.6
+205,mexxsg220q5tmbtttozp,49,llm_first,2025-08-30T09:37:43.622Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+205,mexxsg220q5tmbtttozp,57,community_first,2025-08-30T09:37:12.871Z,Community,helpful,4,4,4,3,5,1,4.0
+205,mexxsg220q5tmbtttozp,57,community_first,2025-08-30T09:37:12.871Z,LLMnote,somewhat helpful,3,3,3,4,2,0,3.0
+205,mexxsg220q5tmbtttozp,69,llm_first,2025-08-30T09:36:53.298Z,Community,helpful,4,4,2,3,4,0,3.4
+205,mexxsg220q5tmbtttozp,69,llm_first,2025-08-30T09:36:53.298Z,LLMnote,helpful,5,4,4,5,2,1,4.0
+205,mexxsg220q5tmbtttozp,70,community_first,2025-08-30T09:35:56.861Z,Community,somewhat helpful,3,3,3,4,2,0,3.0
+205,mexxsg220q5tmbtttozp,70,community_first,2025-08-30T09:35:56.861Z,LLMnote,somewhat helpful,4,3,4,4,2,1,3.4
+205,mexxsg220q5tmbtttozp,79,llm_first,2025-08-30T09:36:48.055Z,Community,helpful,5,4,5,5,5,0,4.8
+205,mexxsg220q5tmbtttozp,79,llm_first,2025-08-30T09:36:48.055Z,LLMnote,somewhat helpful,4,4,4,4,2,1,3.6
+205,mexxsg220q5tmbtttozp,81,llm_first,2025-08-30T09:36:13.588Z,Community,somewhat helpful,4,4,2,3,3,0,3.2
+205,mexxsg220q5tmbtttozp,81,llm_first,2025-08-30T09:36:13.588Z,LLMnote,helpful,4,4,4,4,4,1,4.0
+205,mexxsg220q5tmbtttozp,82,llm_first,2025-08-30T09:37:29.825Z,Community,somewhat helpful,3,4,3,3,5,0,3.6
+205,mexxsg220q5tmbtttozp,82,llm_first,2025-08-30T09:37:29.825Z,LLMnote,helpful,5,4,4,5,3,1,4.2
+205,mexxsg220q5tmbtttozp,85,llm_first,2025-08-30T09:44:38.340Z,Community,helpful,5,4,5,5,5,1,4.8
+205,mexxsg220q5tmbtttozp,85,llm_first,2025-08-30T09:44:38.340Z,LLMnote,somewhat helpful,4,4,5,4,3,0,4.0
+205,mexxsg220q5tmbtttozp,91,community_first,2025-08-30T09:36:05.675Z,Community,somewhat helpful,4,4,3,3,3,0,3.4
+205,mexxsg220q5tmbtttozp,91,community_first,2025-08-30T09:36:05.675Z,LLMnote,helpful,5,4,4,4,3,1,4.0
+205,mexxsg220q5tmbtttozp,111,community_first,2025-08-30T10:29:17.243Z,Community,helpful,5,4,4,5,4,1,4.4
+205,mexxsg220q5tmbtttozp,111,community_first,2025-08-30T10:29:17.243Z,LLMnote,somewhat helpful,3,4,3,3,2,0,3.0
+205,mexxsg220q5tmbtttozp,123,llm_first,2025-08-30T09:35:44.201Z,Community,helpful,4,4,4,3,4,0,3.8
+205,mexxsg220q5tmbtttozp,123,llm_first,2025-08-30T09:35:44.201Z,LLMnote,helpful,5,5,5,5,3,1,4.6
+205,mexxsg220q5tmbtttozp,124,community_first,2025-08-30T09:47:20.998Z,Community,somewhat helpful,3,4,3,3,4,0,3.4
+205,mexxsg220q5tmbtttozp,124,community_first,2025-08-30T09:47:20.998Z,LLMnote,helpful,5,4,5,4,3,1,4.2
+205,mexxsg220q5tmbtttozp,142,community_first,2025-08-30T09:37:20.806Z,Community,helpful,4,4,3,4,5,1,4.0
+205,mexxsg220q5tmbtttozp,142,community_first,2025-08-30T09:37:20.806Z,LLMnote,somewhat helpful,3,4,3,3,1,0,2.8
+248,mezdr72rufww1biueo,1,community_first,2025-08-31T08:02:38.092Z,Community,helpful,4,4,4,5,4,0,4.2
+248,mezdr72rufww1biueo,1,community_first,2025-08-31T08:02:38.092Z,LLMnote,helpful,4,5,5,4,5,1,4.6
+248,mezdr72rufww1biueo,7,community_first,2025-08-31T08:03:54.782Z,Community,helpful,4,5,4,4,3,1,4.0
+248,mezdr72rufww1biueo,7,community_first,2025-08-31T08:03:54.782Z,LLMnote,somewhat helpful,4,4,4,3,4,0,3.8
+248,mezdr72rufww1biueo,19,llm_first,2025-08-31T07:50:51.865Z,Community,not helpful,2,3,1,2,2,0,2.0
+248,mezdr72rufww1biueo,19,llm_first,2025-08-31T07:50:51.865Z,LLMnote,somewhat helpful,3,4,4,4,3,1,3.6
+248,mezdr72rufww1biueo,21,community_first,2025-08-31T08:06:57.387Z,Community,somewhat helpful,4,3,4,4,3,1,3.6
+248,mezdr72rufww1biueo,21,community_first,2025-08-31T08:06:57.387Z,LLMnote,somewhat helpful,4,3,3,4,4,0,3.6
+248,mezdr72rufww1biueo,24,llm_first,2025-08-31T07:46:25.849Z,Community,helpful,5,4,4,4,5,1,4.4
+248,mezdr72rufww1biueo,24,llm_first,2025-08-31T07:46:25.849Z,LLMnote,helpful,4,4,4,3,1,0,3.2
+248,mezdr72rufww1biueo,31,community_first,2025-08-31T08:01:00.794Z,Community,somewhat helpful,3,4,5,4,4,1,4.0
+248,mezdr72rufww1biueo,31,community_first,2025-08-31T08:01:00.794Z,LLMnote,not helpful,2,2,3,1,2,0,2.0
+248,mezdr72rufww1biueo,32,llm_first,2025-08-31T08:17:28.035Z,Community,somewhat helpful,3,4,4,4,3,0,3.6
+248,mezdr72rufww1biueo,32,llm_first,2025-08-31T08:17:28.035Z,LLMnote,somewhat helpful,4,4,4,5,4,1,4.2
+248,mezdr72rufww1biueo,52,llm_first,2025-08-31T07:56:56.484Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+248,mezdr72rufww1biueo,52,llm_first,2025-08-31T07:56:56.484Z,LLMnote,somewhat helpful,4,4,3,5,4,0,4.0
+248,mezdr72rufww1biueo,59,llm_first,2025-08-31T08:16:26.934Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+248,mezdr72rufww1biueo,59,llm_first,2025-08-31T08:16:26.934Z,LLMnote,somewhat helpful,3,4,4,4,4,1,3.8
+248,mezdr72rufww1biueo,65,community_first,2025-08-31T08:05:02.559Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+248,mezdr72rufww1biueo,65,community_first,2025-08-31T08:05:02.559Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+248,mezdr72rufww1biueo,68,llm_first,2025-08-31T08:08:23.121Z,Community,somewhat helpful,3,4,4,3,3,0,3.4
+248,mezdr72rufww1biueo,68,llm_first,2025-08-31T08:08:23.121Z,LLMnote,helpful,4,4,5,4,4,1,4.2
+248,mezdr72rufww1biueo,72,community_first,2025-08-31T08:13:50.061Z,Community,somewhat helpful,4,4,4,3,3,0,3.6
+248,mezdr72rufww1biueo,72,community_first,2025-08-31T08:13:50.061Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+248,mezdr72rufww1biueo,76,llm_first,2025-08-31T08:11:04.299Z,Community,somewhat helpful,4,4,4,4,3,0,3.8
+248,mezdr72rufww1biueo,76,llm_first,2025-08-31T08:11:04.299Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+248,mezdr72rufww1biueo,86,llm_first,2025-08-31T07:48:41.047Z,Community,helpful,4,4,4,4,4,1,4.0
+248,mezdr72rufww1biueo,86,llm_first,2025-08-31T07:48:41.047Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+248,mezdr72rufww1biueo,93,community_first,2025-08-31T07:41:47.444Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+248,mezdr72rufww1biueo,93,community_first,2025-08-31T07:41:47.444Z,LLMnote,somewhat helpful,3,4,4,4,4,1,3.8
+248,mezdr72rufww1biueo,107,community_first,2025-08-31T08:12:36.417Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+248,mezdr72rufww1biueo,107,community_first,2025-08-31T08:12:36.417Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+248,mezdr72rufww1biueo,112,community_first,2025-08-31T07:59:09.653Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+248,mezdr72rufww1biueo,112,community_first,2025-08-31T07:59:09.653Z,LLMnote,somewhat helpful,3,2,4,4,2,0,3.0
+248,mezdr72rufww1biueo,122,llm_first,2025-08-31T08:15:06.615Z,Community,somewhat helpful,4,4,3,4,4,1,3.8
+248,mezdr72rufww1biueo,122,llm_first,2025-08-31T08:15:06.615Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+248,mezdr72rufww1biueo,123,community_first,2025-08-31T07:54:43.454Z,Community,not helpful,2,2,1,2,2,0,1.8
+248,mezdr72rufww1biueo,123,community_first,2025-08-31T07:54:43.454Z,LLMnote,somewhat helpful,4,5,4,3,4,1,4.0
+248,mezdr72rufww1biueo,124,llm_first,2025-08-31T07:52:15.353Z,Community,somewhat helpful,2,4,3,2,4,0,3.0
+248,mezdr72rufww1biueo,124,llm_first,2025-08-31T07:52:15.353Z,LLMnote,helpful,5,4,4,4,5,1,4.4
+250,mf0jg7z99pmmgo50ksr,3,community_first,2025-09-01T04:48:34.330Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+250,mf0jg7z99pmmgo50ksr,3,community_first,2025-09-01T04:48:34.330Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,7,community_first,2025-09-01T03:27:13.352Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,7,community_first,2025-09-01T03:27:13.352Z,LLMnote,somewhat helpful,4,4,2,2,5,0,3.4
+250,mf0jg7z99pmmgo50ksr,16,community_first,2025-09-01T03:23:54.990Z,Community,not helpful,1,1,4,1,4,0,2.2
+250,mf0jg7z99pmmgo50ksr,16,community_first,2025-09-01T03:23:54.990Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,29,community_first,2025-09-01T04:51:54.512Z,Community,somewhat helpful,4,4,4,3,4,0,3.8
+250,mf0jg7z99pmmgo50ksr,29,community_first,2025-09-01T04:51:54.512Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,30,community_first,2025-09-01T03:44:21.646Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,30,community_first,2025-09-01T03:44:21.646Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+250,mf0jg7z99pmmgo50ksr,52,community_first,2025-09-01T03:29:25.818Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,52,community_first,2025-09-01T03:29:25.818Z,LLMnote,somewhat helpful,4,4,4,4,4,0,4.0
+250,mf0jg7z99pmmgo50ksr,60,community_first,2025-09-01T03:32:04.150Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,60,community_first,2025-09-01T03:32:04.150Z,LLMnote,somewhat helpful,4,3,2,5,4,0,3.6
+250,mf0jg7z99pmmgo50ksr,65,llm_first,2025-09-01T05:06:43.335Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+250,mf0jg7z99pmmgo50ksr,65,llm_first,2025-09-01T05:06:43.335Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,70,community_first,2025-09-01T04:54:10.090Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+250,mf0jg7z99pmmgo50ksr,70,community_first,2025-09-01T04:54:10.090Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,74,community_first,2025-09-01T03:46:22.386Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,74,community_first,2025-09-01T03:46:22.386Z,LLMnote,somewhat helpful,3,4,2,2,2,0,2.6
+250,mf0jg7z99pmmgo50ksr,81,community_first,2025-09-01T05:04:08.894Z,Community,somewhat helpful,4,4,3,4,4,0,3.8
+250,mf0jg7z99pmmgo50ksr,81,community_first,2025-09-01T05:04:08.894Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,82,community_first,2025-09-01T03:36:36.856Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,82,community_first,2025-09-01T03:36:36.856Z,LLMnote,somewhat helpful,4,4,2,2,4,0,3.2
+250,mf0jg7z99pmmgo50ksr,85,llm_first,2025-09-01T03:57:47.965Z,Community,somewhat helpful,3,3,2,2,4,0,2.8
+250,mf0jg7z99pmmgo50ksr,85,llm_first,2025-09-01T03:57:47.965Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,86,llm_first,2025-09-01T04:58:02.300Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,86,llm_first,2025-09-01T04:58:02.300Z,LLMnote,somewhat helpful,3,4,4,3,4,0,3.6
+250,mf0jg7z99pmmgo50ksr,98,llm_first,2025-09-01T03:55:20.726Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,98,llm_first,2025-09-01T03:55:20.726Z,LLMnote,somewhat helpful,3,3,2,3,3,0,2.8
+250,mf0jg7z99pmmgo50ksr,99,llm_first,2025-09-01T05:08:23.020Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,99,llm_first,2025-09-01T05:08:23.020Z,LLMnote,not helpful,1,1,2,2,2,0,1.6
+250,mf0jg7z99pmmgo50ksr,111,llm_first,2025-09-01T03:42:00.792Z,Community,somewhat helpful,4,2,4,4,1,0,3.0
+250,mf0jg7z99pmmgo50ksr,111,llm_first,2025-09-01T03:42:00.792Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,112,llm_first,2025-09-01T03:50:48.354Z,Community,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,112,llm_first,2025-09-01T03:50:48.354Z,LLMnote,somewhat helpful,4,4,2,2,4,0,3.2
+250,mf0jg7z99pmmgo50ksr,114,community_first,2025-09-01T05:10:06.230Z,Community,somewhat helpful,4,4,4,4,4,0,4.0
+250,mf0jg7z99pmmgo50ksr,114,community_first,2025-09-01T05:10:06.230Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+250,mf0jg7z99pmmgo50ksr,124,community_first,2025-09-01T03:20:04.440Z,Community,helpful,4,4,4,2,2,0,3.2
+250,mf0jg7z99pmmgo50ksr,124,community_first,2025-09-01T03:20:04.440Z,LLMnote,helpful,5,5,5,5,5,1,5.0
+247,mezd7smommsxu4f7hx,1,community_first,2025-08-31T07:28:03.185Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+247,mezd7smommsxu4f7hx,1,community_first,2025-08-31T07:28:03.185Z,LLMnote,somewhat helpful,2,3,4,3,2,0,2.8
+247,mezd7smommsxu4f7hx,2,community_first,2025-08-31T07:31:06.076Z,Community,somewhat helpful,3,3,3,3,4,1,3.2
+247,mezd7smommsxu4f7hx,2,community_first,2025-08-31T07:31:06.076Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,3,llm_first,2025-08-31T07:32:32.748Z,Community,somewhat helpful,5,5,5,5,5,1,5.0
+247,mezd7smommsxu4f7hx,3,llm_first,2025-08-31T07:32:32.748Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,12,community_first,2025-08-31T07:35:49.770Z,Community,helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,12,community_first,2025-08-31T07:35:49.770Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,19,community_first,2025-08-31T07:37:28.335Z,Community,somewhat helpful,3,4,4,3,4,1,3.6
+247,mezd7smommsxu4f7hx,19,community_first,2025-08-31T07:37:28.335Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,21,community_first,2025-08-31T07:32:59.302Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+247,mezd7smommsxu4f7hx,21,community_first,2025-08-31T07:32:59.302Z,LLMnote,somewhat helpful,2,2,2,2,3,0,2.2
+247,mezd7smommsxu4f7hx,24,llm_first,2025-08-31T07:27:27.643Z,Community,helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,24,llm_first,2025-08-31T07:27:27.643Z,LLMnote,somewhat helpful,2,3,3,3,3,0,2.8
+247,mezd7smommsxu4f7hx,28,community_first,2025-08-31T07:30:10.489Z,Community,somewhat helpful,3,4,3,3,3,1,3.2
+247,mezd7smommsxu4f7hx,28,community_first,2025-08-31T07:30:10.489Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,29,community_first,2025-08-31T07:37:50.391Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+247,mezd7smommsxu4f7hx,29,community_first,2025-08-31T07:37:50.391Z,LLMnote,not helpful,2,1,3,3,2,0,2.2
+247,mezd7smommsxu4f7hx,30,community_first,2025-08-31T07:33:34.878Z,Community,helpful,4,4,4,4,3,1,3.8
+247,mezd7smommsxu4f7hx,30,community_first,2025-08-31T07:33:34.878Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,34,llm_first,2025-08-31T07:36:43.657Z,Community,somewhat helpful,2,2,2,3,3,0,2.4
+247,mezd7smommsxu4f7hx,34,llm_first,2025-08-31T07:36:43.657Z,LLMnote,somewhat helpful,3,3,3,3,3,1,3.0
+247,mezd7smommsxu4f7hx,49,llm_first,2025-08-31T07:35:10.961Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,49,llm_first,2025-08-31T07:35:10.961Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,52,community_first,2025-08-31T07:33:56.978Z,Community,somewhat helpful,2,3,4,4,4,1,3.4
+247,mezd7smommsxu4f7hx,52,community_first,2025-08-31T07:33:56.978Z,LLMnote,not helpful,2,2,3,3,2,0,2.4
+247,mezd7smommsxu4f7hx,68,community_first,2025-08-31T07:37:07.870Z,Community,helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,68,community_first,2025-08-31T07:37:07.870Z,LLMnote,somewhat helpful,2,3,3,3,3,0,2.8
+247,mezd7smommsxu4f7hx,72,community_first,2025-08-31T07:36:11.858Z,Community,somewhat helpful,3,4,4,4,4,1,3.8
+247,mezd7smommsxu4f7hx,72,community_first,2025-08-31T07:36:11.858Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,77,llm_first,2025-08-31T07:29:04.864Z,Community,helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,77,llm_first,2025-08-31T07:29:04.864Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,83,llm_first,2025-08-31T07:34:48.963Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,83,llm_first,2025-08-31T07:34:48.963Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,98,community_first,2025-08-31T07:34:23.862Z,Community,somewhat helpful,4,3,4,3,4,1,3.6
+247,mezd7smommsxu4f7hx,98,community_first,2025-08-31T07:34:23.862Z,LLMnote,not helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,110,community_first,2025-08-31T07:26:17.873Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+247,mezd7smommsxu4f7hx,110,community_first,2025-08-31T07:26:17.873Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+247,mezd7smommsxu4f7hx,114,llm_first,2025-08-31T07:38:14.596Z,Community,somewhat helpful,4,4,5,4,5,1,4.4
+247,mezd7smommsxu4f7hx,114,llm_first,2025-08-31T07:38:14.596Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+么旭,mewp0gmuguenfvkw3u,1,community_first,2025-08-29T11:06:57.219Z,Community,helpful,5,5,4,4,2,1,4.0
+么旭,mewp0gmuguenfvkw3u,1,community_first,2025-08-29T11:06:57.219Z,LLMnote,somewhat helpful,2,4,3,2,1,0,2.4
+么旭,mewp0gmuguenfvkw3u,2,llm_first,2025-08-29T10:52:57.713Z,Community,somewhat helpful,3,5,4,3,4,0,3.8
+么旭,mewp0gmuguenfvkw3u,2,llm_first,2025-08-29T10:52:57.713Z,LLMnote,somewhat helpful,3,5,4,3,5,1,4.0
+么旭,mewp0gmuguenfvkw3u,12,llm_first,2025-08-29T11:29:15.671Z,Community,helpful,5,4,4,5,5,1,4.6
+么旭,mewp0gmuguenfvkw3u,12,llm_first,2025-08-29T11:29:15.671Z,LLMnote,somewhat helpful,3,5,4,4,5,0,4.2
+么旭,mewp0gmuguenfvkw3u,19,community_first,2025-08-29T11:32:07.979Z,Community,somewhat helpful,4,5,4,4,3,1,4.0
+么旭,mewp0gmuguenfvkw3u,19,community_first,2025-08-29T11:32:07.979Z,LLMnote,not helpful,3,4,2,1,2,0,2.4
+么旭,mewp0gmuguenfvkw3u,24,llm_first,2025-08-29T10:43:21.699Z,Community,helpful,5,5,4,5,3,1,4.4
+么旭,mewp0gmuguenfvkw3u,24,llm_first,2025-08-29T10:43:21.699Z,LLMnote,helpful,3,5,4,4,5,0,4.2
+么旭,mewp0gmuguenfvkw3u,28,community_first,2025-08-29T11:14:35.075Z,Community,somewhat helpful,4,4,4,5,4,0,4.2
+么旭,mewp0gmuguenfvkw3u,28,community_first,2025-08-29T11:14:35.075Z,LLMnote,somewhat helpful,3,5,4,2,4,1,3.6
+么旭,mewp0gmuguenfvkw3u,31,llm_first,2025-08-29T11:16:21.761Z,Community,helpful,5,4,4,5,3,1,4.2
+么旭,mewp0gmuguenfvkw3u,31,llm_first,2025-08-29T11:16:21.761Z,LLMnote,not helpful,2,4,2,4,2,0,2.8
+么旭,mewp0gmuguenfvkw3u,32,community_first,2025-08-29T11:00:59.744Z,Community,helpful,4,5,3,3,2,0,3.4
+么旭,mewp0gmuguenfvkw3u,32,community_first,2025-08-29T11:00:59.744Z,LLMnote,helpful,4,5,4,5,3,1,4.2
+么旭,mewp0gmuguenfvkw3u,34,community_first,2025-08-29T11:19:31.348Z,Community,helpful,4,5,4,4,5,1,4.4
+么旭,mewp0gmuguenfvkw3u,34,community_first,2025-08-29T11:19:31.348Z,LLMnote,not helpful,2,4,1,2,1,0,2.0
+么旭,mewp0gmuguenfvkw3u,35,llm_first,2025-08-29T11:39:45.417Z,Community,somewhat helpful,4,5,4,5,3,1,4.2
+么旭,mewp0gmuguenfvkw3u,35,llm_first,2025-08-29T11:39:45.417Z,LLMnote,somewhat helpful,3,5,4,5,4,0,4.2
+么旭,mewp0gmuguenfvkw3u,62,community_first,2025-08-29T11:26:53.287Z,Community,not helpful,2,4,1,1,2,0,2.0
+么旭,mewp0gmuguenfvkw3u,62,community_first,2025-08-29T11:26:53.287Z,LLMnote,somewhat helpful,3,4,4,3,2,1,3.2
+么旭,mewp0gmuguenfvkw3u,65,llm_first,2025-08-29T11:37:19.899Z,Community,helpful,5,5,4,4,3,1,4.2
+么旭,mewp0gmuguenfvkw3u,65,llm_first,2025-08-29T11:37:19.899Z,LLMnote,somewhat helpful,3,5,3,2,5,0,3.6
+么旭,mewp0gmuguenfvkw3u,74,llm_first,2025-08-29T10:58:32.613Z,Community,helpful,5,3,4,5,2,1,3.8
+么旭,mewp0gmuguenfvkw3u,74,llm_first,2025-08-29T10:58:32.613Z,LLMnote,somewhat helpful,3,4,2,2,1,0,2.4
+么旭,mewp0gmuguenfvkw3u,75,llm_first,2025-08-29T10:50:14.359Z,Community,somewhat helpful,5,4,5,5,2,1,4.2
+么旭,mewp0gmuguenfvkw3u,75,llm_first,2025-08-29T10:50:14.359Z,LLMnote,somewhat helpful,2,4,4,3,5,0,3.6
+么旭,mewp0gmuguenfvkw3u,82,community_first,2025-08-29T11:24:53.244Z,Community,helpful,5,5,4,4,5,1,4.6
+么旭,mewp0gmuguenfvkw3u,82,community_first,2025-08-29T11:24:53.244Z,LLMnote,not helpful,1,3,2,1,2,0,1.8
+么旭,mewp0gmuguenfvkw3u,91,community_first,2025-08-29T10:37:57.581Z,Community,helpful,4,3,4,5,4,1,4.0
+么旭,mewp0gmuguenfvkw3u,91,community_first,2025-08-29T10:37:57.581Z,LLMnote,somewhat helpful,3,4,4,3,2,0,3.2
+么旭,mewp0gmuguenfvkw3u,93,community_first,2025-08-29T11:34:45.741Z,Community,somewhat helpful,4,5,3,3,4,1,3.8
+么旭,mewp0gmuguenfvkw3u,93,community_first,2025-08-29T11:34:45.741Z,LLMnote,not helpful,2,5,1,2,2,0,2.4
+么旭,mewp0gmuguenfvkw3u,94,community_first,2025-08-29T11:10:59.717Z,Community,somewhat helpful,4,4,3,4,2,1,3.4
+么旭,mewp0gmuguenfvkw3u,94,community_first,2025-08-29T11:10:59.717Z,LLMnote,somewhat helpful,3,4,2,3,1,0,2.6
+么旭,mewp0gmuguenfvkw3u,99,llm_first,2025-08-29T11:21:46.543Z,Community,somewhat helpful,4,5,4,4,3,1,4.0
+么旭,mewp0gmuguenfvkw3u,99,llm_first,2025-08-29T11:21:46.543Z,LLMnote,somewhat helpful,2,5,3,4,4,0,3.6
+么旭,mewp0gmuguenfvkw3u,112,community_first,2025-08-29T11:04:57.606Z,Community,somewhat helpful,4,5,4,5,3,1,4.2
+么旭,mewp0gmuguenfvkw3u,112,community_first,2025-08-29T11:04:57.606Z,LLMnote,somewhat helpful,3,5,4,3,2,0,3.4
+277,mf0j7weqhnqh7olpgw,3,community_first,2025-09-01T04:21:59.049Z,Community,helpful,5,4,4,5,5,1,4.6
+277,mf0j7weqhnqh7olpgw,3,community_first,2025-09-01T04:21:59.049Z,LLMnote,somewhat helpful,4,4,4,1,4,0,3.4
+277,mf0j7weqhnqh7olpgw,7,llm_first,2025-09-01T04:25:45.244Z,Community,helpful,4,5,3,5,5,1,4.4
+277,mf0j7weqhnqh7olpgw,7,llm_first,2025-09-01T04:25:45.244Z,LLMnote,somewhat helpful,4,4,2,1,4,0,3.0
+277,mf0j7weqhnqh7olpgw,12,community_first,2025-09-01T04:43:28.463Z,Community,helpful,4,4,4,5,4,1,4.2
+277,mf0j7weqhnqh7olpgw,12,community_first,2025-09-01T04:43:28.463Z,LLMnote,helpful,4,4,4,2,4,0,3.6
+277,mf0j7weqhnqh7olpgw,19,llm_first,2025-09-01T04:14:08.013Z,Community,helpful,2,4,4,1,4,0,3.0
+277,mf0j7weqhnqh7olpgw,19,llm_first,2025-09-01T04:14:08.013Z,LLMnote,helpful,4,4,5,3,5,1,4.2
+277,mf0j7weqhnqh7olpgw,21,community_first,2025-09-01T03:58:04.478Z,Community,somewhat helpful,2,3,2,4,3,0,2.8
+277,mf0j7weqhnqh7olpgw,21,community_first,2025-09-01T03:58:04.478Z,LLMnote,somewhat helpful,4,3,4,2,4,1,3.4
+277,mf0j7weqhnqh7olpgw,29,community_first,2025-09-01T04:05:26.093Z,Community,somewhat helpful,4,3,4,3,4,0,3.6
+277,mf0j7weqhnqh7olpgw,29,community_first,2025-09-01T04:05:26.093Z,LLMnote,helpful,4,4,5,4,5,1,4.4
+277,mf0j7weqhnqh7olpgw,30,llm_first,2025-09-01T04:37:27.495Z,Community,helpful,4,4,3,4,4,1,3.8
+277,mf0j7weqhnqh7olpgw,30,llm_first,2025-09-01T04:37:27.495Z,LLMnote,somewhat helpful,4,5,4,4,3,0,4.0
+277,mf0j7weqhnqh7olpgw,31,llm_first,2025-09-01T04:08:20.096Z,Community,somewhat helpful,4,4,1,2,4,0,3.0
+277,mf0j7weqhnqh7olpgw,31,llm_first,2025-09-01T04:08:20.096Z,LLMnote,helpful,4,4,5,3,4,1,4.0
+277,mf0j7weqhnqh7olpgw,35,llm_first,2025-09-01T04:17:51.866Z,Community,helpful,5,4,4,5,4,1,4.4
+277,mf0j7weqhnqh7olpgw,35,llm_first,2025-09-01T04:17:51.866Z,LLMnote,somewhat helpful,3,4,2,1,3,0,2.6
+277,mf0j7weqhnqh7olpgw,65,community_first,2025-09-01T04:01:17.047Z,Community,helpful,4,4,3,5,4,1,4.0
+277,mf0j7weqhnqh7olpgw,65,community_first,2025-09-01T04:01:17.047Z,LLMnote,somewhat helpful,4,3,4,2,4,0,3.4
+277,mf0j7weqhnqh7olpgw,75,llm_first,2025-09-01T04:11:15.937Z,Community,not helpful,1,2,1,1,4,0,1.8
+277,mf0j7weqhnqh7olpgw,75,llm_first,2025-09-01T04:11:15.937Z,LLMnote,helpful,4,5,4,2,4,1,3.8
+277,mf0j7weqhnqh7olpgw,76,community_first,2025-09-01T03:49:39.933Z,Community,somewhat helpful,1,4,2,4,4,0,3.0
+277,mf0j7weqhnqh7olpgw,76,community_first,2025-09-01T03:49:39.933Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+277,mf0j7weqhnqh7olpgw,82,community_first,2025-09-01T03:54:24.651Z,Community,somewhat helpful,3,4,2,4,4,0,3.4
+277,mf0j7weqhnqh7olpgw,82,community_first,2025-09-01T03:54:24.651Z,LLMnote,helpful,5,4,5,5,4,1,4.6
+277,mf0j7weqhnqh7olpgw,83,community_first,2025-09-01T04:48:19.572Z,Community,helpful,5,4,4,2,5,1,4.0
+277,mf0j7weqhnqh7olpgw,83,community_first,2025-09-01T04:48:19.572Z,LLMnote,helpful,5,4,4,1,5,0,3.8
+277,mf0j7weqhnqh7olpgw,86,community_first,2025-09-01T04:45:56.468Z,Community,helpful,4,5,4,4,4,1,4.2
+277,mf0j7weqhnqh7olpgw,86,community_first,2025-09-01T04:45:56.468Z,LLMnote,somewhat helpful,4,4,4,2,4,0,3.6
+277,mf0j7weqhnqh7olpgw,101,llm_first,2025-09-01T04:30:31.313Z,Community,helpful,5,4,4,5,4,1,4.4
+277,mf0j7weqhnqh7olpgw,101,llm_first,2025-09-01T04:30:31.313Z,LLMnote,somewhat helpful,4,4,2,1,3,0,2.8
+277,mf0j7weqhnqh7olpgw,107,community_first,2025-09-01T04:52:13.215Z,Community,somewhat helpful,3,3,2,2,3,0,2.6
+277,mf0j7weqhnqh7olpgw,107,community_first,2025-09-01T04:52:13.215Z,LLMnote,somewhat helpful,4,4,4,3,3,1,3.6
+277,mf0j7weqhnqh7olpgw,112,llm_first,2025-09-01T03:47:38.179Z,Community,somewhat helpful,3,4,2,2,4,0,3.0
+277,mf0j7weqhnqh7olpgw,112,llm_first,2025-09-01T03:47:38.179Z,LLMnote,helpful,5,5,5,4,4,1,4.6
+277,mf0j7weqhnqh7olpgw,114,llm_first,2025-09-01T04:40:17.418Z,Community,somewhat helpful,4,3,2,3,4,0,3.2
+277,mf0j7weqhnqh7olpgw,114,llm_first,2025-09-01T04:40:17.418Z,LLMnote,helpful,5,4,5,2,5,1,4.2
+277,mf0j7weqhnqh7olpgw,123,community_first,2025-09-01T04:33:44.127Z,Community,helpful,4,5,4,4,5,1,4.4
+277,mf0j7weqhnqh7olpgw,123,community_first,2025-09-01T04:33:44.127Z,LLMnote,helpful,4,4,5,2,4,0,3.8
+219,mewu42jhtbdakhxpry,31,community_first,2025-08-29T13:12:55.723Z,Community,helpful,4,4,5,4,4,1,4.2
+219,mewu42jhtbdakhxpry,31,community_first,2025-08-29T13:12:55.723Z,LLMnote,somewhat helpful,3,4,3,2,3,0,3.0
+219,mewu42jhtbdakhxpry,34,llm_first,2025-08-29T13:15:14.387Z,Community,helpful,4,4,5,4,4,1,4.2
+219,mewu42jhtbdakhxpry,34,llm_first,2025-08-29T13:15:14.387Z,LLMnote,not helpful,2,4,2,2,3,0,2.6
+219,mewu42jhtbdakhxpry,46,llm_first,2025-08-29T12:56:00.756Z,Community,somewhat helpful,4,5,4,5,5,1,4.6
+219,mewu42jhtbdakhxpry,46,llm_first,2025-08-29T12:56:00.756Z,LLMnote,somewhat helpful,4,4,5,4,4,0,4.2
+219,mewu42jhtbdakhxpry,60,llm_first,2025-08-29T13:21:40.360Z,Community,helpful,4,4,5,4,3,1,4.0
+219,mewu42jhtbdakhxpry,60,llm_first,2025-08-29T13:21:40.360Z,LLMnote,somewhat helpful,4,4,3,2,4,0,3.4
+219,mewu42jhtbdakhxpry,65,community_first,2025-08-29T13:01:02.090Z,Community,somewhat helpful,3,4,4,5,3,1,3.8
+219,mewu42jhtbdakhxpry,65,community_first,2025-08-29T13:01:02.090Z,LLMnote,somewhat helpful,3,2,2,3,3,0,2.6
+219,mewu42jhtbdakhxpry,74,community_first,2025-08-29T13:32:58.161Z,Community,helpful,4,5,5,4,4,1,4.4
+219,mewu42jhtbdakhxpry,74,community_first,2025-08-29T13:32:58.161Z,LLMnote,not helpful,2,3,2,1,2,0,2.0
+219,mewu42jhtbdakhxpry,81,community_first,2025-08-29T13:08:07.187Z,Community,helpful,4,4,5,4,4,1,4.2
+219,mewu42jhtbdakhxpry,81,community_first,2025-08-29T13:08:07.187Z,LLMnote,somewhat helpful,3,4,3,3,4,0,3.4
+219,mewu42jhtbdakhxpry,83,community_first,2025-08-29T13:18:24.234Z,Community,somewhat helpful,4,4,5,4,4,1,4.2
+219,mewu42jhtbdakhxpry,83,community_first,2025-08-29T13:18:24.234Z,LLMnote,not helpful,2,3,2,2,3,0,2.4
+219,mewu42jhtbdakhxpry,85,community_first,2025-08-29T13:02:29.891Z,Community,somewhat helpful,4,4,5,4,3,1,4.0
+219,mewu42jhtbdakhxpry,85,community_first,2025-08-29T13:02:29.891Z,LLMnote,not helpful,2,3,2,2,3,0,2.4
+219,mewu42jhtbdakhxpry,86,llm_first,2025-08-29T12:58:30.379Z,Community,somewhat helpful,4,4,5,4,3,1,4.0
+219,mewu42jhtbdakhxpry,86,llm_first,2025-08-29T12:58:30.379Z,LLMnote,not helpful,3,3,2,2,3,0,2.6
+219,mewu42jhtbdakhxpry,91,llm_first,2025-08-29T13:24:44.643Z,Community,helpful,4,5,4,4,4,1,4.2
+219,mewu42jhtbdakhxpry,91,llm_first,2025-08-29T13:24:44.643Z,LLMnote,not helpful,2,3,2,2,3,0,2.4
+219,mewu42jhtbdakhxpry,94,llm_first,2025-08-29T13:29:01.912Z,Community,helpful,4,4,3,4,4,1,3.8
+219,mewu42jhtbdakhxpry,94,llm_first,2025-08-29T13:29:01.912Z,LLMnote,not helpful,2,4,2,2,2,0,2.4
+219,mewu42jhtbdakhxpry,99,llm_first,2025-08-29T13:30:53.690Z,Community,helpful,4,4,3,4,4,1,3.8
+219,mewu42jhtbdakhxpry,99,llm_first,2025-08-29T13:30:53.690Z,LLMnote,not helpful,2,4,2,2,3,0,2.6
+219,mewu42jhtbdakhxpry,101,community_first,2025-08-29T13:23:56.417Z,Community,somewhat helpful,4,4,3,3,3,1,3.4
+219,mewu42jhtbdakhxpry,101,community_first,2025-08-29T13:23:56.417Z,LLMnote,not helpful,2,4,2,2,4,0,2.8
+219,mewu42jhtbdakhxpry,106,llm_first,2025-08-29T13:25:35.673Z,Community,somewhat helpful,4,4,3,4,4,1,3.8
+219,mewu42jhtbdakhxpry,106,llm_first,2025-08-29T13:25:35.673Z,LLMnote,not helpful,2,4,2,2,3,0,2.6
+219,mewu42jhtbdakhxpry,109,community_first,2025-08-29T13:05:34.332Z,Community,helpful,4,4,5,4,4,1,4.2
+219,mewu42jhtbdakhxpry,109,community_first,2025-08-29T13:05:34.332Z,LLMnote,somewhat helpful,4,4,2,3,4,0,3.4
+219,mewu42jhtbdakhxpry,111,community_first,2025-08-29T13:10:15.521Z,Community,somewhat helpful,4,3,4,4,5,1,4.0
+219,mewu42jhtbdakhxpry,111,community_first,2025-08-29T13:10:15.521Z,LLMnote,somewhat helpful,3,4,2,2,3,0,2.8
+219,mewu42jhtbdakhxpry,114,community_first,2025-08-29T13:04:08.825Z,Community,somewhat helpful,4,4,3,4,3,1,3.6
+219,mewu42jhtbdakhxpry,114,community_first,2025-08-29T13:04:08.825Z,LLMnote,not helpful,2,3,2,2,3,0,2.4
+219,mewu42jhtbdakhxpry,122,llm_first,2025-08-29T13:19:22.905Z,Community,somewhat helpful,4,4,5,4,3,1,4.0
+219,mewu42jhtbdakhxpry,122,llm_first,2025-08-29T13:19:22.905Z,LLMnote,not helpful,2,4,2,2,3,0,2.6
+219,mewu42jhtbdakhxpry,123,community_first,2025-08-29T13:11:26.502Z,Community,somewhat helpful,4,4,3,4,3,1,3.6
+219,mewu42jhtbdakhxpry,123,community_first,2025-08-29T13:11:26.502Z,LLMnote,somewhat helpful,2,3,3,2,3,0,2.6
+208,mey8axedwai29ah9czi,2,community_first,2025-08-30T12:27:57.614Z,Community,helpful,2,4,2,3,4,0,3.0
+208,mey8axedwai29ah9czi,2,community_first,2025-08-30T12:27:57.614Z,LLMnote,not helpful,3,1,2,3,4,1,2.6
+208,mey8axedwai29ah9czi,3,community_first,2025-08-30T12:26:16.319Z,Community,somewhat helpful,1,2,1,3,4,1,2.2
+208,mey8axedwai29ah9czi,3,community_first,2025-08-30T12:26:16.319Z,LLMnote,helpful,2,1,3,2,1,0,1.8
+208,mey8axedwai29ah9czi,21,llm_first,2025-08-30T12:34:22.964Z,Community,not helpful,1,2,3,1,3,0,2.0
+208,mey8axedwai29ah9czi,21,llm_first,2025-08-30T12:34:22.964Z,LLMnote,helpful,2,1,2,3,4,1,2.4
+208,mey8axedwai29ah9czi,23,llm_first,2025-08-30T12:35:11.300Z,Community,helpful,2,3,4,5,5,1,3.8
+208,mey8axedwai29ah9czi,23,llm_first,2025-08-30T12:35:11.300Z,LLMnote,somewhat helpful,2,3,2,3,3,0,2.6
+208,mey8axedwai29ah9czi,29,community_first,2025-08-30T12:31:33.389Z,Community,not helpful,2,2,3,2,1,0,2.0
+208,mey8axedwai29ah9czi,29,community_first,2025-08-30T12:31:33.389Z,LLMnote,somewhat helpful,3,2,4,2,2,1,2.6
+208,mey8axedwai29ah9czi,30,llm_first,2025-08-30T12:27:18.062Z,Community,somewhat helpful,2,2,3,2,1,0,2.0
+208,mey8axedwai29ah9czi,30,llm_first,2025-08-30T12:27:18.062Z,LLMnote,somewhat helpful,2,2,3,4,2,1,2.6
+208,mey8axedwai29ah9czi,50,llm_first,2025-08-30T12:30:07.045Z,Community,helpful,2,3,4,3,5,1,3.4
+208,mey8axedwai29ah9czi,50,llm_first,2025-08-30T12:30:07.045Z,LLMnote,somewhat helpful,2,1,3,4,2,0,2.4
+208,mey8axedwai29ah9czi,52,community_first,2025-08-30T12:25:31.454Z,Community,somewhat helpful,2,3,2,3,4,1,2.8
+208,mey8axedwai29ah9czi,52,community_first,2025-08-30T12:25:31.454Z,LLMnote,not helpful,2,4,2,3,3,0,2.8
+208,mey8axedwai29ah9czi,60,llm_first,2025-08-30T12:30:35.436Z,Community,not helpful,1,2,3,2,1,0,1.8
+208,mey8axedwai29ah9czi,60,llm_first,2025-08-30T12:30:35.436Z,LLMnote,not helpful,2,3,2,1,2,1,2.0
+208,mey8axedwai29ah9czi,74,community_first,2025-08-30T12:23:34.095Z,Community,somewhat helpful,3,2,4,3,2,1,2.8
+208,mey8axedwai29ah9czi,74,community_first,2025-08-30T12:23:34.095Z,LLMnote,somewhat helpful,3,2,4,3,4,0,3.2
+208,mey8axedwai29ah9czi,75,community_first,2025-08-30T12:22:35.727Z,Community,somewhat helpful,3,4,4,3,4,1,3.6
+208,mey8axedwai29ah9czi,75,community_first,2025-08-30T12:22:35.727Z,LLMnote,not helpful,2,3,4,4,3,0,3.2
+208,mey8axedwai29ah9czi,86,community_first,2025-08-30T12:24:08.070Z,Community,somewhat helpful,2,3,4,3,2,0,2.8
+208,mey8axedwai29ah9czi,86,community_first,2025-08-30T12:24:08.070Z,LLMnote,somewhat helpful,4,2,3,4,2,1,3.0
+208,mey8axedwai29ah9czi,92,community_first,2025-08-30T12:33:37.836Z,Community,somewhat helpful,2,2,2,3,2,1,2.2
+208,mey8axedwai29ah9czi,92,community_first,2025-08-30T12:33:37.836Z,LLMnote,somewhat helpful,1,2,3,2,1,0,1.8
+208,mey8axedwai29ah9czi,93,community_first,2025-08-30T12:32:35.420Z,Community,not helpful,2,3,4,2,2,1,2.6
+208,mey8axedwai29ah9czi,93,community_first,2025-08-30T12:32:35.420Z,LLMnote,somewhat helpful,1,2,1,2,3,0,1.8
+208,mey8axedwai29ah9czi,101,llm_first,2025-08-30T12:28:48.005Z,Community,not helpful,1,2,1,2,4,0,2.0
+208,mey8axedwai29ah9czi,101,llm_first,2025-08-30T12:28:48.005Z,LLMnote,helpful,2,4,2,5,4,1,3.4
+208,mey8axedwai29ah9czi,106,community_first,2025-08-30T12:29:20.390Z,Community,somewhat helpful,2,1,2,3,2,0,2.0
+208,mey8axedwai29ah9czi,106,community_first,2025-08-30T12:29:20.390Z,LLMnote,somewhat helpful,3,2,3,2,3,1,2.6
+208,mey8axedwai29ah9czi,109,llm_first,2025-08-30T12:24:43.046Z,Community,not helpful,2,3,2,3,2,0,2.4
+208,mey8axedwai29ah9czi,109,llm_first,2025-08-30T12:24:43.046Z,LLMnote,not helpful,2,3,2,3,2,1,2.4
+208,mey8axedwai29ah9czi,112,community_first,2025-08-30T12:32:01.924Z,Community,somewhat helpful,2,3,4,3,4,0,3.2
+208,mey8axedwai29ah9czi,112,community_first,2025-08-30T12:32:01.924Z,LLMnote,helpful,4,3,2,2,3,1,2.8
+208,mey8axedwai29ah9czi,114,llm_first,2025-08-30T12:26:47.950Z,Community,somewhat helpful,2,3,2,3,2,1,2.4
+208,mey8axedwai29ah9czi,114,llm_first,2025-08-30T12:26:47.950Z,LLMnote,somewhat helpful,2,3,2,3,2,0,2.4
+208,mey8axedwai29ah9czi,122,llm_first,2025-08-30T12:33:04.532Z,Community,not helpful,4,3,2,3,4,0,3.2
+208,mey8axedwai29ah9czi,122,llm_first,2025-08-30T12:33:04.532Z,LLMnote,somewhat helpful,2,3,4,2,3,1,2.8
+242,mezddigw031sanp3ejch,35,community_first,2025-08-31T07:37:59.456Z,Community,helpful,4,4,5,5,4,1,4.4
+242,mezddigw031sanp3ejch,35,community_first,2025-08-31T07:37:59.456Z,LLMnote,not helpful,2,1,1,2,2,0,1.6
+242,mezddigw031sanp3ejch,50,llm_first,2025-08-31T07:38:47.204Z,Community,helpful,5,5,4,5,4,1,4.6
+242,mezddigw031sanp3ejch,50,llm_first,2025-08-31T07:38:47.204Z,LLMnote,somewhat helpful,4,5,4,3,4,0,4.0
+242,mezddigw031sanp3ejch,57,community_first,2025-08-31T08:12:10.600Z,Community,helpful,5,5,4,4,4,1,4.4
+242,mezddigw031sanp3ejch,57,community_first,2025-08-31T08:12:10.600Z,LLMnote,somewhat helpful,5,3,4,4,4,0,4.0
+242,mezddigw031sanp3ejch,59,llm_first,2025-08-31T07:39:12.575Z,Community,helpful,5,5,5,4,4,1,4.6
+242,mezddigw031sanp3ejch,59,llm_first,2025-08-31T07:39:12.575Z,LLMnote,somewhat helpful,4,3,4,4,3,0,3.6
+242,mezddigw031sanp3ejch,60,community_first,2025-08-31T07:34:03.232Z,Community,helpful,5,5,4,5,5,1,4.8
+242,mezddigw031sanp3ejch,60,community_first,2025-08-31T07:34:03.232Z,LLMnote,somewhat helpful,4,4,5,3,5,0,4.2
+242,mezddigw031sanp3ejch,62,community_first,2025-08-31T07:35:20.656Z,Community,somewhat helpful,5,4,5,5,5,1,4.8
+242,mezddigw031sanp3ejch,62,community_first,2025-08-31T07:35:20.656Z,LLMnote,not helpful,2,3,2,1,2,0,2.0
+242,mezddigw031sanp3ejch,65,llm_first,2025-08-31T07:32:01.554Z,Community,helpful,5,4,4,5,5,1,4.6
+242,mezddigw031sanp3ejch,65,llm_first,2025-08-31T07:32:01.554Z,LLMnote,somewhat helpful,4,3,4,4,3,0,3.6
+242,mezddigw031sanp3ejch,75,llm_first,2025-08-31T08:06:53.054Z,Community,helpful,5,5,4,5,5,1,4.8
+242,mezddigw031sanp3ejch,75,llm_first,2025-08-31T08:06:53.054Z,LLMnote,somewhat helpful,4,3,4,4,4,0,3.8
+242,mezddigw031sanp3ejch,76,llm_first,2025-08-31T07:30:56.771Z,Community,somewhat helpful,4,3,5,4,4,0,4.0
+242,mezddigw031sanp3ejch,76,llm_first,2025-08-31T07:30:56.771Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+242,mezddigw031sanp3ejch,79,llm_first,2025-08-31T07:35:45.701Z,Community,somewhat helpful,4,3,5,4,4,0,4.0
+242,mezddigw031sanp3ejch,79,llm_first,2025-08-31T07:35:45.701Z,LLMnote,helpful,4,4,5,5,5,1,4.6
+242,mezddigw031sanp3ejch,82,llm_first,2025-08-31T07:36:47.449Z,Community,helpful,4,5,5,5,5,1,4.8
+242,mezddigw031sanp3ejch,82,llm_first,2025-08-31T07:36:47.449Z,LLMnote,somewhat helpful,3,3,4,4,4,0,3.6
+242,mezddigw031sanp3ejch,86,llm_first,2025-08-31T07:36:10.406Z,Community,somewhat helpful,4,4,5,4,5,1,4.4
+242,mezddigw031sanp3ejch,86,llm_first,2025-08-31T07:36:10.406Z,LLMnote,not helpful,2,1,2,1,2,0,1.6
+242,mezddigw031sanp3ejch,92,community_first,2025-08-31T07:34:56.534Z,Community,helpful,5,4,5,5,4,1,4.6
+242,mezddigw031sanp3ejch,92,community_first,2025-08-31T07:34:56.534Z,LLMnote,somewhat helpful,4,3,4,4,5,0,4.0
+242,mezddigw031sanp3ejch,93,community_first,2025-08-31T07:38:24.361Z,Community,helpful,5,5,4,4,5,1,4.6
+242,mezddigw031sanp3ejch,93,community_first,2025-08-31T07:38:24.361Z,LLMnote,somewhat helpful,4,4,3,5,4,0,4.0
+242,mezddigw031sanp3ejch,101,community_first,2025-08-31T07:33:08.951Z,Community,somewhat helpful,4,4,5,5,4,1,4.4
+242,mezddigw031sanp3ejch,101,community_first,2025-08-31T07:33:08.951Z,LLMnote,not helpful,2,1,1,2,2,0,1.6
+242,mezddigw031sanp3ejch,106,community_first,2025-08-31T07:33:36.988Z,Community,helpful,4,5,5,5,5,1,4.8
+242,mezddigw031sanp3ejch,106,community_first,2025-08-31T07:33:36.988Z,LLMnote,somewhat helpful,4,3,4,4,5,0,4.0
+242,mezddigw031sanp3ejch,107,llm_first,2025-08-31T07:37:34.164Z,Community,helpful,4,5,5,5,5,1,4.8
+242,mezddigw031sanp3ejch,107,llm_first,2025-08-31T07:37:34.164Z,LLMnote,somewhat helpful,4,5,4,4,5,0,4.4
+242,mezddigw031sanp3ejch,111,llm_first,2025-08-31T08:07:20.165Z,Community,helpful,4,4,5,5,5,1,4.6
+242,mezddigw031sanp3ejch,111,llm_first,2025-08-31T08:07:20.165Z,LLMnote,somewhat helpful,4,3,4,4,4,0,3.8
+242,mezddigw031sanp3ejch,122,llm_first,2025-08-31T07:37:10.741Z,Community,helpful,5,5,5,5,5,1,5.0
+242,mezddigw031sanp3ejch,122,llm_first,2025-08-31T07:37:10.741Z,LLMnote,somewhat helpful,4,3,5,4,4,0,4.0
+242,mezddigw031sanp3ejch,124,llm_first,2025-08-31T07:34:26.834Z,Community,somewhat helpful,4,4,5,4,4,1,4.2
+242,mezddigw031sanp3ejch,124,llm_first,2025-08-31T07:34:26.834Z,LLMnote,not helpful,2,1,2,2,1,0,1.6
+244,mezc9rexst8ttfwyc5k,3,llm_first,2025-08-31T08:00:22.069Z,Community,helpful,5,5,5,5,4,1,4.8
+244,mezc9rexst8ttfwyc5k,3,llm_first,2025-08-31T08:00:22.069Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,7,community_first,2025-08-31T08:30:25.902Z,Community,helpful,5,4,5,5,4,1,4.6
+244,mezc9rexst8ttfwyc5k,7,community_first,2025-08-31T08:30:25.902Z,LLMnote,helpful,5,5,5,5,4,0,4.8
+244,mezc9rexst8ttfwyc5k,12,community_first,2025-08-31T07:38:50.073Z,Community,helpful,4,4,4,4,4,1,4.0
+244,mezc9rexst8ttfwyc5k,12,community_first,2025-08-31T07:38:50.073Z,LLMnote,helpful,4,5,4,4,4,0,4.2
+244,mezc9rexst8ttfwyc5k,19,llm_first,2025-08-31T07:07:00.151Z,Community,helpful,5,4,5,5,4,1,4.6
+244,mezc9rexst8ttfwyc5k,19,llm_first,2025-08-31T07:07:00.151Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,21,llm_first,2025-08-31T08:16:27.718Z,Community,helpful,5,4,5,5,4,1,4.6
+244,mezc9rexst8ttfwyc5k,21,llm_first,2025-08-31T08:16:27.718Z,LLMnote,helpful,5,4,5,4,4,0,4.4
+244,mezc9rexst8ttfwyc5k,24,community_first,2025-08-31T08:27:45.812Z,Community,helpful,5,5,5,5,4,1,4.8
+244,mezc9rexst8ttfwyc5k,24,community_first,2025-08-31T08:27:45.812Z,LLMnote,somewhat helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,29,community_first,2025-08-31T07:35:10.110Z,Community,helpful,5,4,5,4,4,0,4.4
+244,mezc9rexst8ttfwyc5k,29,community_first,2025-08-31T07:35:10.110Z,LLMnote,helpful,4,5,5,5,5,1,4.8
+244,mezc9rexst8ttfwyc5k,30,llm_first,2025-08-31T07:56:55.490Z,Community,helpful,5,4,5,4,4,1,4.4
+244,mezc9rexst8ttfwyc5k,30,llm_first,2025-08-31T07:56:55.490Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,32,llm_first,2025-08-31T07:05:32.065Z,Community,helpful,5,4,5,5,4,1,4.6
+244,mezc9rexst8ttfwyc5k,32,llm_first,2025-08-31T07:05:32.065Z,LLMnote,helpful,4,4,4,4,2,0,3.6
+244,mezc9rexst8ttfwyc5k,59,llm_first,2025-08-31T07:42:03.879Z,Community,helpful,4,4,5,4,4,0,4.2
+244,mezc9rexst8ttfwyc5k,59,llm_first,2025-08-31T07:42:03.879Z,LLMnote,helpful,5,5,4,4,3,1,4.2
+244,mezc9rexst8ttfwyc5k,65,community_first,2025-08-31T08:24:36.462Z,Community,helpful,4,4,4,4,3,0,3.8
+244,mezc9rexst8ttfwyc5k,65,community_first,2025-08-31T08:24:36.462Z,LLMnote,helpful,4,4,5,5,4,1,4.4
+244,mezc9rexst8ttfwyc5k,82,llm_first,2025-08-31T07:55:29.845Z,Community,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,82,llm_first,2025-08-31T07:55:29.845Z,LLMnote,helpful,5,5,4,4,4,1,4.4
+244,mezc9rexst8ttfwyc5k,86,llm_first,2025-08-31T07:32:56.973Z,Community,helpful,5,4,5,5,4,1,4.6
+244,mezc9rexst8ttfwyc5k,86,llm_first,2025-08-31T07:32:56.973Z,LLMnote,helpful,4,4,4,4,5,0,4.2
+244,mezc9rexst8ttfwyc5k,93,llm_first,2025-08-31T08:23:23.240Z,Community,somewhat helpful,4,4,3,3,4,0,3.6
+244,mezc9rexst8ttfwyc5k,93,llm_first,2025-08-31T08:23:23.240Z,LLMnote,helpful,4,4,4,4,3,1,3.8
+244,mezc9rexst8ttfwyc5k,94,community_first,2025-08-31T08:25:58.857Z,Community,helpful,5,5,5,5,5,1,5.0
+244,mezc9rexst8ttfwyc5k,94,community_first,2025-08-31T08:25:58.857Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,102,community_first,2025-08-31T08:26:36.392Z,Community,helpful,4,4,5,4,4,1,4.2
+244,mezc9rexst8ttfwyc5k,102,community_first,2025-08-31T08:26:36.392Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,107,llm_first,2025-08-31T07:04:51.188Z,Community,helpful,4,4,5,5,4,1,4.4
+244,mezc9rexst8ttfwyc5k,107,llm_first,2025-08-31T07:04:51.188Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+244,mezc9rexst8ttfwyc5k,109,community_first,2025-08-31T08:21:58.215Z,Community,helpful,5,5,5,5,4,1,4.8
+244,mezc9rexst8ttfwyc5k,109,community_first,2025-08-31T08:21:58.215Z,LLMnote,helpful,5,5,5,4,4,0,4.6
+244,mezc9rexst8ttfwyc5k,112,community_first,2025-08-31T08:29:19.572Z,Community,helpful,5,5,4,4,5,1,4.6
+244,mezc9rexst8ttfwyc5k,112,community_first,2025-08-31T08:29:19.572Z,LLMnote,helpful,4,5,5,4,4,0,4.4
+244,mezc9rexst8ttfwyc5k,114,llm_first,2025-08-31T08:28:32.443Z,Community,helpful,5,5,5,4,4,1,4.6
+244,mezc9rexst8ttfwyc5k,114,llm_first,2025-08-31T08:28:32.443Z,LLMnote,helpful,4,4,4,3,3,0,3.6
+207,mews02953xq8zckng2u,3,llm_first,2025-08-29T12:06:10.606Z,Community,helpful,4,4,4,5,4,1,4.2
+207,mews02953xq8zckng2u,3,llm_first,2025-08-29T12:06:10.606Z,LLMnote,helpful,4,4,4,4,3,0,3.8
+207,mews02953xq8zckng2u,7,community_first,2025-08-29T12:29:51.315Z,Community,helpful,4,4,5,4,4,1,4.2
+207,mews02953xq8zckng2u,7,community_first,2025-08-29T12:29:51.315Z,LLMnote,somewhat helpful,4,3,3,3,3,0,3.2
+207,mews02953xq8zckng2u,23,llm_first,2025-08-29T12:35:24.403Z,Community,somewhat helpful,4,3,4,4,3,1,3.6
+207,mews02953xq8zckng2u,23,llm_first,2025-08-29T12:35:24.403Z,LLMnote,somewhat helpful,3,3,4,3,3,0,3.2
+207,mews02953xq8zckng2u,28,llm_first,2025-08-29T12:08:53.278Z,Community,helpful,4,3,3,4,4,1,3.6
+207,mews02953xq8zckng2u,28,llm_first,2025-08-29T12:08:53.278Z,LLMnote,somewhat helpful,4,4,3,4,3,0,3.6
+207,mews02953xq8zckng2u,32,community_first,2025-08-29T12:07:32.830Z,Community,somewhat helpful,4,4,3,3,4,1,3.6
+207,mews02953xq8zckng2u,32,community_first,2025-08-29T12:07:32.830Z,LLMnote,somewhat helpful,3,3,3,4,4,0,3.4
+207,mews02953xq8zckng2u,35,llm_first,2025-08-29T12:32:53.860Z,Community,helpful,4,4,4,3,4,1,3.8
+207,mews02953xq8zckng2u,35,llm_first,2025-08-29T12:32:53.860Z,LLMnote,somewhat helpful,3,3,3,3,3,0,3.0
+207,mews02953xq8zckng2u,49,llm_first,2025-08-29T11:58:52.407Z,Community,helpful,4,4,4,4,3,1,3.8
+207,mews02953xq8zckng2u,49,llm_first,2025-08-29T11:58:52.407Z,LLMnote,somewhat helpful,4,4,3,4,4,0,3.8
+207,mews02953xq8zckng2u,50,community_first,2025-08-29T12:15:42.837Z,Community,somewhat helpful,4,3,3,4,4,1,3.6
+207,mews02953xq8zckng2u,50,community_first,2025-08-29T12:15:42.837Z,LLMnote,somewhat helpful,4,3,3,3,4,0,3.4
+207,mews02953xq8zckng2u,57,llm_first,2025-08-29T12:01:57.038Z,Community,somewhat helpful,4,4,4,4,3,0,3.8
+207,mews02953xq8zckng2u,57,llm_first,2025-08-29T12:01:57.038Z,LLMnote,helpful,4,4,4,5,3,1,4.0
+207,mews02953xq8zckng2u,62,llm_first,2025-08-29T12:14:04.853Z,Community,somewhat helpful,4,4,3,4,4,1,3.8
+207,mews02953xq8zckng2u,62,llm_first,2025-08-29T12:14:04.853Z,LLMnote,somewhat helpful,4,4,3,3,3,0,3.4
+207,mews02953xq8zckng2u,69,llm_first,2025-08-29T12:34:19.138Z,Community,somewhat helpful,3,3,4,4,3,1,3.4
+207,mews02953xq8zckng2u,69,llm_first,2025-08-29T12:34:19.138Z,LLMnote,somewhat helpful,3,3,3,4,3,0,3.2
+207,mews02953xq8zckng2u,70,llm_first,2025-08-29T12:12:02.038Z,Community,helpful,4,4,3,3,4,1,3.6
+207,mews02953xq8zckng2u,70,llm_first,2025-08-29T12:12:02.038Z,LLMnote,somewhat helpful,4,4,3,3,3,0,3.4
+207,mews02953xq8zckng2u,72,community_first,2025-08-29T12:21:17.229Z,Community,somewhat helpful,4,3,3,4,4,1,3.6
+207,mews02953xq8zckng2u,72,community_first,2025-08-29T12:21:17.229Z,LLMnote,somewhat helpful,3,3,4,3,3,0,3.2
+207,mews02953xq8zckng2u,82,community_first,2025-08-29T12:19:49.300Z,Community,helpful,4,4,4,4,4,1,4.0
+207,mews02953xq8zckng2u,82,community_first,2025-08-29T12:19:49.300Z,LLMnote,somewhat helpful,3,4,3,3,3,0,3.2
+207,mews02953xq8zckng2u,92,community_first,2025-08-29T12:24:05.772Z,Community,helpful,4,4,3,4,3,1,3.6
+207,mews02953xq8zckng2u,92,community_first,2025-08-29T12:24:05.772Z,LLMnote,somewhat helpful,3,3,4,3,3,0,3.2
+207,mews02953xq8zckng2u,98,community_first,2025-08-29T12:25:33.740Z,Community,helpful,4,4,3,4,3,1,3.6
+207,mews02953xq8zckng2u,98,community_first,2025-08-29T12:25:33.740Z,LLMnote,somewhat helpful,4,3,3,4,3,0,3.4
+207,mews02953xq8zckng2u,107,llm_first,2025-08-29T12:28:25.702Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+207,mews02953xq8zckng2u,107,llm_first,2025-08-29T12:28:25.702Z,LLMnote,somewhat helpful,4,4,4,3,3,0,3.6
+207,mews02953xq8zckng2u,112,community_first,2025-08-29T12:10:46.759Z,Community,helpful,4,4,4,4,3,1,3.8
+207,mews02953xq8zckng2u,112,community_first,2025-08-29T12:10:46.759Z,LLMnote,somewhat helpful,4,3,3,2,3,0,3.0
+207,mews02953xq8zckng2u,124,llm_first,2025-08-29T12:18:50.677Z,Community,somewhat helpful,4,4,3,4,3,1,3.6
+207,mews02953xq8zckng2u,124,llm_first,2025-08-29T12:18:50.677Z,LLMnote,somewhat helpful,4,3,4,3,3,0,3.4
+207,mews02953xq8zckng2u,142,llm_first,2025-08-29T12:04:03.486Z,Community,not helpful,3,3,3,3,2,0,2.8
+207,mews02953xq8zckng2u,142,llm_first,2025-08-29T12:04:03.486Z,LLMnote,helpful,5,4,4,5,3,1,4.2
+210,mewx1lxktdwurg6xbll,30,llm_first,2025-08-29T14:26:07.176Z,Community,somewhat helpful,3,4,2,4,4,0,3.4
+210,mewx1lxktdwurg6xbll,30,llm_first,2025-08-29T14:26:07.176Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+210,mewx1lxktdwurg6xbll,32,community_first,2025-08-29T14:54:30.883Z,Community,somewhat helpful,4,4,3,4,3,1,3.6
+210,mewx1lxktdwurg6xbll,32,community_first,2025-08-29T14:54:30.883Z,LLMnote,somewhat helpful,4,5,3,4,3,0,3.8
+210,mewx1lxktdwurg6xbll,35,community_first,2025-08-29T15:02:34.021Z,Community,somewhat helpful,3,3,3,4,4,0,3.4
+210,mewx1lxktdwurg6xbll,35,community_first,2025-08-29T15:02:34.021Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+210,mewx1lxktdwurg6xbll,52,community_first,2025-08-29T14:21:20.758Z,Community,somewhat helpful,3,3,2,4,4,0,3.2
+210,mewx1lxktdwurg6xbll,52,community_first,2025-08-29T14:21:20.758Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,60,community_first,2025-08-29T15:04:10.885Z,Community,somewhat helpful,2,3,2,4,4,0,3.0
+210,mewx1lxktdwurg6xbll,60,community_first,2025-08-29T15:04:10.885Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,65,community_first,2025-08-29T14:29:08.308Z,Community,not helpful,2,2,3,2,3,0,2.4
+210,mewx1lxktdwurg6xbll,65,community_first,2025-08-29T14:29:08.308Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+210,mewx1lxktdwurg6xbll,68,community_first,2025-08-29T15:11:00.388Z,Community,not helpful,2,3,2,3,3,0,2.6
+210,mewx1lxktdwurg6xbll,68,community_first,2025-08-29T15:11:00.388Z,LLMnote,helpful,4,5,4,4,4,1,4.2
+210,mewx1lxktdwurg6xbll,70,community_first,2025-08-29T14:35:28.513Z,Community,not helpful,3,2,2,4,3,0,2.8
+210,mewx1lxktdwurg6xbll,70,community_first,2025-08-29T14:35:28.513Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+210,mewx1lxktdwurg6xbll,74,llm_first,2025-08-29T14:59:40.698Z,Community,somewhat helpful,4,3,3,4,4,1,3.6
+210,mewx1lxktdwurg6xbll,74,llm_first,2025-08-29T14:59:40.698Z,LLMnote,somewhat helpful,3,5,4,4,4,0,4.0
+210,mewx1lxktdwurg6xbll,77,llm_first,2025-08-29T15:01:18.578Z,Community,somewhat helpful,3,4,4,4,2,0,3.4
+210,mewx1lxktdwurg6xbll,77,llm_first,2025-08-29T15:01:18.578Z,LLMnote,helpful,4,5,4,4,3,1,4.0
+210,mewx1lxktdwurg6xbll,82,llm_first,2025-08-29T14:32:07.761Z,Community,somewhat helpful,4,4,3,5,4,0,4.0
+210,mewx1lxktdwurg6xbll,82,llm_first,2025-08-29T14:32:07.761Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,83,llm_first,2025-08-29T15:09:13.825Z,Community,helpful,4,4,3,4,4,1,3.8
+210,mewx1lxktdwurg6xbll,83,llm_first,2025-08-29T15:09:13.825Z,LLMnote,somewhat helpful,3,4,2,4,3,0,3.2
+210,mewx1lxktdwurg6xbll,93,llm_first,2025-08-29T14:52:45.586Z,Community,somewhat helpful,3,3,2,4,3,0,3.0
+210,mewx1lxktdwurg6xbll,93,llm_first,2025-08-29T14:52:45.586Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,94,community_first,2025-08-29T15:12:12.542Z,Community,not helpful,2,3,2,3,3,0,2.6
+210,mewx1lxktdwurg6xbll,94,community_first,2025-08-29T15:12:12.542Z,LLMnote,helpful,5,5,4,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,102,llm_first,2025-08-29T14:45:33.783Z,Community,somewhat helpful,4,5,4,4,4,0,4.2
+210,mewx1lxktdwurg6xbll,102,llm_first,2025-08-29T14:45:33.783Z,LLMnote,helpful,4,5,5,5,4,1,4.6
+210,mewx1lxktdwurg6xbll,107,llm_first,2025-08-29T14:48:42.368Z,Community,somewhat helpful,3,4,2,4,3,0,3.2
+210,mewx1lxktdwurg6xbll,107,llm_first,2025-08-29T14:48:42.368Z,LLMnote,helpful,4,5,4,5,4,1,4.4
+210,mewx1lxktdwurg6xbll,111,llm_first,2025-08-29T14:40:15.467Z,Community,not helpful,2,3,3,2,3,0,2.6
+210,mewx1lxktdwurg6xbll,111,llm_first,2025-08-29T14:40:15.467Z,LLMnote,helpful,4,5,4,4,5,1,4.4
+210,mewx1lxktdwurg6xbll,112,community_first,2025-08-29T15:06:31.456Z,Community,not helpful,2,3,3,4,3,0,3.0
+210,mewx1lxktdwurg6xbll,112,community_first,2025-08-29T15:06:31.456Z,LLMnote,helpful,4,5,4,5,3,1,4.2
+210,mewx1lxktdwurg6xbll,114,llm_first,2025-08-29T14:46:52.038Z,Community,not helpful,2,3,2,3,3,0,2.6
+210,mewx1lxktdwurg6xbll,114,llm_first,2025-08-29T14:46:52.038Z,LLMnote,helpful,4,5,4,5,5,1,4.6
+210,mewx1lxktdwurg6xbll,122,llm_first,2025-08-29T15:07:58.717Z,Community,somewhat helpful,3,4,3,4,4,0,3.6
+210,mewx1lxktdwurg6xbll,122,llm_first,2025-08-29T15:07:58.717Z,LLMnote,somewhat helpful,3,3,4,4,4,1,3.6
+215,mewcgo6cjpri3ldr03,1,community_first,2025-08-29T05:10:40.459Z,Community,somewhat helpful,4,4,4,4,2,1,3.6
+215,mewcgo6cjpri3ldr03,1,community_first,2025-08-29T05:10:40.459Z,LLMnote,somewhat helpful,4,4,4,4,3,0,3.8
+215,mewcgo6cjpri3ldr03,2,community_first,2025-08-29T04:58:19.078Z,Community,helpful,5,5,5,5,5,1,5.0
+215,mewcgo6cjpri3ldr03,2,community_first,2025-08-29T04:58:19.078Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,3,llm_first,2025-08-29T05:00:41.194Z,Community,not helpful,1,3,1,1,1,0,1.4
+215,mewcgo6cjpri3ldr03,3,llm_first,2025-08-29T05:00:41.194Z,LLMnote,somewhat helpful,4,4,4,4,3,1,3.8
+215,mewcgo6cjpri3ldr03,23,community_first,2025-08-29T05:09:40.521Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,23,community_first,2025-08-29T05:09:40.521Z,LLMnote,helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,24,llm_first,2025-08-29T05:08:47.092Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,24,llm_first,2025-08-29T05:08:47.092Z,LLMnote,helpful,4,4,4,4,4,0,4.0
+215,mewcgo6cjpri3ldr03,30,llm_first,2025-08-29T05:04:53.798Z,Community,somewhat helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,30,llm_first,2025-08-29T05:04:53.798Z,LLMnote,somewhat helpful,4,4,4,4,4,0,4.0
+215,mewcgo6cjpri3ldr03,32,community_first,2025-08-29T05:02:00.882Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,32,community_first,2025-08-29T05:02:00.882Z,LLMnote,somewhat helpful,4,4,4,4,4,0,4.0
+215,mewcgo6cjpri3ldr03,57,community_first,2025-08-29T05:07:00.708Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,57,community_first,2025-08-29T05:07:00.708Z,LLMnote,somewhat helpful,4,4,2,4,2,0,3.2
+215,mewcgo6cjpri3ldr03,59,llm_first,2025-08-29T05:03:42.802Z,Community,somewhat helpful,4,4,3,3,2,0,3.2
+215,mewcgo6cjpri3ldr03,59,llm_first,2025-08-29T05:03:42.802Z,LLMnote,somewhat helpful,4,4,4,4,2,1,3.6
+215,mewcgo6cjpri3ldr03,65,llm_first,2025-08-29T04:52:16.867Z,Community,helpful,5,4,4,4,4,1,4.2
+215,mewcgo6cjpri3ldr03,65,llm_first,2025-08-29T04:52:16.867Z,LLMnote,somewhat helpful,4,4,4,4,4,0,4.0
+215,mewcgo6cjpri3ldr03,74,llm_first,2025-08-29T04:48:17.313Z,Community,somewhat helpful,4,4,4,4,2,1,3.6
+215,mewcgo6cjpri3ldr03,74,llm_first,2025-08-29T04:48:17.313Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,79,llm_first,2025-08-29T04:55:44.759Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,79,llm_first,2025-08-29T04:55:44.759Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,82,llm_first,2025-08-29T05:06:02.359Z,Community,somewhat helpful,4,4,2,4,4,0,3.6
+215,mewcgo6cjpri3ldr03,82,llm_first,2025-08-29T05:06:02.359Z,LLMnote,somewhat helpful,4,4,2,4,2,1,3.2
+215,mewcgo6cjpri3ldr03,83,llm_first,2025-08-29T04:54:07.927Z,Community,helpful,4,4,4,4,2,1,3.6
+215,mewcgo6cjpri3ldr03,83,llm_first,2025-08-29T04:54:07.927Z,LLMnote,helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,91,llm_first,2025-08-29T04:57:00.526Z,Community,helpful,4,4,4,4,3,0,3.8
+215,mewcgo6cjpri3ldr03,91,llm_first,2025-08-29T04:57:00.526Z,LLMnote,somewhat helpful,4,4,3,4,3,1,3.6
+215,mewcgo6cjpri3ldr03,92,llm_first,2025-08-29T04:46:08.067Z,Community,somewhat helpful,4,4,2,4,2,1,3.2
+215,mewcgo6cjpri3ldr03,92,llm_first,2025-08-29T04:46:08.067Z,LLMnote,somewhat helpful,4,4,2,4,2,0,3.2
+215,mewcgo6cjpri3ldr03,93,llm_first,2025-08-29T04:59:23.593Z,Community,helpful,4,4,4,4,4,1,4.0
+215,mewcgo6cjpri3ldr03,93,llm_first,2025-08-29T04:59:23.593Z,LLMnote,somewhat helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,110,llm_first,2025-08-29T05:11:34.857Z,Community,somewhat helpful,4,4,3,4,2,1,3.4
+215,mewcgo6cjpri3ldr03,110,llm_first,2025-08-29T05:11:34.857Z,LLMnote,somewhat helpful,3,3,2,3,2,0,2.6
+215,mewcgo6cjpri3ldr03,111,community_first,2025-08-29T04:50:30.796Z,Community,somewhat helpful,4,4,4,4,3,1,3.8
+215,mewcgo6cjpri3ldr03,111,community_first,2025-08-29T04:50:30.796Z,LLMnote,helpful,4,4,4,4,2,0,3.6
+215,mewcgo6cjpri3ldr03,114,llm_first,2025-08-29T05:07:55.805Z,Community,helpful,4,4,3,4,3,1,3.6
+215,mewcgo6cjpri3ldr03,114,llm_first,2025-08-29T05:07:55.805Z,LLMnote,helpful,4,4,4,4,2,0,3.6
