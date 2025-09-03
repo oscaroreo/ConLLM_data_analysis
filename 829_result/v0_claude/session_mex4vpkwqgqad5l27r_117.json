@@ -1,0 +1,733 @@
+{
+  "participantName": "117",
+  "sessionId": "mex4vpkwqgqad5l27r",
+  "startTime": "2025-08-29T17:55:44.576Z",
+  "completionTime": "2025-08-29T18:36:00.041Z",
+  "totalItemsAssigned": 20,
+  "sessionSummary": {
+    "evaluatedPosts": 20,
+    "startTime": "2025-08-29T17:56:53.864Z"
+  },
+  "userResponses": {
+    "7": {
+      "postIndex": 7,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "3",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "2",
+          "like": "3"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "2",
+          "like": "3"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T17:58:28.875Z"
+    },
+    "12": {
+      "postIndex": 12,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "not helpful",
+        "details": {
+          "source_quality": "2",
+          "clarity": "2",
+          "coverage": "4",
+          "context": "2",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "3",
+          "like": "5"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "3",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:06:09.687Z"
+    },
+    "23": {
+      "postIndex": 23,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "3",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "3",
+          "like": "2"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "2"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "5",
+          "like": "3"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:23:15.132Z"
+    },
+    "24": {
+      "postIndex": 24,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "3",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "2"
+        },
+        "likelihood": {
+          "share": "1",
+          "comment": "2",
+          "like": "2"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "2",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "2",
+          "comment": "1",
+          "like": "2"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:35:23.168Z"
+    },
+    "28": {
+      "postIndex": 28,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "5",
+          "like": "5"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "5",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "6",
+          "like": "4"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:32:33.911Z"
+    },
+    "32": {
+      "postIndex": 32,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "3",
+          "impartiality": "5"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "4",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "2",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:04:08.755Z"
+    },
+    "46": {
+      "postIndex": 46,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "2",
+          "context": "2",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "3",
+          "like": "3"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "2",
+          "comment": "2",
+          "like": "1"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:32:01.774Z"
+    },
+    "50": {
+      "postIndex": 50,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "not helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "5",
+          "like": "3"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:22:16.146Z"
+    },
+    "59": {
+      "postIndex": 59,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "3",
+          "impartiality": "5"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "4",
+          "like": "4"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:23:47.874Z"
+    },
+    "69": {
+      "postIndex": 69,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "not helpful",
+        "details": {
+          "source_quality": "2",
+          "clarity": "3",
+          "coverage": "3",
+          "context": "2",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "1",
+          "comment": "2",
+          "like": "2"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:00:39.399Z"
+    },
+    "72": {
+      "postIndex": 72,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "2",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "3",
+          "context": "3",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "1",
+          "like": "1"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T17:59:49.130Z"
+    },
+    "81": {
+      "postIndex": 81,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "5",
+          "like": "3"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "3",
+          "context": "5",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "5",
+          "like": "3"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:33:11.957Z"
+    },
+    "92": {
+      "postIndex": 92,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "5",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "5",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "3",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:26:02.718Z"
+    },
+    "93": {
+      "postIndex": 93,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "not helpful",
+        "details": {
+          "source_quality": "1",
+          "clarity": "2",
+          "coverage": "2",
+          "context": "3",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "not helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "3",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "5"
+        },
+        "likelihood": {
+          "share": "2",
+          "comment": "3",
+          "like": "2"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:19:46.546Z"
+    },
+    "94": {
+      "postIndex": 94,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "5",
+          "clarity": "3",
+          "coverage": "4",
+          "context": "5",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "2",
+          "clarity": "4",
+          "coverage": "2",
+          "context": "3",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:14:17.686Z"
+    },
+    "101": {
+      "postIndex": 101,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "5",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "5",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "6",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "3",
+          "context": "4",
+          "impartiality": "5"
+        },
+        "likelihood": {
+          "share": "3",
+          "comment": "5",
+          "like": "4"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:34:46.333Z"
+    },
+    "102": {
+      "postIndex": 102,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "5"
+        },
+        "likelihood": {
+          "share": "2",
+          "comment": "2",
+          "like": "3"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "6",
+          "like": "4"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T17:59:10.626Z"
+    },
+    "107": {
+      "postIndex": 107,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "4",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "3",
+          "coverage": "4",
+          "context": "2",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "2",
+          "like": "2"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:26:35.888Z"
+    },
+    "123": {
+      "postIndex": 123,
+      "noteMapping": "llm_first",
+      "communityNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "5",
+          "context": "3",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "2",
+          "comment": "1",
+          "like": "1"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "3",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "4",
+          "like": "5"
+        }
+      },
+      "comparison": "llm_note",
+      "timestamp": "2025-08-29T18:35:59.757Z"
+    },
+    "142": {
+      "postIndex": 142,
+      "noteMapping": "community_first",
+      "communityNote": {
+        "helpfulness": "somewhat helpful",
+        "details": {
+          "source_quality": "4",
+          "clarity": "5",
+          "coverage": "4",
+          "context": "4",
+          "impartiality": "3"
+        },
+        "likelihood": {
+          "share": "4",
+          "comment": "3",
+          "like": "4"
+        }
+      },
+      "llmNote": {
+        "helpfulness": "helpful",
+        "details": {
+          "source_quality": "3",
+          "clarity": "4",
+          "coverage": "4",
+          "context": "3",
+          "impartiality": "4"
+        },
+        "likelihood": {
+          "share": "5",
+          "comment": "4",
+          "like": "4"
+        }
+      },
+      "comparison": "community_note",
+      "timestamp": "2025-08-29T18:18:21.127Z"
+    }
+  }
+}
